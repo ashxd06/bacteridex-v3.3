@@ -17,7 +17,7 @@ export type MapaImagenes = Record<string, string | null>;
 
 // BACTERIAS
 export const imagenesBacterias: MapaImagenes = {
-  b001: "/images/bacterias/staphylococcus-aureus-gram.jpg";
+  b001: "public/images/bacterias/staphylococcus-aureus-gram.jpg", 
   b002: null, // === PONER AQUI IMAGEN DE STAPHYLOCOCCUS EPIDERMIDIS ===
   b003: null, // === PONER AQUI IMAGEN DE STAPHYLOCOCCUS SAPROPHYTICUS ===
   b004: null, // === PONER AQUI IMAGEN DE STREPTOCOCCUS PYOGENES ===
