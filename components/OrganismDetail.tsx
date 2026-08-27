@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import type { Organismo } from "@/lib/types";
 import ImagePlaceholder from "./ImagePlaceholder";
-import { imagenesOrganismos, getImagen } from "@/lib/images";
+import { imagenesMicroscopica, imagenesAgar, getImagen } from "@/lib/images";
 import { useAuth } from "./AuthProvider";
 import { useFavoritosNube, registrarVisita } from "@/lib/hooks/useFavoritosNube";
 import {
@@ -81,7 +81,8 @@ export default function OrganismDetail({ organismo }: { organismo: Organismo }) 
   const esFavorito = habilitado
     ? (user ? esFavoritoNube(organismo.id) : false)
     : listo && estado.favoritos.includes(organismo.id);
-  const imagenPrincipal = getImagen(imagenesOrganismos, organismo.id);
+  const imagenMicroscopica = getImagen(imagenesMicroscopica, organismo.id);
+  const imagenAgar = getImagen(imagenesAgar, organismo.id);
 
   return (
     <div className="flex flex-col gap-8">
@@ -151,23 +152,25 @@ export default function OrganismDetail({ organismo }: { organismo: Organismo }) 
         </div>
       </div>
 
-      {imagenPrincipal && (
-        <div className="max-w-sm">
-          <ImagePlaceholder tipo="ilustracion" descripcion={organismo.nombreCientifico} url={imagenPrincipal} />
-        </div>
-      )}
-
       <section>
         <p className="section-eyebrow mb-3">📷 Galería científica</p>
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-          {organismo.imagenes.map((img, i) => (
-            <div key={i} onClick={() => marcar("reconocioImagen")} className="cursor-pointer">
-              <ImagePlaceholder tipo={img.tipo} descripcion={img.descripcion} />
-              <p className="mt-1 text-[10px] text-mist-400">
-                {img.fuente} · {img.licencia}
-              </p>
-            </div>
-          ))}
+        <div className="grid grid-cols-2 gap-3">
+          <div onClick={() => marcar("reconocioImagen")} className="cursor-pointer">
+            <ImagePlaceholder
+              tipo="microscopia"
+              descripcion={`Microscópica — ${organismo.nombreCientifico}`}
+              url={imagenMicroscopica}
+            />
+            <p className="mt-1 text-center text-[10px] text-mist-400">🔬 Microscópica</p>
+          </div>
+          <div onClick={() => marcar("reconocioImagen")} className="cursor-pointer">
+            <ImagePlaceholder
+              tipo="colonia"
+              descripcion={`Agar — ${organismo.nombreCientifico}`}
+              url={imagenAgar}
+            />
+            <p className="mt-1 text-center text-[10px] text-mist-400">🧫 Agar</p>
+          </div>
         </div>
       </section>
 
