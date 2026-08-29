@@ -1,0 +1,1019 @@
+[
+  {
+    "id": "h001",
+    "numero": 1,
+    "categoria": "hongos",
+    "subgrupo": "Levaduras",
+    "nombreCientifico": "Candida albicans",
+    "familia": "Saccharomycetaceae",
+    "genero": "Candida",
+    "especie": "albicans",
+    "tipoHongo": "levadura",
+    "habitat": "Flora normal de piel, mucosa oral, vaginal e intestinal",
+    "transmision": "Endógena (oportunista); rara vez de persona a persona",
+    "muestraClinica": [
+      "Secreción vaginal",
+      "Piel",
+      "Sangre",
+      "Mucosa oral"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Tubo germinativo",
+        "resultado": "Positivo (característico de C. albicans)"
+      },
+      {
+        "nombre": "KOH",
+        "resultado": "Levaduras y pseudohifas"
+      },
+      {
+        "nombre": "Clamidosporas en agar harina de maíz",
+        "resultado": "Positivo"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud",
+      "CHROMagar Candida"
+    ],
+    "colonia": "Colonias blancas, cremosas, de olor a levadura",
+    "importanciaMedica": {
+      "queCausa": "Candidiasis vaginal, oral (muguet), cutánea, y candidemia en pacientes graves.",
+      "organosAfectados": "Mucosas oral y vaginal, piel, torrente sanguíneo (formas invasivas).",
+      "poblacionRiesgo": "Embarazadas, diabéticos, usuarios de antibióticos, inmunodeprimidos, pacientes con catéteres.",
+      "porQueImporta": "Es la causa más frecuente de infección fúngica oportunista en humanos.",
+      "comoSeDiagnostica": "KOH directo, cultivo en Sabouraud, prueba de tubo germinativo."
+    },
+    "enfermedades": [
+      "Candidiasis vaginal",
+      "Candidiasis oral (muguet)",
+      "Candidemia",
+      "Candidiasis cutánea"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 5,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Levaduras en gemación y pseudohifas",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h002",
+    "numero": 2,
+    "categoria": "hongos",
+    "subgrupo": "Levaduras",
+    "nombreCientifico": "Cryptococcus neoformans",
+    "familia": "Tremellaceae",
+    "genero": "Cryptococcus",
+    "especie": "neoformans",
+    "tipoHongo": "levadura",
+    "habitat": "Suelo contaminado con excremento de aves (palomas)",
+    "transmision": "Inhalación de esporas del ambiente",
+    "muestraClinica": [
+      "LCR",
+      "Esputo",
+      "Sangre"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Tinta china",
+        "resultado": "Visualiza cápsula en LCR"
+      },
+      {
+        "nombre": "Antígeno criptocócico (látex/ELISA)",
+        "resultado": "Alta sensibilidad y especificidad"
+      },
+      {
+        "nombre": "Ureasa",
+        "resultado": "Positiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud"
+    ],
+    "colonia": "Colonias mucoides color crema",
+    "importanciaMedica": {
+      "queCausa": "Meningitis criptocócica, neumonía en pacientes inmunodeprimidos.",
+      "organosAfectados": "Meninges, pulmones.",
+      "poblacionRiesgo": "Pacientes con VIH avanzado (CD4 bajo), inmunodeprimidos.",
+      "porQueImporta": "Causa importante de meningitis en pacientes con VIH no controlado, con alta mortalidad si no se trata.",
+      "comoSeDiagnostica": "Tinción con tinta china en LCR, detección de antígeno criptocócico."
+    },
+    "enfermedades": [
+      "Meningitis criptocócica",
+      "Neumonía criptocócica"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "tincion",
+        "descripcion": "Levaduras encapsuladas con tinta china",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h003",
+    "numero": 3,
+    "categoria": "hongos",
+    "subgrupo": "Mohos",
+    "nombreCientifico": "Aspergillus fumigatus",
+    "familia": "Aspergillaceae",
+    "genero": "Aspergillus",
+    "especie": "fumigatus",
+    "tipoHongo": "moho",
+    "habitat": "Ambiente (suelo, materia orgánica en descomposición, aire)",
+    "transmision": "Inhalación de esporas (conidios)",
+    "muestraClinica": [
+      "Esputo",
+      "Lavado bronquioalveolar",
+      "Biopsia"
+    ],
+    "pruebas": [
+      {
+        "nombre": "KOH / calcoflúor",
+        "resultado": "Hifas septadas con ramificación en ángulo agudo (45°)"
+      },
+      {
+        "nombre": "Galactomanano",
+        "resultado": "Antígeno útil en aspergilosis invasiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud"
+    ],
+    "colonia": "Colonias aterciopeladas verde-azuladas",
+    "importanciaMedica": {
+      "queCausa": "Aspergilosis broncopulmonar alérgica, aspergiloma, aspergilosis invasiva.",
+      "organosAfectados": "Pulmones principalmente; puede diseminarse en inmunodeprimidos.",
+      "poblacionRiesgo": "Pacientes con asma o fibrosis quística (alérgica), neutropénicos y trasplantados (invasiva).",
+      "porQueImporta": "La aspergilosis invasiva tiene alta mortalidad en pacientes neutropénicos.",
+      "comoSeDiagnostica": "Cultivo, examen directo con hifas características, antígeno galactomanano."
+    },
+    "enfermedades": [
+      "Aspergilosis broncopulmonar alérgica",
+      "Aspergiloma",
+      "Aspergilosis invasiva"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Hifas septadas ramificadas en ángulo agudo",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h004",
+    "numero": 4,
+    "categoria": "hongos",
+    "subgrupo": "Mohos",
+    "nombreCientifico": "Trichophyton rubrum",
+    "familia": "Arthrodermataceae",
+    "genero": "Trichophyton",
+    "especie": "rubrum",
+    "tipoHongo": "moho",
+    "habitat": "Piel, cabello y uñas humanas (dermatofito antropofílico)",
+    "transmision": "Contacto directo o con fómites (toallas, calzado)",
+    "muestraClinica": [
+      "Escamas de piel",
+      "Uñas",
+      "Cabello"
+    ],
+    "pruebas": [
+      {
+        "nombre": "KOH",
+        "resultado": "Hifas tabicadas en escamas"
+      },
+      {
+        "nombre": "Cultivo en Sabouraud",
+        "resultado": "Confirma género y especie"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud con antibióticos (Mycosel)"
+    ],
+    "colonia": "Colonias algodonosas blancas con pigmento rojizo en el reverso",
+    "importanciaMedica": {
+      "queCausa": "Tiña del cuerpo, tiña del pie (pie de atleta), tiña ungueal (onicomicosis).",
+      "organosAfectados": "Piel, uñas, cabello.",
+      "poblacionRiesgo": "Personas que usan calzado cerrado húmedo, atletas, adultos mayores (onicomicosis).",
+      "porQueImporta": "Es el dermatofito más frecuente causante de infecciones crónicas de piel y uñas.",
+      "comoSeDiagnostica": "Examen directo con KOH y cultivo en agar Sabouraud."
+    },
+    "enfermedades": [
+      "Tiña del pie",
+      "Tiña del cuerpo",
+      "Onicomicosis"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Hifas tabicadas en escamas de piel",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h005",
+    "numero": 5,
+    "categoria": "hongos",
+    "subgrupo": "Mohos",
+    "nombreCientifico": "Microsporum canis",
+    "familia": "Arthrodermataceae",
+    "genero": "Microsporum",
+    "especie": "canis",
+    "tipoHongo": "moho",
+    "habitat": "Piel y pelo de gatos y perros (dermatofito zoofílico)",
+    "transmision": "Contacto con animales infectados",
+    "muestraClinica": [
+      "Cabello",
+      "Escamas de piel"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Luz de Wood",
+        "resultado": "Fluorescencia verdosa en pelo infectado"
+      },
+      {
+        "nombre": "KOH",
+        "resultado": "Hifas y artroconidios"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud"
+    ],
+    "colonia": "Colonias algodonosas blanco-amarillentas con pigmento amarillo en el reverso",
+    "importanciaMedica": {
+      "queCausa": "Tiña de la cabeza (tinea capitis), especialmente en niños con mascotas.",
+      "organosAfectados": "Cuero cabelludo, piel.",
+      "poblacionRiesgo": "Niños en contacto con gatos o perros infectados.",
+      "porQueImporta": "Causa frecuente de tiña de la cabeza en población pediátrica.",
+      "comoSeDiagnostica": "Luz de Wood, examen directo con KOH, cultivo."
+    },
+    "enfermedades": [
+      "Tinea capitis",
+      "Tinea corporis"
+    ],
+    "nivelImportancia": 2,
+    "nivelFrecuencia": 3,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "prueba",
+        "descripcion": "Fluorescencia verdosa bajo luz de Wood",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "h006",
+    "numero": 6,
+    "categoria": "hongos",
+    "subgrupo": "Hongos dimórficos",
+    "nombreCientifico": "Histoplasma capsulatum",
+    "familia": "Ajellomycetaceae",
+    "genero": "Histoplasma",
+    "especie": "capsulatum",
+    "tipoHongo": "dimorfico",
+    "habitat": "Suelo con excremento de aves y murciélagos",
+    "transmision": "Inhalación de esporas del ambiente",
+    "muestraClinica": [
+      "Esputo",
+      "Sangre",
+      "Médula ósea (formas diseminadas)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Antígeno urinario",
+        "resultado": "Alta sensibilidad en formas diseminadas"
+      },
+      {
+        "nombre": "Cultivo (forma micelial a 25°C / levaduriforme a 37°C)",
+        "resultado": "Confirma diagnóstico"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud"
+    ],
+    "colonia": "Micelio blanco-marrón a 25°C; forma levaduriforme intracelular a 37°C",
+    "importanciaMedica": {
+      "queCausa": "Histoplasmosis pulmonar (a menudo autolimitada) y formas diseminadas graves en inmunodeprimidos.",
+      "organosAfectados": "Pulmones; se disemina a médula ósea, hígado y bazo en formas graves.",
+      "poblacionRiesgo": "Personas expuestas a cuevas o gallineros, pacientes con VIH avanzado.",
+      "porQueImporta": "Es endémico en varias regiones de América y puede simular tuberculosis.",
+      "comoSeDiagnostica": "Antígeno urinario, cultivo, histopatología con levaduras intracelulares."
+    },
+    "enfermedades": [
+      "Histoplasmosis pulmonar",
+      "Histoplasmosis diseminada"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Levaduras intracelulares en macrófagos",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h007",
+    "numero": 7,
+    "categoria": "hongos",
+    "subgrupo": "Levaduras",
+    "nombreCientifico": "Malassezia furfur",
+    "familia": "Malasseziaceae",
+    "genero": "Malassezia",
+    "especie": "furfur",
+    "tipoHongo": "levadura",
+    "habitat": "Flora normal lipofílica de la piel humana",
+    "transmision": "Endógena (oportunista); favorecida por calor y humedad",
+    "muestraClinica": [
+      "Escamas de piel"
+    ],
+    "pruebas": [
+      {
+        "nombre": "KOH",
+        "resultado": "Levaduras y hifas cortas ('espagueti con albóndigas')"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud con aceite de oliva (lipofílico)"
+    ],
+    "colonia": "Colonias cremosas, requieren suplementación lipídica para crecer",
+    "importanciaMedica": {
+      "queCausa": "Pitiriasis versicolor (manchas hipopigmentadas o hiperpigmentadas), dermatitis seborreica.",
+      "organosAfectados": "Piel, especialmente tronco.",
+      "poblacionRiesgo": "Climas cálidos y húmedos, piel grasa, adolescentes y adultos jóvenes.",
+      "porQueImporta": "Es una causa muy común de alteraciones de la pigmentación cutánea, generalmente benigna.",
+      "comoSeDiagnostica": "Examen directo con KOH mostrando el patrón característico."
+    },
+    "enfermedades": [
+      "Pitiriasis versicolor",
+      "Dermatitis seborreica"
+    ],
+    "nivelImportancia": 2,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Patrón 'espagueti con albóndigas' en KOH",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "h008",
+    "numero": 8,
+    "categoria": "hongos",
+    "subgrupo": "Hongos dimórficos",
+    "nombreCientifico": "Sporothrix schenckii",
+    "familia": "Ophiostomataceae",
+    "genero": "Sporothrix",
+    "especie": "schenckii",
+    "tipoHongo": "dimorfico",
+    "habitat": "Suelo, plantas, madera en descomposición",
+    "transmision": "Inoculación traumática (espinas, astillas)",
+    "muestraClinica": [
+      "Biopsia de piel",
+      "Exudado de lesión"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Cultivo (forma micelial a 25°C / levaduriforme en 'cigarro' a 37°C)",
+        "resultado": "Confirma diagnóstico"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud"
+    ],
+    "colonia": "Micelio arrugado que cambia de blanco a negro con el tiempo",
+    "importanciaMedica": {
+      "queCausa": "Esporotricosis: nódulos y úlceras que siguen el trayecto linfático ('linfangítica').",
+      "organosAfectados": "Piel, tejido subcutáneo, vasos linfáticos.",
+      "poblacionRiesgo": "Jardineros, floricultores, personas en contacto con tierra o plantas espinosas.",
+      "porQueImporta": "Es la micosis subcutánea más frecuente asociada a traumatismos con material vegetal.",
+      "comoSeDiagnostica": "Cultivo con el característico dimorfismo térmico."
+    },
+    "enfermedades": [
+      "Esporotricosis cutánea",
+      "Esporotricosis linfocutánea"
+    ],
+    "nivelImportancia": 2,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Levaduras en forma de 'cigarro' en tejido",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h009",
+    "numero": 9,
+    "categoria": "hongos",
+    "subgrupo": "Levaduras",
+    "nombreCientifico": "Candida glabrata",
+    "familia": "Saccharomycetaceae",
+    "genero": "Candida",
+    "especie": "glabrata",
+    "tipoHongo": "levadura",
+    "habitat": "Flora normal de mucosas humanas",
+    "transmision": "Endógena (oportunista)",
+    "muestraClinica": [
+      "Secreción vaginal",
+      "Sangre",
+      "Orina"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Tubo germinativo",
+        "resultado": "Negativo (a diferencia de C. albicans)"
+      },
+      {
+        "nombre": "KOH",
+        "resultado": "Levaduras pequeñas, sin pseudohifas"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud",
+      "CHROMagar Candida"
+    ],
+    "colonia": "Colonias blancas a cremosas, más pequeñas que C. albicans",
+    "importanciaMedica": {
+      "queCausa": "Candidiasis vaginal recurrente, candidemia, especialmente en pacientes con exposición previa a azoles.",
+      "organosAfectados": "Mucosa vaginal, torrente sanguíneo.",
+      "poblacionRiesgo": "Pacientes con uso previo de fluconazol, diabéticos, inmunodeprimidos, adultos mayores.",
+      "porQueImporta": "Presenta sensibilidad reducida a fluconazol de forma intrínseca, complicando el tratamiento empírico.",
+      "comoSeDiagnostica": "Cultivo con tubo germinativo negativo; identificación bioquímica o molecular confirmatoria."
+    },
+    "enfermedades": [
+      "Candidiasis vaginal recurrente",
+      "Candidemia"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Levaduras pequeñas sin pseudohifas",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h010",
+    "numero": 10,
+    "categoria": "hongos",
+    "subgrupo": "Levaduras",
+    "nombreCientifico": "Candida krusei",
+    "familia": "Saccharomycetaceae",
+    "genero": "Candida (Pichia kudriavzevii)",
+    "especie": "krusei",
+    "tipoHongo": "levadura",
+    "habitat": "Ambiente, flora ocasional de mucosas",
+    "transmision": "Endógena (oportunista), nosocomial",
+    "muestraClinica": [
+      "Sangre",
+      "Mucosa oral"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Tubo germinativo",
+        "resultado": "Negativo"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud",
+      "CHROMagar Candida (colonias rosadas y rugosas)"
+    ],
+    "colonia": "Colonias planas, rugosas y rosadas en CHROMagar Candida",
+    "importanciaMedica": {
+      "queCausa": "Candidemia, especialmente en pacientes oncohematológicos con profilaxis previa con fluconazol.",
+      "organosAfectados": "Torrente sanguíneo.",
+      "poblacionRiesgo": "Pacientes con neutropenia, trasplante de médula ósea, profilaxis antifúngica previa.",
+      "porQueImporta": "Presenta resistencia intrínseca a fluconazol, requiriendo alternativas terapéuticas específicas.",
+      "comoSeDiagnostica": "Cultivo con colonias características en agar cromogénico; confirmación bioquímica o molecular."
+    },
+    "enfermedades": [
+      "Candidemia"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias rosadas y rugosas en agar cromogénico",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h011",
+    "numero": 11,
+    "categoria": "hongos",
+    "subgrupo": "Levaduras",
+    "nombreCientifico": "Candida auris",
+    "familia": "Saccharomycetaceae",
+    "genero": "Candida",
+    "especie": "auris",
+    "tipoHongo": "levadura",
+    "habitat": "Superficies hospitalarias, piel de pacientes colonizados",
+    "transmision": "Nosocomial, transmisión de persona a persona y por superficies contaminadas",
+    "muestraClinica": [
+      "Sangre",
+      "Hisopado axilar/inguinal (tamizaje de colonización)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Identificación por MALDI-TOF o métodos moleculares",
+        "resultado": "Necesaria, ya que sistemas bioquímicos convencionales pueden identificarla erróneamente"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud",
+      "CHROMagar Candida (colores variables según el lote)"
+    ],
+    "colonia": "Colonias variables, a menudo difíciles de diferenciar de otras Candida sin métodos avanzados",
+    "importanciaMedica": {
+      "queCausa": "Candidemia y otras infecciones invasivas asociadas a brotes hospitalarios.",
+      "organosAfectados": "Torrente sanguíneo, heridas, tracto urinario.",
+      "poblacionRiesgo": "Pacientes hospitalizados críticos, con dispositivos invasivos, estancias prolongadas en UCI.",
+      "porQueImporta": "Considerada una amenaza global emergente por su multirresistencia frecuente y capacidad de persistir en el ambiente hospitalario.",
+      "comoSeDiagnostica": "Requiere métodos de identificación avanzados (MALDI-TOF actualizado o secuenciación) ya que puede confundirse con otras especies."
+    },
+    "enfermedades": [
+      "Candidemia",
+      "Infecciones invasivas asociadas a brotes hospitalarios"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 1,
+    "prioridad": "especializado",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Levaduras en gemación, indistinguibles morfológicamente de otras Candida",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h012",
+    "numero": 12,
+    "categoria": "hongos",
+    "subgrupo": "Levaduras",
+    "nombreCientifico": "Cryptococcus gattii",
+    "familia": "Tremellaceae",
+    "genero": "Cryptococcus",
+    "especie": "gattii",
+    "tipoHongo": "levadura",
+    "habitat": "Asociado a ciertos árboles (eucaliptos) en regiones tropicales y subtropicales",
+    "transmision": "Inhalación de esporas del ambiente",
+    "muestraClinica": [
+      "LCR",
+      "Esputo"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Tinta china",
+        "resultado": "Visualiza cápsula en LCR"
+      },
+      {
+        "nombre": "Antígeno criptocócico",
+        "resultado": "Alta sensibilidad"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud",
+      "Agar semilla de níger (colonias marrones)"
+    ],
+    "colonia": "Colonias mucoides, pigmentadas de marrón en agar semilla de níger",
+    "importanciaMedica": {
+      "queCausa": "Meningitis y criptococomas pulmonares, a diferencia de C. neoformans puede afectar a personas inmunocompetentes.",
+      "organosAfectados": "Pulmones, sistema nervioso central.",
+      "poblacionRiesgo": "Personas en regiones endémicas con exposición a eucaliptos, incluyendo individuos inmunocompetentes.",
+      "porQueImporta": "A diferencia de C. neoformans, puede causar enfermedad grave en personas sin inmunosupresión conocida.",
+      "comoSeDiagnostica": "Similar a C. neoformans: tinta china, antígeno criptocócico y cultivo con diferenciación de especie."
+    },
+    "enfermedades": [
+      "Meningitis criptocócica",
+      "Criptococoma pulmonar"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 1,
+    "prioridad": "especializado",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias pigmentadas en agar semilla de níger",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h013",
+    "numero": 13,
+    "categoria": "hongos",
+    "subgrupo": "Hongos dimórficos",
+    "nombreCientifico": "Coccidioides immitis",
+    "familia": "Onygenaceae",
+    "genero": "Coccidioides",
+    "especie": "immitis",
+    "tipoHongo": "dimorfico",
+    "habitat": "Suelo árido y semiárido",
+    "transmision": "Inhalación de artroconidios del suelo",
+    "muestraClinica": [
+      "Esputo",
+      "Biopsia",
+      "Sangre (serología)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Serología (fijación de complemento/inmunodifusión)",
+        "resultado": "Útil para seguimiento"
+      },
+      {
+        "nombre": "Cultivo (extremadamente infeccioso, requiere cabina de bioseguridad)",
+        "resultado": "Forma micelial con artroconidios"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud (manipulación de alto riesgo por infectividad de las esporas)"
+    ],
+    "colonia": "Micelio blanco algodonoso que produce artroconidios altamente infecciosos por inhalación",
+    "importanciaMedica": {
+      "queCausa": "Coccidioidomicosis ('fiebre del valle'): neumonía, y en formas diseminadas afectación cutánea, ósea y meníngea.",
+      "organosAfectados": "Pulmones; piel, huesos y meninges en formas diseminadas.",
+      "poblacionRiesgo": "Residentes o viajeros a zonas endémicas áridas (suroeste de EE. UU., partes de México y Sudamérica), inmunodeprimidos para formas graves.",
+      "porQueImporta": "El cultivo es altamente infeccioso para el personal de laboratorio y requiere manipulación en cabina de bioseguridad.",
+      "comoSeDiagnostica": "Serología y cultivo (con extrema precaución); histopatología mostrando esférulas características."
+    },
+    "enfermedades": [
+      "Coccidioidomicosis pulmonar",
+      "Coccidioidomicosis diseminada"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 1,
+    "prioridad": "especializado",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Esférulas con endosporas en tejido",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h014",
+    "numero": 14,
+    "categoria": "hongos",
+    "subgrupo": "Hongos dimórficos",
+    "nombreCientifico": "Paracoccidioides brasiliensis",
+    "familia": "Ajellomycetaceae",
+    "genero": "Paracoccidioides",
+    "especie": "brasiliensis",
+    "tipoHongo": "dimorfico",
+    "habitat": "Suelo húmedo de zonas rurales en Latinoamérica",
+    "transmision": "Inhalación de esporas del ambiente",
+    "muestraClinica": [
+      "Esputo",
+      "Biopsia de lesión mucocutánea"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Examen directo con KOH",
+        "resultado": "Levaduras con gemación múltiple ('rueda de timón')"
+      },
+      {
+        "nombre": "Serología",
+        "resultado": "Útil para diagnóstico y seguimiento"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud"
+    ],
+    "colonia": "Forma levaduriforme a 37°C con gemación múltiple característica",
+    "importanciaMedica": {
+      "queCausa": "Paracoccidioidomicosis: lesiones pulmonares y mucocutáneas (úlceras orales y nasales características).",
+      "organosAfectados": "Pulmones, mucosa oral y nasal, ganglios linfáticos.",
+      "poblacionRiesgo": "Trabajadores agrícolas de zonas rurales endémicas en Latinoamérica, predominantemente varones adultos.",
+      "porQueImporta": "Es la micosis sistémica endémica más frecuente en algunas regiones de Sudamérica.",
+      "comoSeDiagnostica": "Examen directo mostrando el patrón de gemación múltiple en 'rueda de timón', característico de la especie."
+    },
+    "enfermedades": [
+      "Paracoccidioidomicosis pulmonar",
+      "Paracoccidioidomicosis mucocutánea"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 1,
+    "prioridad": "especializado",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Levadura con gemación múltiple en 'rueda de timón'",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h015",
+    "numero": 15,
+    "categoria": "hongos",
+    "subgrupo": "Mohos",
+    "nombreCientifico": "Aspergillus flavus",
+    "familia": "Aspergillaceae",
+    "genero": "Aspergillus",
+    "especie": "flavus",
+    "tipoHongo": "moho",
+    "habitat": "Suelo, granos y semillas almacenadas",
+    "transmision": "Inhalación de esporas (conidios)",
+    "muestraClinica": [
+      "Esputo",
+      "Biopsia de tejido"
+    ],
+    "pruebas": [
+      {
+        "nombre": "KOH/calcoflúor",
+        "resultado": "Hifas septadas con ramificación en ángulo agudo"
+      },
+      {
+        "nombre": "Galactomanano",
+        "resultado": "Útil en aspergilosis invasiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud"
+    ],
+    "colonia": "Colonias aterciopeladas de color amarillo-verdoso a marrón",
+    "importanciaMedica": {
+      "queCausa": "Aspergilosis invasiva (segunda especie más frecuente después de A. fumigatus), sinusitis fúngica.",
+      "organosAfectados": "Pulmones, senos paranasales.",
+      "poblacionRiesgo": "Pacientes neutropénicos, trasplantados, inmunodeprimidos.",
+      "porQueImporta": "Además de su rol clínico, produce aflatoxinas en granos contaminados, un problema de salud pública alimentaria.",
+      "comoSeDiagnostica": "Cultivo con hifas características; antígeno galactomanano en aspergilosis invasiva."
+    },
+    "enfermedades": [
+      "Aspergilosis invasiva",
+      "Sinusitis fúngica"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Conidióforos con cabezas conidiales amarillo-verdosas",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h016",
+    "numero": 16,
+    "categoria": "hongos",
+    "subgrupo": "Mohos",
+    "nombreCientifico": "Rhizopus spp.",
+    "familia": "Mucoraceae",
+    "genero": "Rhizopus",
+    "especie": "spp.",
+    "tipoHongo": "moho",
+    "habitat": "Ambiente: suelo, materia orgánica en descomposición, pan y frutas",
+    "transmision": "Inhalación de esporas, inoculación directa en piel lesionada",
+    "muestraClinica": [
+      "Tejido de biopsia",
+      "Secreción de lesión"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Examen directo con KOH",
+        "resultado": "Hifas anchas, no tabicadas, con ramificación en ángulo recto"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud (crecimiento rápido, cubre la placa en días)"
+    ],
+    "colonia": "Crecimiento algodonoso muy rápido, inicialmente blanco y luego grisáceo-negro",
+    "importanciaMedica": {
+      "queCausa": "Mucormicosis: infección angioinvasiva agresiva, especialmente rinocerebral, pulmonar o cutánea.",
+      "organosAfectados": "Senos paranasales, órbita, cerebro (forma rinocerebral), pulmones, piel.",
+      "poblacionRiesgo": "Pacientes diabéticos con cetoacidosis, neutropénicos, uso de corticoides prolongado, trasplantados.",
+      "porQueImporta": "Es una infección angioinvasiva de progresión muy rápida y alta mortalidad si no se trata quirúrgica y médicamente de forma urgente.",
+      "comoSeDiagnostica": "Examen directo con hifas anchas no tabicadas; biopsia con evidencia de invasión vascular."
+    },
+    "enfermedades": [
+      "Mucormicosis rinocerebral",
+      "Mucormicosis pulmonar",
+      "Mucormicosis cutánea"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 1,
+    "prioridad": "especializado",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Hifas anchas no tabicadas con ramificación en ángulo recto",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h017",
+    "numero": 17,
+    "categoria": "hongos",
+    "subgrupo": "Otros / atípicos",
+    "nombreCientifico": "Pneumocystis jirovecii",
+    "familia": "Pneumocystidaceae",
+    "genero": "Pneumocystis",
+    "especie": "jirovecii",
+    "tipoHongo": "levadura",
+    "habitat": "Exclusivamente en pulmones humanos",
+    "transmision": "Vía respiratoria, posiblemente por contacto persona a persona; muchos adultos son portadores asintomáticos",
+    "muestraClinica": [
+      "Lavado bronquioalveolar",
+      "Esputo inducido"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Tinción con plata metenamina o inmunofluorescencia",
+        "resultado": "Visualiza quistes característicos"
+      },
+      {
+        "nombre": "PCR",
+        "resultado": "Alta sensibilidad"
+      },
+      {
+        "nombre": "Beta-D-glucano sérico",
+        "resultado": "Marcador indirecto de apoyo diagnóstico"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en medios de rutina (no se puede cultivar in vitro de forma estándar)"
+    ],
+    "colonia": "No aplica (no cultivable)",
+    "importanciaMedica": {
+      "queCausa": "Neumonía por Pneumocystis (antes llamada neumonía por Pneumocystis carinii), típicamente en inmunodeprimidos.",
+      "organosAfectados": "Pulmones.",
+      "poblacionRiesgo": "Pacientes con VIH avanzado (CD4 bajo), trasplantados, uso prolongado de corticoides o inmunosupresores.",
+      "porQueImporta": "Es una infección oportunista definitoria de sida y causa importante de insuficiencia respiratoria en inmunodeprimidos.",
+      "comoSeDiagnostica": "Tinción especial o PCR en lavado bronquioalveolar; beta-D-glucano como apoyo indirecto."
+    },
+    "enfermedades": [
+      "Neumonía por Pneumocystis"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "tincion",
+        "descripcion": "Quistes en tinción de plata metenamina",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "h018",
+    "numero": 18,
+    "categoria": "hongos",
+    "subgrupo": "Mohos",
+    "nombreCientifico": "Trichophyton mentagrophytes",
+    "familia": "Arthrodermataceae",
+    "genero": "Trichophyton",
+    "especie": "mentagrophytes",
+    "tipoHongo": "moho",
+    "habitat": "Piel de animales (dermatofito zoofílico) y humanos",
+    "transmision": "Contacto con animales infectados (roedores, conejos) o con personas/fómites",
+    "muestraClinica": [
+      "Escamas de piel",
+      "Cabello",
+      "Uñas"
+    ],
+    "pruebas": [
+      {
+        "nombre": "KOH",
+        "resultado": "Hifas tabicadas en escamas"
+      },
+      {
+        "nombre": "Cultivo en Sabouraud",
+        "resultado": "Confirma especie"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Sabouraud con antibióticos"
+    ],
+    "colonia": "Colonias algodonosas a granulares blanco-amarillentas, más inflamatorias que T. rubrum",
+    "importanciaMedica": {
+      "queCausa": "Tiña del cuerpo, tiña del pie, con frecuencia más inflamatoria que la causada por dermatofitos antropofílicos.",
+      "organosAfectados": "Piel, cabello, uñas.",
+      "poblacionRiesgo": "Personas en contacto con animales de granja o mascotas roedoras, deportistas.",
+      "porQueImporta": "Las infecciones zoofílicas suelen ser más inflamatorias y sintomáticas que las causadas por dermatofitos humanos.",
+      "comoSeDiagnostica": "Examen directo con KOH y cultivo en agar Sabouraud."
+    },
+    "enfermedades": [
+      "Tiña del cuerpo",
+      "Tiña del pie",
+      "Querion (forma inflamatoria de tinea capitis)"
+    ],
+    "nivelImportancia": 2,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Hifas tabicadas con microconidios en racimo",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  }
+]

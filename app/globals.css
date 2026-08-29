@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Space Grotesk", ui-sans-serif, sans-serif;
+  --font-body: "IBM Plex Sans", ui-sans-serif, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-base-900 text-mist-100 font-body antialiased;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(143, 161, 184, 0.12) 1px, transparent 0);
+  background-size: 26px 26px;
+}
+
+::selection {
+  background: rgba(25, 227, 194, 0.35);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: theme("colors.base.900");
+}
+::-webkit-scrollbar-thumb {
+  background: theme("colors.base.600");
+  border-radius: 999px;
+}
+
+.light body {
+  @apply bg-mist-100 text-base-900;
+  background-image: radial-gradient(circle at 1px 1px, rgba(11, 18, 32, 0.08) 1px, transparent 0);
+}
+
+.lab-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid theme("colors.base.600");
+  background: linear-gradient(180deg, theme("colors.base.800") 0%, theme("colors.base.900") 100%);
+  border-radius: 14px;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.light .lab-card {
+  border: 1px solid #C4D0DE;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F2F5F9 100%);
+}
+
+.lab-card:hover {
+  border-color: theme("colors.bio.DEFAULT");
+  transform: translateY(-2px);
+}
+
+.lab-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, theme("colors.bio.glow"), transparent);
+  opacity: 0;
+  transform: translateY(-100%);
+  pointer-events: none;
+}
+
+.lab-card:hover::before {
+  opacity: 0.9;
+  animation: scan 1.6s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lab-card:hover::before {
+    animation: none;
+  }
+  * {
+    scroll-behavior: auto !important;
+  }
+}
+
+.chip {
+  @apply inline-flex items-center gap-1 rounded-full border border-base-600 bg-base-800/60 px-2.5 py-1 text-xs font-mono text-mist-200;
+}
+
+.light .chip {
+  @apply border-mist-200 bg-white text-base-700;
+}
+
+.section-eyebrow {
+  @apply font-mono text-xs tracking-[0.2em] uppercase text-bio;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid theme("colors.bio.DEFAULT");
+  outline-offset: 2px;
+}
