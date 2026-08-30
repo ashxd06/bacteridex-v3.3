@@ -2,6 +2,8 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { SYSTEM_PROMPT_STUDY } from "@/lib/study/prompt";
 import type { ResultadoAnalisis } from "@/lib/study/types";
 import { ErrorProveedorIA, type CodigoErrorIA } from "./tipos";
+import { parsearResultadoIA } from "./anthropic";
+
 
 // gemini-2.0-flash fue retirado por Google; el modelo vigente configurado es
 // gemini-3.6-flash. Se puede sobrescribir con STUDY_AI_MODEL_GEMINI si
@@ -69,7 +71,11 @@ export async function analizarConGemini(base64: string, filename: string): Promi
   }
 
   const genAI = new GoogleGenerativeAI(apiKey);
-  const modelo = genAI.getGenerativeModel({ model: MODELO, systemInstruction: SYSTEM_PROMPT_STUDY });
+  const modelo = genAI.getGenerativeModel({
+    model: MODELO,
+    systemInstruction: SYSTEM_PROMPT_STUDY,
+    generationConfig: { maxOutputTokens: 8000 }
+  });
 
   let respuesta;
   try {
@@ -90,17 +96,6 @@ export async function analizarConGemini(base64: string, filename: string): Promi
   }
 
   const texto = respuesta.response.text().trim();
-
-  try {
-    const limpio = texto.replace(/^```json\s*/i, "").replace(/```\s*$/i, "");
-    return JSON.parse(limpio) as ResultadoAnalisis;
-  } catch (err) {
-    throw new ErrorProveedorIA(
-      "gemini",
-      "Gemini no devolvió un resultado interpretable para este documento.",
-      false,
-      err,
-      "documento_no_interpretable"
-    );
-  }
+  return parsearResultadoIA("gemini", texto);
 }
+

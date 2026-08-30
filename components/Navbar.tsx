@@ -29,6 +29,7 @@ import {
   Microscope,
   Wrench,
   BookOpen,
+  Shield,
   type LucideIcon
 } from "lucide-react";
 import { useTheme } from "./ThemeProvider";
@@ -160,12 +161,6 @@ function NavDropdown({ grupo, abierto, onToggle, onCerrar }: {
                 key={item.href}
                 href={item.href}
                 role="menuitem"
-                onClick={(e) => {
-                  if (e.ctrlKey || e.metaKey || e.button !== 0) return;
-                  e.preventDefault();
-                  onCerrar();
-                  router.push(item.href);
-                }}
                 className={`flex items-center gap-2.5 px-3.5 py-2.5 text-sm transition-colors ${
                   activo
                     ? "bg-bio/10 text-bio"
@@ -189,7 +184,7 @@ export default function Navbar() {
   const pathname = usePathname();
   const router = useRouter();
   const { tema, alternar } = useTheme();
-  const { user, habilitado, abrirModal, cerrarSesion } = useAuth();
+  const { user, esAdmin, habilitado, abrirModal, cerrarSesion } = useAuth();
 
   // Un solo estado para saber qué dropdown está abierto (null = ninguno)
   const [dropdownAbierto, setDropdownAbierto] = useState<string | null>(null);
@@ -197,6 +192,12 @@ export default function Navbar() {
   const refUsuario = useRef<HTMLDivElement>(null);
 
   useClickFuera(refUsuario, () => setMenuUsuario(false));
+
+  // Cierra los menús automáticamente al cambiar de ruta
+  useEffect(() => {
+    setDropdownAbierto(null);
+    setMenuUsuario(false);
+  }, [pathname]);
 
   function toggleDropdown(id: string) {
     setDropdownAbierto((prev) => (prev === id ? null : id));
@@ -206,13 +207,6 @@ export default function Navbar() {
   // Análisis clínicos — enlace directo (sin dropdown por ahora)
   const activoAnalisis =
     pathname === "/analisis-clinicos" || pathname.startsWith("/analisis-clinicos/");
-
-  const handleUserNav = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    if (e.ctrlKey || e.metaKey || e.button !== 0) return;
-    e.preventDefault();
-    setMenuUsuario(false);
-    router.push(href);
-  };
 
   return (
     <header className="sticky top-0 z-40 border-b border-base-700/80 bg-base-900/85 backdrop-blur">
@@ -323,7 +317,6 @@ export default function Navbar() {
                       <Link
                         href="/perfil"
                         role="menuitem"
-                        onClick={(e) => handleUserNav(e, "/perfil")}
                         className="flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-base-700"
                       >
                         <User className="h-4 w-4" aria-hidden="true" /> Mi perfil
@@ -331,7 +324,6 @@ export default function Navbar() {
                       <Link
                         href="/favoritos"
                         role="menuitem"
-                        onClick={(e) => handleUserNav(e, "/favoritos")}
                         className="flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-base-700"
                       >
                         <Star className="h-4 w-4" aria-hidden="true" /> Mis favoritos
@@ -339,7 +331,6 @@ export default function Navbar() {
                       <Link
                         href="/notas"
                         role="menuitem"
-                        onClick={(e) => handleUserNav(e, "/notas")}
                         className="flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-base-700"
                       >
                         <StickyNote className="h-4 w-4" aria-hidden="true" /> Mis notas
@@ -347,11 +338,19 @@ export default function Navbar() {
                       <Link
                         href="/study"
                         role="menuitem"
-                        onClick={(e) => handleUserNav(e, "/study")}
                         className="flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-base-700"
                       >
                         <Brain className="h-4 w-4" aria-hidden="true" /> BacteriDex Study
                       </Link>
+                      {esAdmin && (
+                        <Link
+                          href="/admin"
+                          role="menuitem"
+                          className="flex items-center gap-2 px-4 py-2.5 text-sm text-gold hover:bg-base-700"
+                        >
+                          <Shield className="h-4 w-4" aria-hidden="true" /> Panel Admin
+                        </Link>
+                      )}
                       <button
                         role="menuitem"
                         onClick={() => { setMenuUsuario(false); cerrarSesion(); }}

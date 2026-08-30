@@ -1,6 +1,8 @@
 import { SYSTEM_PROMPT_STUDY } from "@/lib/study/prompt";
 import type { ResultadoAnalisis } from "@/lib/study/types";
 import { ErrorProveedorIA, type CodigoErrorIA } from "./tipos";
+import { parsearResultadoIA } from "./anthropic";
+
 
 const MODELO = process.env.STUDY_AI_MODEL_OPENAI || "gpt-4o";
 
@@ -100,6 +102,7 @@ export async function analizarConOpenAI(base64: string, filename: string): Promi
       },
       body: JSON.stringify({
         model: MODELO,
+        max_output_tokens: 8000,
         instructions: SYSTEM_PROMPT_STUDY,
         input: [
           {
@@ -120,7 +123,7 @@ export async function analizarConOpenAI(base64: string, filename: string): Promi
       })
     });
   } catch (err) {
-    throw new ErrorProveedorIA("openai", "OpenAI no está disponible en este momento.", true, err, "error_desconocido");
+    throw new ErrorProveedorIA("openai", "OpenAI no esta disponible en este momento.", true, err, "error_desconocido");
   }
 
   if (!respuestaHttp.ok) {
@@ -143,17 +146,6 @@ export async function analizarConOpenAI(base64: string, filename: string): Promi
 
   const datos = (await respuestaHttp.json()) as OpenAIResponseBody;
   const texto = extraerTexto(datos).trim();
-
-  try {
-    const limpio = texto.replace(/^```json\s*/i, "").replace(/```\s*$/i, "");
-    return JSON.parse(limpio) as ResultadoAnalisis;
-  } catch (err) {
-    throw new ErrorProveedorIA(
-      "openai",
-      "OpenAI no devolvió un resultado interpretable para este documento.",
-      false,
-      err,
-      "documento_no_interpretable"
-    );
-  }
+  return parsearResultadoIA("openai", texto);
 }
+

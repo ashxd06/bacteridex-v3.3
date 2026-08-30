@@ -34,9 +34,27 @@ export default function StudyPage() {
     if (!confirm("¿Eliminar este documento y su material de estudio? Esta acción no se puede deshacer.")) return;
     const supabase = getSupabaseClient();
     if (!supabase) return;
-    await supabase.from("study_documents").delete().eq("id", id);
-    setDocumentos((docs) => docs.filter((d) => d.id !== id));
+
+    // Usamos la API route del servidor para eliminar también el PDF del bucket.
+    // El cliente solo necesita el token; la service_role key nunca sale del servidor.
+    const { data: sesion } = await supabase.auth.getSession();
+    const token = sesion.session?.access_token;
+    if (!token) return;
+
+    const resp = await fetch("/api/study/eliminar", {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+      body: JSON.stringify({ documentId: id })
+    });
+
+    if (resp.ok) {
+      setDocumentos((docs) => docs.filter((d) => d.id !== id));
+    } else {
+      const json = await resp.json().catch(() => ({}));
+      alert(json?.error || "No se pudo eliminar el documento.");
+    }
   }
+
 
   if (!habilitado) {
     return (

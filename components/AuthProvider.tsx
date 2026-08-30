@@ -6,9 +6,16 @@ import { getSupabaseClient, supabaseHabilitado } from "@/lib/supabase/client";
 
 export type ModoModalAuth = "login" | "registro" | "recuperar" | null;
 
+export interface PerfilUsuario {
+  username: string;
+  role: "user" | "admin";
+}
+
 interface AuthContextValue {
   user: User | null;
   session: Session | null;
+  perfil: PerfilUsuario | null;
+  esAdmin: boolean;
   cargando: boolean;
   habilitado: boolean;
   modalAbierto: ModoModalAuth;
@@ -62,6 +69,7 @@ function traducirError(mensaje: string): string {
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
   const [session, setSession] = useState<Session | null>(null);
+  const [perfil, setPerfil] = useState<PerfilUsuario | null>(null);
   const [cargando, setCargando] = useState(true);
   const [modalAbierto, setModalAbierto] = useState<ModoModalAuth>(null);
 
@@ -76,6 +84,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setSession(data.session);
       setUser(data.session?.user ?? null);
       setCargando(false);
+      if (data.session?.user) cargarPerfil(data.session.user);
     });
 
     const { data: listener } = supabase.auth.onAuthStateChange((evento, nuevaSesion) => {
@@ -87,12 +96,27 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       if (evento === "SIGNED_IN") {
         setModalAbierto(null);
         // Crea el perfil si todavía no existe (username viene de user_metadata).
-        crearPerfilSiNoExiste(nuevaSesion?.user ?? null);
+        crearPerfilSiNoExiste(nuevaSesion?.user ?? null).then(() => cargarPerfil(nuevaSesion?.user ?? null));
+      }
+      if (evento === "SIGNED_OUT") {
+        setPerfil(null);
       }
     });
 
     return () => listener.subscription.unsubscribe();
   }, []);
+
+  async function cargarPerfil(u: User | null) {
+    const supabase = getSupabaseClient();
+    if (!supabase || !u) {
+      setPerfil(null);
+      return;
+    }
+    const { data } = await supabase.from("profiles").select("username, role").eq("id", u.id).maybeSingle();
+    if (data) {
+      setPerfil({ username: data.username, role: (data.role as "user" | "admin") || "user" });
+    }
+  }
 
   async function crearPerfilSiNoExiste(u: User | null) {
     const supabase = getSupabaseClient();
@@ -136,6 +160,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
     setSession(null);
     setUser(null);
+    setPerfil(null);
     setModalAbierto(null);
   }, []);
 
@@ -159,6 +184,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       value={{
         user,
         session,
+        perfil,
+        esAdmin: perfil?.role === "admin",
         cargando,
         habilitado: supabaseHabilitado,
         modalAbierto,

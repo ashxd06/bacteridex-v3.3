@@ -131,16 +131,70 @@ export async function analizarConClaude(base64: string, filename: string): Promi
     .join("")
     .trim();
 
+  return parsearResultadoIA("claude", texto);
+}
+
+/**
+ * Extrae y valida un ResultadoAnalisis desde el texto de respuesta de cualquier IA.
+ * Maneja fences de markdown (```json ... ```) y texto accidental alrededor del JSON.
+ * Lanza ErrorProveedorIA si no puede parsear o si faltan campos obligatorios.
+ */
+export function parsearResultadoIA(proveedor: "claude" | "gemini" | "openai", texto: string): ResultadoAnalisis {
+  if (!texto) {
+    throw new ErrorProveedorIA(
+      proveedor,
+      `${proveedor === "claude" ? "Claude" : proveedor === "gemini" ? "Gemini" : "OpenAI"} devolvio una respuesta vacia.`,
+      false,
+      undefined,
+      "documento_no_interpretable"
+    );
+  }
+
+  // Intento 1: eliminar fences de markdown al inicio/final.
+  let limpio = texto.replace(/^```json\s*/i, "").replace(/```\s*$/i, "").trim();
+
+  // Intento 2: si aun hay texto antes del primer '{', extraer desde ahi.
+  if (!limpio.startsWith("{")) {
+    const inicio = limpio.indexOf("{");
+    if (inicio !== -1) limpio = limpio.slice(inicio);
+  }
+
+  // Intento 3: si hay texto despues del ultimo '}', truncar.
+  if (!limpio.endsWith("}")) {
+    const fin = limpio.lastIndexOf("}");
+    if (fin !== -1) limpio = limpio.slice(0, fin + 1);
+  }
+
+  let parsed: unknown;
   try {
-    const limpio = texto.replace(/^```json\s*/i, "").replace(/```\s*$/i, "");
-    return JSON.parse(limpio) as ResultadoAnalisis;
+    parsed = JSON.parse(limpio);
   } catch (err) {
     throw new ErrorProveedorIA(
-      "claude",
-      "Claude no devolvió un resultado interpretable para este documento.",
+      proveedor,
+      `${proveedor === "claude" ? "Claude" : proveedor === "gemini" ? "Gemini" : "OpenAI"} no devolvio un resultado interpretable para este documento.`,
       false,
       err,
       "documento_no_interpretable"
     );
   }
+
+  // Validacion minima: debe ser un objeto con los campos obligatorios del contrato.
+  if (
+    typeof parsed !== "object" ||
+    parsed === null ||
+    !("resumen_general" in parsed) ||
+    !("temas" in parsed) ||
+    !Array.isArray((parsed as Record<string, unknown>).temas)
+  ) {
+    throw new ErrorProveedorIA(
+      proveedor,
+      `${proveedor === "claude" ? "Claude" : proveedor === "gemini" ? "Gemini" : "OpenAI"} devolvio una estructura JSON incompleta o invalida.`,
+      false,
+      parsed,
+      "documento_no_interpretable"
+    );
+  }
+
+  return parsed as ResultadoAnalisis;
 }
+

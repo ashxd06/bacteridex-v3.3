@@ -7,6 +7,14 @@ export type SeleccionProveedor = "automatico" | ProveedorId;
 
 export const ORDEN_AUTOMATICO: ProveedorId[] = ["claude", "gemini", "openai"];
 
+// Lista de valores válidos para validación en runtime (sin depender de types de TS).
+const SELECCIONES_VALIDAS: readonly string[] = ["automatico", "claude", "gemini", "openai"];
+
+/** Devuelve true si el valor recibido del cliente es un SeleccionProveedor válido. */
+export function esSeleccionValida(valor: unknown): valor is SeleccionProveedor {
+  return typeof valor === "string" && SELECCIONES_VALIDAS.includes(valor);
+}
+
 export const NOMBRE_PROVEEDOR: Record<ProveedorId, string> = {
   claude: "Claude",
   gemini: "Gemini",
