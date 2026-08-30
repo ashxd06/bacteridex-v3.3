@@ -1,0 +1,1006 @@
+[
+  {
+    "id": "p001",
+    "numero": 1,
+    "categoria": "parasitos",
+    "subgrupo": "Protozoos",
+    "nombreCientifico": "Entamoeba histolytica",
+    "familia": "Entamoebidae",
+    "genero": "Entamoeba",
+    "especie": "histolytica",
+    "tipoParasito": "protozoo",
+    "cicloBiologico": "Se ingieren quistes; en el intestino delgado se liberan trofozoítos que colonizan el colon; los quistes se eliminan por heces y contaminan agua/alimentos.",
+    "formaDiagnostica": "Quiste tetranucleado y trofozoíto con eritrocitos fagocitados",
+    "habitat": "Colon humano",
+    "transmision": "Fecal-oral (agua y alimentos contaminados)",
+    "muestraClinica": [
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Examen coproparasitológico directo",
+        "resultado": "Visualiza quistes o trofozoítos"
+      },
+      {
+        "nombre": "Antígeno fecal / PCR",
+        "resultado": "Diferencia de especies no patógenas (E. dispar)"
+      }
+    ],
+    "mediosCultivo": [
+      "No se cultiva de rutina en el laboratorio clínico"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Disentería amebiana, absceso hepático amebiano.",
+      "organosAfectados": "Colon, hígado (formas invasivas).",
+      "poblacionRiesgo": "Personas en zonas con saneamiento deficiente, viajeros.",
+      "porQueImporta": "Es la tercera causa de muerte por parásitos a nivel mundial según estimaciones de salud pública.",
+      "comoSeDiagnostica": "Examen coproparasitológico seriado; diferenciación molecular de especies no patógenas."
+    },
+    "enfermedades": [
+      "Amebiasis intestinal",
+      "Disentería amebiana",
+      "Absceso hepático amebiano"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 4,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Quiste tetranucleado en examen directo",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "p002",
+    "numero": 2,
+    "categoria": "parasitos",
+    "subgrupo": "Protozoos",
+    "nombreCientifico": "Giardia duodenalis (lamblia)",
+    "familia": "Giardiidae",
+    "genero": "Giardia",
+    "especie": "duodenalis",
+    "tipoParasito": "protozoo",
+    "cicloBiologico": "Ingestión de quistes; los trofozoítos se adhieren a la mucosa del intestino delgado y se multiplican; los quistes se eliminan en heces.",
+    "formaDiagnostica": "Quiste ovalado con 4 núcleos y trofozoíto piriforme con dos núcleos ('cara de payaso')",
+    "habitat": "Intestino delgado humano",
+    "transmision": "Fecal-oral, agua contaminada (incluso agua de montaña)",
+    "muestraClinica": [
+      "Heces",
+      "Aspirado duodenal (casos difíciles)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Examen coproparasitológico directo",
+        "resultado": "Visualiza quistes o trofozoítos"
+      },
+      {
+        "nombre": "Antígeno fecal (ELISA)",
+        "resultado": "Mayor sensibilidad"
+      }
+    ],
+    "mediosCultivo": [
+      "No se cultiva de rutina en el laboratorio clínico"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Diarrea crónica, malabsorción, distensión abdominal.",
+      "organosAfectados": "Intestino delgado.",
+      "poblacionRiesgo": "Viajeros, excursionistas que beben agua no tratada, niños en guarderías.",
+      "porQueImporta": "Es la infección parasitaria intestinal más frecuente en países desarrollados.",
+      "comoSeDiagnostica": "Examen coproparasitológico seriado o antígeno fecal."
+    },
+    "enfermedades": [
+      "Giardiasis",
+      "Síndrome de malabsorción"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 5,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Trofozoíto piriforme binucleado",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "p003",
+    "numero": 3,
+    "categoria": "parasitos",
+    "subgrupo": "Protozoos",
+    "nombreCientifico": "Trichomonas vaginalis",
+    "familia": "Trichomonadidae",
+    "genero": "Trichomonas",
+    "especie": "vaginalis",
+    "tipoParasito": "protozoo",
+    "cicloBiologico": "No forma quistes; se transmite directamente el trofozoíto flagelado entre personas por contacto sexual.",
+    "formaDiagnostica": "Trofozoíto flagelado móvil observado en fresco",
+    "habitat": "Tracto genitourinario humano",
+    "transmision": "Contacto sexual",
+    "muestraClinica": [
+      "Secreción vaginal",
+      "Secreción uretral"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Examen en fresco",
+        "resultado": "Trofozoítos móviles visibles"
+      },
+      {
+        "nombre": "PCR / NAAT",
+        "resultado": "Mayor sensibilidad"
+      }
+    ],
+    "mediosCultivo": [
+      "Medio de Diamond (cultivo especializado, poco usado en rutina)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Vaginitis con flujo espumoso y prurito; uretritis en hombres (a menudo asintomática).",
+      "organosAfectados": "Vagina, uretra, cérvix ('cérvix en fresa').",
+      "poblacionRiesgo": "Adultos sexualmente activos.",
+      "porQueImporta": "Es la infección de transmisión sexual no viral curable más frecuente a nivel mundial.",
+      "comoSeDiagnostica": "Examen en fresco del flujo vaginal; PCR para mayor sensibilidad."
+    },
+    "enfermedades": [
+      "Vaginitis por tricomonas",
+      "Uretritis"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 4,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Trofozoíto flagelado en examen en fresco",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "p004",
+    "numero": 4,
+    "categoria": "parasitos",
+    "subgrupo": "Protozoos",
+    "nombreCientifico": "Plasmodium falciparum",
+    "familia": "Plasmodiidae",
+    "genero": "Plasmodium",
+    "especie": "falciparum",
+    "tipoParasito": "protozoo",
+    "cicloBiologico": "El mosquito Anopheles inocula esporozoítos que infectan el hígado; luego invaden eritrocitos donde se multiplican causando los ciclos febriles.",
+    "formaDiagnostica": "Trofozoítos en anillo y gametocitos en forma de banana en frotis de sangre",
+    "habitat": "Ser humano y mosquito Anopheles (vector)",
+    "transmision": "Picadura de mosquito Anopheles hembra",
+    "muestraClinica": [
+      "Sangre (gota gruesa y frotis fino)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Gota gruesa y frotis fino (Giemsa)",
+        "resultado": "Método de referencia para identificar especie y parasitemia"
+      },
+      {
+        "nombre": "Prueba rápida de antígeno",
+        "resultado": "Diagnóstico rápido en campo"
+      }
+    ],
+    "mediosCultivo": [
+      "No se cultiva de rutina en el laboratorio clínico"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Malaria (paludismo), la forma más grave con riesgo de malaria cerebral y muerte.",
+      "organosAfectados": "Eritrocitos, cerebro (malaria cerebral), riñones, bazo.",
+      "poblacionRiesgo": "Residentes y viajeros a zonas endémicas tropicales, niños en África subsahariana.",
+      "porQueImporta": "Es la especie de Plasmodium más letal y responsable de la mayoría de muertes por malaria.",
+      "comoSeDiagnostica": "Gota gruesa y frotis con tinción de Giemsa; pruebas rápidas de antígeno."
+    },
+    "enfermedades": [
+      "Malaria no complicada",
+      "Malaria grave/cerebral"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 3,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "tincion",
+        "descripcion": "Trofozoítos en anillo en frotis de sangre con Giemsa",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "p005",
+    "numero": 5,
+    "categoria": "parasitos",
+    "subgrupo": "Protozoos",
+    "nombreCientifico": "Toxoplasma gondii",
+    "familia": "Sarcocystidae",
+    "genero": "Toxoplasma",
+    "especie": "gondii",
+    "tipoParasito": "protozoo",
+    "cicloBiologico": "El gato es el huésped definitivo; los humanos se infectan por ingestión de ooquistes (contacto con heces de gato) o quistes tisulares en carne mal cocida.",
+    "formaDiagnostica": "Quistes tisulares y taquizoítos; diagnóstico habitual por serología",
+    "habitat": "Felinos (huésped definitivo), humanos y otros mamíferos (huéspedes intermediarios)",
+    "transmision": "Ingestión de carne mal cocida, contacto con heces de gato, transplacentaria",
+    "muestraClinica": [
+      "Sangre (serología)",
+      "Líquido amniótico (PCR)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Serología IgM/IgG",
+        "resultado": "Determina infección aguda o pasada"
+      },
+      {
+        "nombre": "PCR en líquido amniótico",
+        "resultado": "Diagnóstico prenatal de infección congénita"
+      }
+    ],
+    "mediosCultivo": [
+      "No se cultiva de rutina en el laboratorio clínico"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Infección generalmente asintomática en inmunocompetentes; toxoplasmosis congénita grave y encefalitis en inmunodeprimidos.",
+      "organosAfectados": "Cerebro, ojos, y en formas congénitas múltiples órganos fetales.",
+      "poblacionRiesgo": "Embarazadas (riesgo fetal), pacientes con VIH avanzado.",
+      "porQueImporta": "La primoinfección durante el embarazo puede causar daño neurológico y ocular grave al feto.",
+      "comoSeDiagnostica": "Serología IgM/IgG; PCR en líquido amniótico para diagnóstico prenatal."
+    },
+    "enfermedades": [
+      "Toxoplasmosis congénita",
+      "Encefalitis toxoplásmica",
+      "Coriorretinitis"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Taquizoítos en forma de media luna",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "p006",
+    "numero": 6,
+    "categoria": "parasitos",
+    "subgrupo": "Nematodos",
+    "nombreCientifico": "Ascaris lumbricoides",
+    "familia": "Ascarididae",
+    "genero": "Ascaris",
+    "especie": "lumbricoides",
+    "tipoParasito": "nematodo",
+    "cicloBiologico": "Ingestión de huevos embrionados; las larvas migran por vía pulmonar antes de establecerse como gusanos adultos en el intestino delgado.",
+    "formaDiagnostica": "Huevo con cubierta mamelonada característica en heces",
+    "habitat": "Intestino delgado humano",
+    "transmision": "Fecal-oral (suelo contaminado, verduras mal lavadas)",
+    "muestraClinica": [
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Examen coproparasitológico directo",
+        "resultado": "Visualiza huevos característicos"
+      }
+    ],
+    "mediosCultivo": [
+      "No aplica (no se cultiva)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Ascariasis: dolor abdominal, obstrucción intestinal en cargas altas, síndrome de Löffler durante la migración pulmonar.",
+      "organosAfectados": "Intestino delgado, pulmones (fase larvaria).",
+      "poblacionRiesgo": "Niños en zonas con saneamiento deficiente.",
+      "porQueImporta": "Es el nematodo intestinal más prevalente a nivel mundial.",
+      "comoSeDiagnostica": "Examen coproparasitológico directo o de concentración."
+    },
+    "enfermedades": [
+      "Ascariasis",
+      "Obstrucción intestinal",
+      "Síndrome de Löffler"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Huevo con cubierta mamelonada",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "p007",
+    "numero": 7,
+    "categoria": "parasitos",
+    "subgrupo": "Nematodos",
+    "nombreCientifico": "Enterobius vermicularis",
+    "nombreComun": "Oxiuro",
+    "familia": "Oxyuridae",
+    "genero": "Enterobius",
+    "especie": "vermicularis",
+    "tipoParasito": "nematodo",
+    "cicloBiologico": "La hembra migra de noche al área perianal para depositar huevos; la autoinfección por rascado y reingesta es frecuente.",
+    "formaDiagnostica": "Huevo asimétrico ('en forma de D') detectado con cinta adhesiva perianal",
+    "habitat": "Colon e intestino delgado distal humano",
+    "transmision": "Fecal-oral, autoinfección, fómites (ropa de cama)",
+    "muestraClinica": [
+      "Muestra de cinta adhesiva perianal (test de Graham)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Test de Graham (cinta adhesiva)",
+        "resultado": "Visualiza huevos perianales"
+      }
+    ],
+    "mediosCultivo": [
+      "No aplica (no se cultiva)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Prurito anal, especialmente nocturno; irritabilidad en niños.",
+      "organosAfectados": "Región perianal, intestino.",
+      "poblacionRiesgo": "Niños en edad escolar, convivientes del hogar.",
+      "porQueImporta": "Es la helmintiasis más frecuente en climas templados, con fácil diseminación intrafamiliar.",
+      "comoSeDiagnostica": "Test de Graham (cinta adhesiva) realizado a primera hora de la mañana."
+    },
+    "enfermedades": [
+      "Enterobiasis (oxiuriasis)"
+    ],
+    "nivelImportancia": 2,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Huevo asimétrico en forma de D",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "p008",
+    "numero": 8,
+    "categoria": "parasitos",
+    "subgrupo": "Cestodos",
+    "nombreCientifico": "Taenia solium",
+    "familia": "Taeniidae",
+    "genero": "Taenia",
+    "especie": "solium",
+    "tipoParasito": "cestodo",
+    "cicloBiologico": "El humano se infecta al comer carne de cerdo mal cocida con cisticercos (tenia intestinal) o al ingerir huevos (cisticercosis, incluida neurocisticercosis).",
+    "formaDiagnostica": "Proglótides y huevos en heces; cisticercos en tejidos (imagenología)",
+    "habitat": "Intestino delgado humano (forma adulta); tejidos del cerdo y humano (forma larvaria/cisticerco)",
+    "transmision": "Ingestión de carne de cerdo mal cocida (tenia) o de huevos en agua/alimentos contaminados (cisticercosis)",
+    "muestraClinica": [
+      "Heces",
+      "Neuroimagen (para neurocisticercosis)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Examen coproparasitológico",
+        "resultado": "Detecta huevos o proglótides"
+      },
+      {
+        "nombre": "Serología / imagenología",
+        "resultado": "Útil para diagnóstico de cisticercosis"
+      }
+    ],
+    "mediosCultivo": [
+      "No aplica (no se cultiva)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Teniasis intestinal (forma adulta) y cisticercosis, incluida neurocisticercosis (forma larvaria).",
+      "organosAfectados": "Intestino delgado; cerebro, músculo y ojos en la cisticercosis.",
+      "poblacionRiesgo": "Consumidores de carne de cerdo mal cocida, zonas con crianza de cerdos y saneamiento deficiente.",
+      "porQueImporta": "La neurocisticercosis es una causa importante de epilepsia adquirida en zonas endémicas.",
+      "comoSeDiagnostica": "Examen coproparasitológico para teniasis; neuroimagen y serología para cisticercosis."
+    },
+    "enfermedades": [
+      "Teniasis",
+      "Cisticercosis",
+      "Neurocisticercosis"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Huevo de Taenia sp. (indistinguible entre especies al microscopio)",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "p009",
+    "numero": 9,
+    "categoria": "parasitos",
+    "subgrupo": "Protozoos",
+    "nombreCientifico": "Plasmodium vivax",
+    "familia": "Plasmodiidae",
+    "genero": "Plasmodium",
+    "especie": "vivax",
+    "tipoParasito": "protozoo",
+    "cicloBiologico": "Similar a P. falciparum, pero puede formar hipnozoítos hepáticos latentes que causan recaídas meses o años después de la infección inicial.",
+    "formaDiagnostica": "Trofozoítos en eritrocitos agrandados (a diferencia de P. falciparum) con gránulos de Schüffner en frotis de sangre",
+    "habitat": "Ser humano y mosquito Anopheles (vector)",
+    "transmision": "Picadura de mosquito Anopheles hembra",
+    "muestraClinica": [
+      "Sangre (gota gruesa y frotis fino)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Gota gruesa y frotis fino (Giemsa)",
+        "resultado": "Identifica especie por morfología del eritrocito infectado"
+      },
+      {
+        "nombre": "Prueba rápida de antígeno",
+        "resultado": "Diagnóstico rápido en campo"
+      }
+    ],
+    "mediosCultivo": [
+      "No se cultiva de rutina en el laboratorio clínico"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Malaria con fiebre terciana (cada 48 horas) y riesgo de recaídas por hipnozoítos hepáticos latentes.",
+      "organosAfectados": "Eritrocitos, hígado (fase latente).",
+      "poblacionRiesgo": "Residentes y viajeros a zonas endémicas fuera de África, especialmente Asia y Sudamérica.",
+      "porQueImporta": "Es la especie de Plasmodium con distribución geográfica más amplia y causa recaídas que requieren tratamiento adicional para eliminar hipnozoítos.",
+      "comoSeDiagnostica": "Gota gruesa y frotis con tinción de Giemsa; el eritrocito infectado agrandado orienta hacia esta especie."
+    },
+    "enfermedades": [
+      "Malaria con recaídas (fiebre terciana)"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "tincion",
+        "descripcion": "Eritrocito agrandado con gránulos de Schüffner",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "p010",
+    "numero": 10,
+    "categoria": "parasitos",
+    "subgrupo": "Nematodos",
+    "nombreCientifico": "Strongyloides stercoralis",
+    "familia": "Strongyloididae",
+    "genero": "Strongyloides",
+    "especie": "stercoralis",
+    "tipoParasito": "nematodo",
+    "cicloBiologico": "Las larvas filariformes penetran la piel, migran por vía pulmonar hasta el intestino; es capaz de autoinfección interna, permitiendo persistencia por décadas sin reexposición.",
+    "formaDiagnostica": "Larvas rabditiformes en heces (los huevos rara vez se observan porque eclosionan en el intestino)",
+    "habitat": "Intestino delgado humano; suelo contaminado con larvas",
+    "transmision": "Penetración de larvas filariformes a través de la piel en contacto con suelo contaminado",
+    "muestraClinica": [
+      "Heces (examen seriado)",
+      "Esputo (en síndrome de hiperinfección)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Examen coproparasitológico seriado",
+        "resultado": "Baja sensibilidad en muestra única"
+      },
+      {
+        "nombre": "Técnica de Baermann o Agar",
+        "resultado": "Aumenta la sensibilidad de detección de larvas"
+      },
+      {
+        "nombre": "Serología",
+        "resultado": "Útil como tamizaje, especialmente antes de inmunosupresión"
+      }
+    ],
+    "mediosCultivo": [
+      "Técnica de cultivo en placa de agar (no un medio bioquímico convencional)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Estrongiloidiasis crónica generalmente leve; síndrome de hiperinfección o diseminación grave en inmunodeprimidos.",
+      "organosAfectados": "Intestino delgado, pulmones; puede diseminarse a múltiples órganos en hiperinfección.",
+      "poblacionRiesgo": "Personas en zonas endémicas con exposición a suelo contaminado; el riesgo de hiperinfección aumenta marcadamente con corticoides o inmunosupresión.",
+      "porQueImporta": "Puede persistir de forma asintomática durante décadas y causar hiperinfección potencialmente mortal si el paciente recibe corticoides sin tamizaje previo.",
+      "comoSeDiagnostica": "Examen coproparasitológico seriado con técnicas de concentración específicas (Baermann); serología como apoyo."
+    },
+    "enfermedades": [
+      "Estrongiloidiasis",
+      "Síndrome de hiperinfección/diseminación"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Larva rabditiforme en heces",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "p011",
+    "numero": 11,
+    "categoria": "parasitos",
+    "subgrupo": "Nematodos",
+    "nombreCientifico": "Ancylostoma duodenale",
+    "familia": "Ancylostomatidae",
+    "genero": "Ancylostoma",
+    "especie": "duodenale",
+    "tipoParasito": "nematodo",
+    "cicloBiologico": "Las larvas filariformes penetran la piel (o se ingieren), migran por vía pulmonar hasta fijarse en el intestino delgado, donde se alimentan de sangre.",
+    "formaDiagnostica": "Huevo ovalado de cubierta delgada con blastómeros, indistinguible del de Necator americanus al microscopio",
+    "habitat": "Intestino delgado humano; suelo contaminado",
+    "transmision": "Penetración de larvas a través de la piel en contacto con suelo contaminado (uncinariasis)",
+    "muestraClinica": [
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Examen coproparasitológico directo o de concentración",
+        "resultado": "Visualiza huevos característicos"
+      }
+    ],
+    "mediosCultivo": [
+      "No aplica (no se cultiva)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Anemia ferropénica crónica por pérdida de sangre intestinal; dermatitis pruriginosa en el sitio de entrada de la larva.",
+      "organosAfectados": "Intestino delgado, sistema hematopoyético (anemia).",
+      "poblacionRiesgo": "Personas que caminan descalzas en suelo contaminado con heces, zonas rurales con saneamiento deficiente.",
+      "porQueImporta": "Es una causa importante y a menudo subestimada de anemia ferropénica en zonas endémicas.",
+      "comoSeDiagnostica": "Examen coproparasitológico con técnicas de concentración."
+    },
+    "enfermedades": [
+      "Uncinariasis",
+      "Anemia ferropénica"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Huevo ovalado de cubierta delgada",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "p012",
+    "numero": 12,
+    "categoria": "parasitos",
+    "subgrupo": "Nematodos",
+    "nombreCientifico": "Necator americanus",
+    "familia": "Ancylostomatidae",
+    "genero": "Necator",
+    "especie": "americanus",
+    "tipoParasito": "nematodo",
+    "cicloBiologico": "Similar a Ancylostoma duodenale: las larvas filariformes penetran la piel, migran por vía pulmonar y se fijan en el intestino delgado alimentándose de sangre.",
+    "formaDiagnostica": "Huevo ovalado de cubierta delgada, indistinguible del de A. duodenale al microscopio",
+    "habitat": "Intestino delgado humano; suelo contaminado en climas cálidos",
+    "transmision": "Penetración de larvas a través de la piel en contacto con suelo contaminado",
+    "muestraClinica": [
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Examen coproparasitológico directo o de concentración",
+        "resultado": "Visualiza huevos característicos"
+      }
+    ],
+    "mediosCultivo": [
+      "No aplica (no se cultiva)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Anemia ferropénica crónica; es la principal especie de anquilostoma en América y África.",
+      "organosAfectados": "Intestino delgado, sistema hematopoyético.",
+      "poblacionRiesgo": "Población en zonas tropicales con saneamiento deficiente, trabajadores agrícolas descalzos.",
+      "porQueImporta": "Junto con A. duodenale, es responsable de una carga global significativa de anemia ferropénica.",
+      "comoSeDiagnostica": "Examen coproparasitológico; la diferenciación de especie entre anquilostomas suele requerir métodos especializados."
+    },
+    "enfermedades": [
+      "Uncinariasis",
+      "Anemia ferropénica"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Huevo ovalado de cubierta delgada",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "p013",
+    "numero": 13,
+    "categoria": "parasitos",
+    "subgrupo": "Nematodos",
+    "nombreCientifico": "Trichuris trichiura",
+    "familia": "Trichuridae",
+    "genero": "Trichuris",
+    "especie": "trichiura",
+    "tipoParasito": "nematodo",
+    "cicloBiologico": "Ingestión de huevos embrionados del suelo; los gusanos adultos se fijan en el colon con su extremo anterior delgado incrustado en la mucosa.",
+    "formaDiagnostica": "Huevo con forma de barril y tapones polares translúcidos en cada extremo",
+    "habitat": "Colon humano",
+    "transmision": "Fecal-oral (suelo contaminado)",
+    "muestraClinica": [
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Examen coproparasitológico directo",
+        "resultado": "Visualiza huevos característicos en forma de barril"
+      }
+    ],
+    "mediosCultivo": [
+      "No aplica (no se cultiva)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Tricuriasis: generalmente asintomática en cargas bajas; diarrea crónica, dolor abdominal y en casos graves prolapso rectal en cargas altas.",
+      "organosAfectados": "Colon.",
+      "poblacionRiesgo": "Niños en zonas con saneamiento deficiente.",
+      "porQueImporta": "Es uno de los geohelmintos más prevalentes junto con Ascaris y los anquilostomas.",
+      "comoSeDiagnostica": "Examen coproparasitológico directo o de concentración."
+    },
+    "enfermedades": [
+      "Tricuriasis",
+      "Prolapso rectal (cargas altas)"
+    ],
+    "nivelImportancia": 2,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Huevo en forma de barril con tapones polares",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "p014",
+    "numero": 14,
+    "categoria": "parasitos",
+    "subgrupo": "Cestodos",
+    "nombreCientifico": "Taenia saginata",
+    "familia": "Taeniidae",
+    "genero": "Taenia",
+    "especie": "saginata",
+    "tipoParasito": "cestodo",
+    "cicloBiologico": "El humano se infecta al comer carne de res mal cocida con cisticercos; a diferencia de T. solium, no causa cisticercosis en humanos.",
+    "formaDiagnostica": "Proglótides grávidas (más de 15 ramas uterinas) y huevos en heces",
+    "habitat": "Intestino delgado humano (forma adulta); músculo de bovinos (forma larvaria)",
+    "transmision": "Ingestión de carne de res mal cocida con cisticercos",
+    "muestraClinica": [
+      "Heces",
+      "Proglótides observadas por el paciente"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Examen coproparasitológico",
+        "resultado": "Detecta huevos (indistinguibles de T. solium) o proglótides"
+      }
+    ],
+    "mediosCultivo": [
+      "No aplica (no se cultiva)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Teniasis intestinal: generalmente asintomática o con molestias digestivas leves.",
+      "organosAfectados": "Intestino delgado.",
+      "poblacionRiesgo": "Consumidores de carne de res mal cocida en zonas con crianza de ganado y saneamiento deficiente.",
+      "porQueImporta": "A diferencia de T. solium, no causa cisticercosis humana, por lo que su relevancia clínica es menor pero sigue siendo un parásito frecuente.",
+      "comoSeDiagnostica": "Examen coproparasitológico; la diferenciación de especie con T. solium requiere observar el número de ramas uterinas en la proglótide."
+    },
+    "enfermedades": [
+      "Teniasis"
+    ],
+    "nivelImportancia": 2,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Huevo de Taenia sp. (indistinguible de T. solium al microscopio)",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "p015",
+    "numero": 15,
+    "categoria": "parasitos",
+    "subgrupo": "Trematodos",
+    "nombreCientifico": "Schistosoma mansoni",
+    "familia": "Schistosomatidae",
+    "genero": "Schistosoma",
+    "especie": "mansoni",
+    "tipoParasito": "trematodo",
+    "cicloBiologico": "Las cercarias liberadas por caracoles de agua dulce penetran la piel humana; los gusanos adultos migran a las venas mesentéricas donde depositan huevos que se eliminan en heces.",
+    "formaDiagnostica": "Huevo ovalado con espolón lateral prominente en heces",
+    "habitat": "Venas mesentéricas del humano; caracoles de agua dulce como huésped intermediario",
+    "transmision": "Penetración de cercarias a través de la piel durante contacto con agua dulce contaminada",
+    "muestraClinica": [
+      "Heces",
+      "Biopsia rectal (en casos de baja carga)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Examen coproparasitológico (Kato-Katz)",
+        "resultado": "Cuantifica huevos por gramo de heces"
+      },
+      {
+        "nombre": "Serología",
+        "resultado": "Útil en infecciones de baja carga o en viajeros"
+      }
+    ],
+    "mediosCultivo": [
+      "No aplica (no se cultiva)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Esquistosomiasis intestinal y hepatoesplénica: fibrosis hepática periportal, hipertensión portal en infecciones crónicas.",
+      "organosAfectados": "Intestino, hígado, bazo.",
+      "poblacionRiesgo": "Personas en contacto con agua dulce contaminada en zonas endémicas de África y Sudamérica.",
+      "porQueImporta": "La infección crónica puede causar fibrosis hepática grave e hipertensión portal años después de la exposición inicial.",
+      "comoSeDiagnostica": "Examen coproparasitológico cuantitativo (Kato-Katz); serología en casos de baja carga parasitaria."
+    },
+    "enfermedades": [
+      "Esquistosomiasis intestinal",
+      "Fibrosis hepática periportal",
+      "Hipertensión portal"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 1,
+    "prioridad": "especializado",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Huevo con espolón lateral prominente",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "p016",
+    "numero": 16,
+    "categoria": "parasitos",
+    "subgrupo": "Cestodos",
+    "nombreCientifico": "Echinococcus granulosus",
+    "familia": "Taeniidae",
+    "genero": "Echinococcus",
+    "especie": "granulosus",
+    "tipoParasito": "cestodo",
+    "cicloBiologico": "El perro es el huésped definitivo (gusano adulto intestinal); ovejas y humanos son huéspedes intermediarios accidentales que desarrollan quistes hidatídicos al ingerir huevos.",
+    "formaDiagnostica": "Quiste hidatídico visible por imagenología; escólices en líquido de quiste roto",
+    "habitat": "Intestino de cánidos (forma adulta); hígado/pulmón de humanos y ovejas (forma larvaria/quística)",
+    "transmision": "Ingestión de huevos presentes en heces de perros infectados (contacto directo o alimentos/agua contaminados)",
+    "muestraClinica": [
+      "Imagenología (ecografía, TC)",
+      "Serología",
+      "Líquido de quiste (con extrema precaución por riesgo de shock anafiláctico)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Serología (ELISA)",
+        "resultado": "Apoyo diagnóstico, aunque puede haber falsos negativos en quistes calcificados"
+      },
+      {
+        "nombre": "Imagenología",
+        "resultado": "Método principal de detección de los quistes"
+      }
+    ],
+    "mediosCultivo": [
+      "No aplica (no se cultiva)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Hidatidosis (equinococosis quística): quistes de crecimiento lento en hígado y pulmón que pueden causar efecto de masa o ruptura con reacción anafiláctica.",
+      "organosAfectados": "Hígado (más frecuente), pulmones, ocasionalmente otros órganos.",
+      "poblacionRiesgo": "Personas en zonas rurales ganaderas con contacto estrecho con perros y ganado ovino.",
+      "porQueImporta": "La ruptura espontánea o durante manipulación quirúrgica del quiste puede causar shock anafiláctico potencialmente mortal.",
+      "comoSeDiagnostica": "Imagenología (ecografía o TC) como método principal; serología como apoyo. Nunca se debe puncionar el quiste sin las precauciones adecuadas."
+    },
+    "enfermedades": [
+      "Hidatidosis hepática",
+      "Hidatidosis pulmonar"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 1,
+    "prioridad": "especializado",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Representación de quiste hidatídico hepático",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "p017",
+    "numero": 17,
+    "categoria": "parasitos",
+    "subgrupo": "Protozoos",
+    "nombreCientifico": "Cryptosporidium spp.",
+    "familia": "Cryptosporidiidae",
+    "genero": "Cryptosporidium",
+    "especie": "parvum / hominis",
+    "tipoParasito": "protozoo",
+    "cicloBiologico": "Ingestión de ooquistes; se desarrollan intracelularmente en el epitelio intestinal, con ciclo de vida completo dentro de un mismo huésped.",
+    "formaDiagnostica": "Ooquistes ácido-alcohol resistentes pequeños, mejor visualizados con tinción de Kinyoun modificada",
+    "habitat": "Intestino delgado humano y de animales",
+    "transmision": "Fecal-oral, agua contaminada (resistente a la cloración estándar)",
+    "muestraClinica": [
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Tinción ácido-alcohol resistente modificada (Kinyoun)",
+        "resultado": "Visualiza ooquistes rosados/rojos"
+      },
+      {
+        "nombre": "Antígeno fecal / PCR",
+        "resultado": "Mayor sensibilidad"
+      }
+    ],
+    "mediosCultivo": [
+      "No se cultiva de rutina en el laboratorio clínico"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Diarrea acuosa autolimitada en inmunocompetentes; diarrea crónica grave y potencialmente mortal en inmunodeprimidos.",
+      "organosAfectados": "Intestino delgado.",
+      "poblacionRiesgo": "Pacientes con VIH avanzado, niños pequeños, personas expuestas a agua contaminada (incluyendo piscinas).",
+      "porQueImporta": "Sus ooquistes son resistentes a la cloración habitual del agua, causando brotes en sistemas de agua tratada y piscinas.",
+      "comoSeDiagnostica": "Tinción ácido-alcohol resistente modificada; antígeno fecal o PCR para mayor sensibilidad."
+    },
+    "enfermedades": [
+      "Criptosporidiosis",
+      "Diarrea crónica en inmunodeprimidos"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "tincion",
+        "descripcion": "Ooquistes con tinción ácido-alcohol resistente modificada",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "p018",
+    "numero": 18,
+    "categoria": "parasitos",
+    "subgrupo": "Protozoos",
+    "nombreCientifico": "Balantidium coli",
+    "familia": "Balantidiidae",
+    "genero": "Balantidium",
+    "especie": "coli",
+    "tipoParasito": "protozoo",
+    "cicloBiologico": "Ingestión de quistes, generalmente asociados a contacto con cerdos (reservorio principal); los trofozoítos colonizan el colon.",
+    "formaDiagnostica": "Es el protozoo intestinal más grande; trofozoíto ciliado y quiste esférico visibles en examen directo",
+    "habitat": "Colon de cerdos (reservorio principal) y humanos",
+    "transmision": "Fecal-oral, contacto con heces de cerdo o agua contaminada",
+    "muestraClinica": [
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Examen coproparasitológico directo",
+        "resultado": "Visualiza trofozoítos ciliados de gran tamaño"
+      }
+    ],
+    "mediosCultivo": [
+      "No se cultiva de rutina en el laboratorio clínico"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Balantidiasis: desde portador asintomático hasta disentería con ulceración colónica en casos graves.",
+      "organosAfectados": "Colon.",
+      "poblacionRiesgo": "Personas en contacto estrecho con cerdos o sus heces, zonas rurales con crianza porcina.",
+      "porQueImporta": "Es el único ciliado conocido que parasita al ser humano; poco frecuente pero puede simular disentería amebiana.",
+      "comoSeDiagnostica": "Examen coproparasitológico directo, donde se reconoce fácilmente por su gran tamaño y cilios."
+    },
+    "enfermedades": [
+      "Balantidiasis",
+      "Disentería balantidiana"
+    ],
+    "nivelImportancia": 2,
+    "nivelFrecuencia": 1,
+    "prioridad": "especializado",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Trofozoíto ciliado de gran tamaño",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "id": "agar-sangre",
+    "nombre": "Agar sangre",
+    "proposito": "Medio enriquecido de uso general que permite evaluar patrones de hemólisis.",
+    "permite": [
+      "La mayoría de bacterias de importancia clínica"
+    ],
+    "inhibe": [],
+    "tipo": "Enriquecido / diferencial (por hemólisis)",
+    "aparienciaColonias": "Varía según el organismo; permite observar hemólisis alfa, beta o gamma"
+  },
+  {
+    "id": "agar-chocolate",
+    "nombre": "Agar chocolate",
+    "proposito": "Agar sangre calentado que libera factores X y V, permitiendo el crecimiento de bacterias exigentes.",
+    "permite": [
+      "Haemophilus influenzae",
+      "Neisseria gonorrhoeae",
+      "Neisseria meningitidis"
+    ],
+    "inhibe": [],
+    "tipo": "Enriquecido",
+    "aparienciaColonias": "Colonias grisáceas pequeñas de organismos exigentes"
+  },
+  {
+    "id": "macconkey",
+    "nombre": "Agar MacConkey",
+    "proposito": "Medio selectivo y diferencial para bacilos Gram negativos, diferencia fermentadores de lactosa.",
+    "permite": [
+      "Enterobacterales",
+      "Pseudomonas"
+    ],
+    "inhibe": [
+      "Bacterias Gram positivas"
+    ],
+    "tipo": "Selectivo / diferencial",
+    "aparienciaColonias": "Rosadas (fermentadores de lactosa) o incoloras (no fermentadores)"
+  },
+  {
+    "id": "cled",
+    "nombre": "Agar CLED",
+    "proposito": "Medio para urocultivo que evita el 'swarming' de Proteus y diferencia fermentadores de lactosa.",
+    "permite": [
+      "Bacterias urinarias comunes"
+    ],
+    "inhibe": [
+      "Motilidad de Proteus (evita velo)"
+    ],
+    "tipo": "Diferencial",
+    "aparienciaColonias": "Amarillas (fermentadoras) o azules (no fermentadoras)"
+  },
+  {
+    "id": "emb",
+    "nombre": "Agar EMB (eosina-azul de metileno)",
+    "proposito": "Medio selectivo y diferencial para bacilos Gram negativos entéricos.",
+    "permite": [
+      "Enterobacterales"
+    ],
+    "inhibe": [
+      "Bacterias Gram positivas"
+    ],
+    "tipo": "Selectivo / diferencial",
+    "aparienciaColonias": "Brillo metálico verdoso en E. coli; colonias mucoides rosadas en Klebsiella"
+  },
+  {
+    "id": "manitol-salado",
+    "nombre": "Agar manitol salado",
+    "proposito": "Medio selectivo para estafilococos por su alta concentración de sal; diferencia por fermentación de manitol.",
+    "permite": [
+      "Staphylococcus spp."
+    ],
+    "inhibe": [
+      "La mayoría de otras bacterias por la alta salinidad"
+    ],
+    "tipo": "Selectivo / diferencial",
+    "aparienciaColonias": "Colonias amarillas con halo amarillo (S. aureus, fermenta manitol) o rosadas (no fermentadores)"
+  },
+  {
+    "id": "cetrimida",
+    "nombre": "Agar cetrimida",
+    "proposito": "Medio selectivo para el aislamiento de Pseudomonas aeruginosa.",
+    "permite": [
+      "Pseudomonas aeruginosa"
+    ],
+    "inhibe": [
+      "La mayoría de otras bacterias"
+    ],
+    "tipo": "Selectivo",
+    "aparienciaColonias": "Colonias con pigmento verde-azulado (piocianina)"
+  },
+  {
+    "id": "thayer-martin",
+    "nombre": "Agar Thayer-Martin",
+    "proposito": "Medio selectivo para el aislamiento de especies de Neisseria a partir de muestras con flora mixta.",
+    "permite": [
+      "Neisseria gonorrhoeae",
+      "Neisseria meningitidis"
+    ],
+    "inhibe": [
+      "Flora bacteriana y fúngica acompañante mediante antibióticos incorporados"
+    ],
+    "tipo": "Selectivo",
+    "aparienciaColonias": "Colonias pequeñas, grises, translúcidas"
+  },
+  {
+    "id": "xld",
+    "nombre": "Agar XLD",
+    "proposito": "Medio selectivo y diferencial para el aislamiento de Salmonella y Shigella.",
+    "permite": [
+      "Salmonella",
+      "Shigella"
+    ],
+    "inhibe": [
+      "Coliformes en menor medida"
+    ],
+    "tipo": "Selectivo / diferencial",
+    "aparienciaColonias": "Colonias con centro negro (H2S positivo, Salmonella) o incoloras (Shigella)"
+  },
+  {
+    "id": "hektoen",
+    "nombre": "Agar Hektoen",
+    "proposito": "Medio selectivo y diferencial similar al XLD para enteropatógenos.",
+    "permite": [
+      "Salmonella",
+      "Shigella"
+    ],
+    "inhibe": [
+      "Coliformes"
+    ],
+    "tipo": "Selectivo / diferencial",
+    "aparienciaColonias": "Colonias verdosas (no fermentadores) o naranjas (fermentadores) con o sin centro negro"
+  },
+  {
+    "id": "ss",
+    "nombre": "Agar SS (Salmonella-Shigella)",
+    "proposito": "Medio altamente selectivo para el aislamiento de Salmonella y Shigella.",
+    "permite": [
+      "Salmonella",
+      "Shigella"
+    ],
+    "inhibe": [
+      "La mayoría de coliformes y Gram positivos"
+    ],
+    "tipo": "Selectivo / diferencial",
+    "aparienciaColonias": "Colonias incoloras, algunas con centro negro por H2S"
+  },
+  {
+    "id": "tcbs",
+    "nombre": "Agar TCBS",
+    "proposito": "Medio selectivo específico para el aislamiento de especies de Vibrio.",
+    "permite": [
+      "Vibrio cholerae",
+      "Vibrio parahaemolyticus"
+    ],
+    "inhibe": [
+      "La mayoría de otras bacterias entéricas"
+    ],
+    "tipo": "Selectivo / diferencial",
+    "aparienciaColonias": "Colonias amarillas (V. cholerae, fermenta sacarosa) o verdes (V. parahaemolyticus)"
+  },
+  {
+    "id": "lowenstein-jensen",
+    "nombre": "Agar Lowenstein-Jensen",
+    "proposito": "Medio a base de huevo para el cultivo de micobacterias de crecimiento lento.",
+    "permite": [
+      "Mycobacterium tuberculosis y otras micobacterias"
+    ],
+    "inhibe": [
+      "Flora bacteriana acompañante mediante agentes selectivos"
+    ],
+    "tipo": "Enriquecido / selectivo",
+    "aparienciaColonias": "Colonias rugosas color crema, tipo 'coliflor', de crecimiento lento (semanas)"
+  },
+  {
+    "id": "sabouraud",
+    "nombre": "Agar Sabouraud",
+    "proposito": "Medio ácido que favorece el crecimiento de hongos e inhibe bacterias.",
+    "permite": [
+      "Hongos (levaduras y mohos)"
+    ],
+    "inhibe": [
+      "Bacterias por el pH ácido del medio"
+    ],
+    "tipo": "Selectivo para hongos",
+    "aparienciaColonias": "Varía ampliamente según el hongo (cremosas, algodonosas, aterciopeladas)"
+  },
+  {
+    "id": "mueller-hinton",
+    "nombre": "Agar Mueller-Hinton",
+    "proposito": "Medio estandarizado utilizado específicamente para pruebas de sensibilidad antimicrobiana (antibiograma por difusión en disco).",
+    "permite": [
+      "Crecimiento de la mayoría de bacterias de rápido crecimiento para antibiograma"
+    ],
+    "inhibe": [],
+    "tipo": "Estandarizado para susceptibilidad antimicrobiana",
+    "aparienciaColonias": "No se evalúan colonias; se mide el halo de inhibición alrededor de los discos de antibiótico"
+  },
+  {
+    "id": "campy-bap",
+    "nombre": "Agar Campy-BAP",
+    "proposito": "Medio selectivo para el aislamiento de especies de Campylobacter a partir de muestras fecales.",
+    "permite": [
+      "Campylobacter jejuni",
+      "Campylobacter coli"
+    ],
+    "inhibe": [
+      "Flora entérica acompañante mediante antibióticos selectivos e incubación microaerófila a 42°C"
+    ],
+    "tipo": "Selectivo",
+    "aparienciaColonias": "Colonias grises, planas, a veces con aspecto de gotas de agua o extendidas (swarming)"
+  },
+  {
+    "id": "middlebrook",
+    "nombre": "Medio de Middlebrook (7H10/7H11)",
+    "proposito": "Medio sintético a base de agar para el cultivo de micobacterias, de crecimiento más rápido que Lowenstein-Jensen.",
+    "permite": [
+      "Mycobacterium tuberculosis y otras micobacterias"
+    ],
+    "inhibe": [
+      "Flora bacteriana acompañante mediante agentes selectivos en algunas variantes"
+    ],
+    "tipo": "Enriquecido / selectivo",
+    "aparienciaColonias": "Colonias pequeñas, translúcidas a rugosas según la especie, visibles en 1-3 semanas"
+  },
+  {
+    "id": "agar-cna",
+    "nombre": "Agar CNA (Colistina-Ácido Nalidíxico)",
+    "proposito": "Medio selectivo para el aislamiento de bacterias Gram positivas a partir de muestras con flora mixta.",
+    "permite": [
+      "Staphylococcus spp.",
+      "Streptococcus spp.",
+      "Enterococcus spp."
+    ],
+    "inhibe": [
+      "La mayoría de bacterias Gram negativas mediante colistina y ácido nalidíxico"
+    ],
+    "tipo": "Selectivo",
+    "aparienciaColonias": "Similar al agar sangre; permite evaluar hemólisis de Gram positivos sin interferencia de Gram negativos"
+  },
+  {
+    "id": "agar-candida",
+    "nombre": "Agar cromogénico para Candida (CHROMagar Candida)",
+    "proposito": "Medio diferencial que permite distinguir especies de Candida por el color de sus colonias, útil en infecciones mixtas.",
+    "permite": [
+      "Candida albicans",
+      "Candida tropicalis",
+      "Candida krusei",
+      "Candida glabrata (colonias sin color diagnóstico claro)"
+    ],
+    "inhibe": [
+      "Bacterias, mediante antibióticos incorporados al medio"
+    ],
+    "tipo": "Diferencial cromogénico",
+    "aparienciaColonias": "C. albicans: colonias verdes. C. tropicalis: azul-grisáceas. C. krusei: rosadas y rugosas. Otras especies: colores variables o blancas"
+  }
+]

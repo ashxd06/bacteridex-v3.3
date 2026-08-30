@@ -1,0 +1,1403 @@
+[
+  {
+    "id": "v001",
+    "numero": 1,
+    "categoria": "virus",
+    "subgrupo": "Orthomyxoviridae",
+    "nombreCientifico": "Virus de la influenza",
+    "familia": "Orthomyxoviridae",
+    "genero": "Alphainfluenzavirus / Betainfluenzavirus",
+    "especie": "Influenza A / B",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": true,
+    "habitat": "Vías respiratorias humanas y aviares/porcinas (reservorio animal para influenza A)",
+    "transmision": "Gotitas respiratorias, superficies contaminadas",
+    "muestraClinica": [
+      "Hisopado nasofaríngeo",
+      "Aspirado nasal"
+    ],
+    "pruebas": [
+      {
+        "nombre": "RT-PCR",
+        "resultado": "Método de referencia"
+      },
+      {
+        "nombre": "Prueba rápida de antígeno",
+        "resultado": "Menor sensibilidad, resultado rápido"
+      }
+    ],
+    "mediosCultivo": [
+      "Cultivo celular (no rutinario en clínica)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Gripe estacional: fiebre, mialgias, tos, congestión; puede complicarse con neumonía.",
+      "organosAfectados": "Vías respiratorias altas y bajas.",
+      "poblacionRiesgo": "Adultos mayores, embarazadas, niños pequeños, personas con comorbilidades.",
+      "porQueImporta": "Causa epidemias estacionales y ocasionalmente pandemias por variabilidad antigénica.",
+      "comoSeDiagnostica": "RT-PCR de hisopado nasofaríngeo; prueba rápida de antígeno como cribado."
+    },
+    "enfermedades": [
+      "Influenza estacional",
+      "Neumonía viral",
+      "Neumonía bacteriana secundaria"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 5,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura del virus de la influenza con hemaglutinina y neuraminidasa",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "v002",
+    "numero": 2,
+    "categoria": "virus",
+    "subgrupo": "Coronaviridae",
+    "nombreCientifico": "SARS-CoV-2",
+    "familia": "Coronaviridae",
+    "genero": "Betacoronavirus",
+    "especie": "SARS-CoV-2",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": true,
+    "habitat": "Vías respiratorias humanas",
+    "transmision": "Gotitas respiratorias, aerosoles, contacto con superficies",
+    "muestraClinica": [
+      "Hisopado nasofaríngeo",
+      "Saliva"
+    ],
+    "pruebas": [
+      {
+        "nombre": "RT-PCR",
+        "resultado": "Método de referencia"
+      },
+      {
+        "nombre": "Prueba de antígeno",
+        "resultado": "Rápida, menor sensibilidad"
+      },
+      {
+        "nombre": "Serología",
+        "resultado": "Detecta infección pasada o respuesta vacunal"
+      }
+    ],
+    "mediosCultivo": [
+      "Cultivo celular en laboratorios especializados (no rutinario)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "COVID-19: desde cuadros leves respiratorios hasta neumonía grave y síndrome de dificultad respiratoria.",
+      "organosAfectados": "Pulmones principalmente; puede afectar otros órganos en casos graves.",
+      "poblacionRiesgo": "Adultos mayores, personas con comorbilidades, inmunodeprimidos.",
+      "porQueImporta": "Causó una pandemia global con alto impacto sanitario y social desde 2019-2020.",
+      "comoSeDiagnostica": "RT-PCR de hisopado nasofaríngeo; pruebas de antígeno para tamizaje rápido."
+    },
+    "enfermedades": [
+      "COVID-19",
+      "Neumonía viral",
+      "Síndrome de dificultad respiratoria aguda"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 4,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura viral con proteína spike",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "v003",
+    "numero": 3,
+    "categoria": "virus",
+    "subgrupo": "Herpesviridae",
+    "nombreCientifico": "Virus del herpes simple (VHS-1 / VHS-2)",
+    "familia": "Herpesviridae",
+    "genero": "Simplexvirus",
+    "especie": "Herpesvirus humano 1 y 2",
+    "genoma": "ADN",
+    "cadena": "doble",
+    "envuelto": true,
+    "habitat": "Ganglios nerviosos humanos (latencia)",
+    "transmision": "Contacto directo con lesiones o secreciones (oral, genital)",
+    "muestraClinica": [
+      "Exudado de lesión vesicular",
+      "Sangre (serología)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "PCR",
+        "resultado": "Alta sensibilidad"
+      },
+      {
+        "nombre": "Cultivo viral",
+        "resultado": "Efecto citopático en línea celular"
+      },
+      {
+        "nombre": "Serología tipo-específica",
+        "resultado": "Distingue VHS-1 de VHS-2"
+      }
+    ],
+    "mediosCultivo": [
+      "Cultivo celular"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Herpes labial (VHS-1), herpes genital (VHS-2), queratitis herpética, encefalitis.",
+      "organosAfectados": "Piel, mucosas oral y genital, córnea, sistema nervioso central (raro).",
+      "poblacionRiesgo": "Adultos sexualmente activos, recién nacidos por transmisión vertical.",
+      "porQueImporta": "Infección de por vida con reactivaciones periódicas; puede causar encefalitis grave.",
+      "comoSeDiagnostica": "PCR de la lesión; serología tipo-específica para diagnóstico retrospectivo."
+    },
+    "enfermedades": [
+      "Herpes labial",
+      "Herpes genital",
+      "Queratitis herpética",
+      "Encefalitis herpética",
+      "Herpes neonatal"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 5,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura del virión herpético",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "v004",
+    "numero": 4,
+    "categoria": "virus",
+    "subgrupo": "Herpesviridae",
+    "nombreCientifico": "Virus varicela-zóster",
+    "familia": "Herpesviridae",
+    "genero": "Varicellovirus",
+    "especie": "Herpesvirus humano 3",
+    "genoma": "ADN",
+    "cadena": "doble",
+    "envuelto": true,
+    "habitat": "Ganglios sensitivos humanos (latencia)",
+    "transmision": "Gotitas respiratorias, contacto directo con lesiones",
+    "muestraClinica": [
+      "Exudado de vesícula",
+      "Sangre (serología)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "PCR",
+        "resultado": "Alta sensibilidad"
+      },
+      {
+        "nombre": "Tzanck",
+        "resultado": "Células gigantes multinucleadas (no específico)"
+      }
+    ],
+    "mediosCultivo": [
+      "Cultivo celular (poco usado en rutina)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Varicela (primoinfección) y herpes zóster (reactivación en adultos).",
+      "organosAfectados": "Piel, ganglios nerviosos.",
+      "poblacionRiesgo": "Niños no vacunados (varicela), adultos mayores e inmunodeprimidos (zóster).",
+      "porQueImporta": "La reactivación como zóster puede causar neuralgia postherpética debilitante.",
+      "comoSeDiagnostica": "Clínico principalmente; PCR de la lesión en casos atípicos."
+    },
+    "enfermedades": [
+      "Varicela",
+      "Herpes zóster",
+      "Neuralgia postherpética"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura del virión de la familia Herpesviridae",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "v005",
+    "numero": 5,
+    "categoria": "virus",
+    "subgrupo": "Herpesviridae",
+    "nombreCientifico": "Virus de Epstein-Barr",
+    "familia": "Herpesviridae",
+    "genero": "Lymphocryptovirus",
+    "especie": "Herpesvirus humano 4",
+    "genoma": "ADN",
+    "cadena": "doble",
+    "envuelto": true,
+    "habitat": "Linfocitos B humanos (latencia)",
+    "transmision": "Saliva (contacto oral estrecho)",
+    "muestraClinica": [
+      "Sangre (serología, hematología)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Prueba de anticuerpos heterófilos (Monospot)",
+        "resultado": "Positiva en mononucleosis"
+      },
+      {
+        "nombre": "Serología específica (VCA IgM/IgG)",
+        "resultado": "Confirma infección aguda o pasada"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en medios de rutina"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Mononucleosis infecciosa; asociado a linfoma de Burkitt y carcinoma nasofaríngeo.",
+      "organosAfectados": "Faringe, sistema linfático, bazo, hígado.",
+      "poblacionRiesgo": "Adolescentes y adultos jóvenes.",
+      "porQueImporta": "Puede causar esplenomegalia con riesgo de ruptura esplénica; asociación oncológica.",
+      "comoSeDiagnostica": "Cuadro clínico con linfocitos atípicos, prueba de anticuerpos heterófilos, serología."
+    },
+    "enfermedades": [
+      "Mononucleosis infecciosa",
+      "Linfoma de Burkitt (asociación)",
+      "Carcinoma nasofaríngeo (asociación)"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "prueba",
+        "descripcion": "Frotis de sangre mostrando linfocitos atípicos",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "v006",
+    "numero": 6,
+    "categoria": "virus",
+    "subgrupo": "Herpesviridae",
+    "nombreCientifico": "Citomegalovirus",
+    "familia": "Herpesviridae",
+    "genero": "Cytomegalovirus",
+    "especie": "Herpesvirus humano 5",
+    "genoma": "ADN",
+    "cadena": "doble",
+    "envuelto": true,
+    "habitat": "Diversos tejidos humanos (latencia en monocitos)",
+    "transmision": "Fluidos corporales, transplacentaria, transfusión, trasplante",
+    "muestraClinica": [
+      "Sangre",
+      "Orina",
+      "Líquido amniótico"
+    ],
+    "pruebas": [
+      {
+        "nombre": "PCR cuantitativa",
+        "resultado": "Mide carga viral"
+      },
+      {
+        "nombre": "Serología IgM/IgG",
+        "resultado": "Determina infección aguda o pasada"
+      }
+    ],
+    "mediosCultivo": [
+      "Cultivo celular (efecto citopático lento)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Infección congénita (sordera, microcefalia), mononucleosis-like en inmunocompetentes, retinitis en inmunodeprimidos.",
+      "organosAfectados": "Sistema nervioso central fetal, retina, pulmones, tracto gastrointestinal.",
+      "poblacionRiesgo": "Fetos (transmisión vertical), receptores de trasplante, pacientes con VIH avanzado.",
+      "porQueImporta": "Principal causa infecciosa de sordera congénita no genética.",
+      "comoSeDiagnostica": "PCR cuantitativa en sangre u orina; serología para estado inmunológico."
+    },
+    "enfermedades": [
+      "CMV congénito",
+      "Retinitis por CMV",
+      "Mononucleosis por CMV",
+      "Colitis por CMV"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura del virión de citomegalovirus",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "v007",
+    "numero": 7,
+    "categoria": "virus",
+    "subgrupo": "Hepadnaviridae",
+    "nombreCientifico": "Virus de la hepatitis B",
+    "familia": "Hepadnaviridae",
+    "genero": "Orthohepadnavirus",
+    "especie": "Hepatitis B virus",
+    "genoma": "ADN",
+    "cadena": "doble (parcialmente circular)",
+    "envuelto": true,
+    "habitat": "Hepatocitos humanos",
+    "transmision": "Sangre, contacto sexual, vertical (madre a hijo)",
+    "muestraClinica": [
+      "Sangre (serología)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "HBsAg",
+        "resultado": "Indica infección activa"
+      },
+      {
+        "nombre": "Anti-HBs",
+        "resultado": "Indica inmunidad (vacunación o resolución)"
+      },
+      {
+        "nombre": "Anti-HBc IgM",
+        "resultado": "Indica infección aguda reciente"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en medios de rutina"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Hepatitis aguda y crónica; puede progresar a cirrosis y carcinoma hepatocelular.",
+      "organosAfectados": "Hígado.",
+      "poblacionRiesgo": "Recién nacidos de madres portadoras, personal de salud, usuarios de drogas inyectables.",
+      "porQueImporta": "Causa importante de enfermedad hepática crónica y cáncer de hígado a nivel mundial; prevenible con vacuna.",
+      "comoSeDiagnostica": "Panel serológico (HBsAg, anti-HBs, anti-HBc) y carga viral por PCR."
+    },
+    "enfermedades": [
+      "Hepatitis aguda",
+      "Hepatitis crónica",
+      "Cirrosis hepática",
+      "Carcinoma hepatocelular"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 3,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura del virión de hepatitis B (partícula de Dane)",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "v008",
+    "numero": 8,
+    "categoria": "virus",
+    "subgrupo": "Flaviviridae",
+    "nombreCientifico": "Virus de la hepatitis C",
+    "familia": "Flaviviridae",
+    "genero": "Hepacivirus",
+    "especie": "Hepatitis C virus",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": true,
+    "habitat": "Hepatocitos humanos",
+    "transmision": "Sangre (transfusión, uso de agujas compartidas), menos frecuente sexual",
+    "muestraClinica": [
+      "Sangre (serología, PCR)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Anti-VHC (ELISA)",
+        "resultado": "Tamizaje de anticuerpos"
+      },
+      {
+        "nombre": "PCR cuantitativa (carga viral)",
+        "resultado": "Confirma infección activa"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en medios de rutina"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Hepatitis crónica silenciosa que puede progresar a cirrosis y cáncer hepático.",
+      "organosAfectados": "Hígado.",
+      "poblacionRiesgo": "Usuarios de drogas inyectables, receptores de transfusiones antes del tamizaje universal.",
+      "porQueImporta": "Principal causa de trasplante hepático relacionado con hepatitis crónica; hoy curable con antivirales de acción directa.",
+      "comoSeDiagnostica": "Tamizaje con anti-VHC seguido de PCR confirmatoria y cuantificación de carga viral."
+    },
+    "enfermedades": [
+      "Hepatitis crónica",
+      "Cirrosis hepática",
+      "Carcinoma hepatocelular"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 3,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura del virión de hepatitis C",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "v009",
+    "numero": 9,
+    "categoria": "virus",
+    "subgrupo": "Retroviridae",
+    "nombreCientifico": "Virus de la inmunodeficiencia humana (VIH)",
+    "familia": "Retroviridae",
+    "genero": "Lentivirus",
+    "especie": "VIH-1 / VIH-2",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": true,
+    "habitat": "Linfocitos T CD4+ humanos",
+    "transmision": "Contacto sexual, sangre, vertical (madre a hijo)",
+    "muestraClinica": [
+      "Sangre (serología, PCR)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "ELISA de 4ta generación",
+        "resultado": "Tamizaje (antígeno p24 + anticuerpos)"
+      },
+      {
+        "nombre": "Western blot / inmunoensayo confirmatorio",
+        "resultado": "Confirma diagnóstico"
+      },
+      {
+        "nombre": "Carga viral (PCR)",
+        "resultado": "Monitorea la infección y tratamiento"
+      },
+      {
+        "nombre": "Conteo de CD4",
+        "resultado": "Evalúa estado inmunológico"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en medios de rutina"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Síndrome de inmunodeficiencia adquirida (SIDA) por destrucción progresiva de linfocitos CD4+.",
+      "organosAfectados": "Sistema inmunológico en su totalidad.",
+      "poblacionRiesgo": "Cualquier persona sexualmente activa; mayor riesgo con prácticas sexuales sin protección o uso de drogas inyectables.",
+      "porQueImporta": "Sin tratamiento progresa a inmunosupresión grave e infecciones oportunistas; con terapia antirretroviral es una enfermedad crónica controlable.",
+      "comoSeDiagnostica": "Tamizaje serológico, prueba confirmatoria y cuantificación de carga viral."
+    },
+    "enfermedades": [
+      "Infección aguda por VIH",
+      "SIDA",
+      "Infecciones oportunistas asociadas"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 3,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura del virión del VIH",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "v010",
+    "numero": 10,
+    "categoria": "virus",
+    "subgrupo": "Reoviridae",
+    "nombreCientifico": "Rotavirus",
+    "familia": "Reoviridae",
+    "genero": "Rotavirus",
+    "especie": "Rotavirus A (principal)",
+    "genoma": "ARN",
+    "cadena": "doble",
+    "envuelto": false,
+    "habitat": "Tracto intestinal humano",
+    "transmision": "Fecal-oral",
+    "muestraClinica": [
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Detección de antígeno en heces (ELISA)",
+        "resultado": "Prueba rápida habitual"
+      },
+      {
+        "nombre": "PCR",
+        "resultado": "Mayor sensibilidad"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en rutina clínica"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Gastroenteritis aguda con diarrea acuosa, vómitos y deshidratación.",
+      "organosAfectados": "Intestino delgado.",
+      "poblacionRiesgo": "Lactantes y niños menores de 5 años.",
+      "porQueImporta": "Principal causa de diarrea grave en niños pequeños a nivel mundial; prevenible con vacuna.",
+      "comoSeDiagnostica": "Detección de antígeno viral en heces."
+    },
+    "enfermedades": [
+      "Gastroenteritis aguda infantil",
+      "Deshidratación"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 5,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Partículas virales en forma de rueda por microscopía electrónica",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "v011",
+    "numero": 11,
+    "categoria": "virus",
+    "subgrupo": "Caliciviridae",
+    "nombreCientifico": "Norovirus",
+    "familia": "Caliciviridae",
+    "genero": "Norovirus",
+    "especie": "Norovirus humano",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": false,
+    "habitat": "Tracto intestinal humano",
+    "transmision": "Fecal-oral, alimentos y agua contaminados, contacto directo",
+    "muestraClinica": [
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "RT-PCR",
+        "resultado": "Método de referencia"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en rutina clínica"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Gastroenteritis aguda con vómitos y diarrea de inicio brusco, brotes en espacios cerrados.",
+      "organosAfectados": "Intestino delgado.",
+      "poblacionRiesgo": "Todas las edades; brotes frecuentes en cruceros, escuelas y residencias.",
+      "porQueImporta": "Causa más frecuente de brotes de gastroenteritis no bacteriana a nivel mundial.",
+      "comoSeDiagnostica": "RT-PCR de muestra de heces durante el brote."
+    },
+    "enfermedades": [
+      "Gastroenteritis aguda",
+      "Brotes epidémicos de diarrea/vómito"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Partículas virales por microscopía electrónica",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "v012",
+    "numero": 12,
+    "categoria": "virus",
+    "subgrupo": "Papillomaviridae",
+    "nombreCientifico": "Virus del papiloma humano (VPH)",
+    "familia": "Papillomaviridae",
+    "genero": "Alphapapillomavirus",
+    "especie": "Múltiples genotipos (6, 11, 16, 18, entre otros)",
+    "genoma": "ADN",
+    "cadena": "doble",
+    "envuelto": false,
+    "habitat": "Epitelio cutáneo y mucoso humano",
+    "transmision": "Contacto sexual, contacto piel a piel",
+    "muestraClinica": [
+      "Muestra cervical (citología/PCR)",
+      "Biopsia de lesión"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Prueba de VPH (PCR/captura de híbridos)",
+        "resultado": "Detecta genotipos de alto riesgo"
+      },
+      {
+        "nombre": "Citología (Papanicolaou)",
+        "resultado": "Detecta cambios celulares asociados"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en medios de rutina"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Verrugas genitales (genotipos de bajo riesgo) y cáncer cervicouterino (genotipos de alto riesgo, especialmente 16 y 18).",
+      "organosAfectados": "Cérvix, vulva, ano, orofaringe, piel.",
+      "poblacionRiesgo": "Adultos sexualmente activos, especialmente mujeres jóvenes.",
+      "porQueImporta": "Es la causa necesaria del cáncer cervicouterino; prevenible con vacunación y tamizaje.",
+      "comoSeDiagnostica": "Citología cervical de tamizaje y prueba molecular de VPH de alto riesgo."
+    },
+    "enfermedades": [
+      "Verrugas genitales",
+      "Cáncer cervicouterino",
+      "Cáncer anal",
+      "Cáncer orofaríngeo"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 4,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura icosaédrica del virión de VPH",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "v013",
+    "numero": 13,
+    "categoria": "virus",
+    "subgrupo": "Adenoviridae",
+    "nombreCientifico": "Adenovirus",
+    "familia": "Adenoviridae",
+    "genero": "Mastadenovirus",
+    "especie": "Adenovirus humano (múltiples serotipos)",
+    "genoma": "ADN",
+    "cadena": "doble",
+    "envuelto": false,
+    "habitat": "Vías respiratorias, conjuntiva, tracto gastrointestinal humano",
+    "transmision": "Gotitas respiratorias, contacto directo, fecal-oral (algunos serotipos)",
+    "muestraClinica": [
+      "Hisopado nasofaríngeo",
+      "Exudado conjuntival",
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "PCR",
+        "resultado": "Alta sensibilidad"
+      },
+      {
+        "nombre": "Detección de antígeno",
+        "resultado": "Prueba rápida"
+      }
+    ],
+    "mediosCultivo": [
+      "Cultivo celular"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Faringoconjuntivitis, neumonía, conjuntivitis epidémica, gastroenteritis (serotipos entéricos).",
+      "organosAfectados": "Vías respiratorias, ojos, intestino.",
+      "poblacionRiesgo": "Niños en guarderías, brotes en piscinas y espacios cerrados.",
+      "porQueImporta": "Causa frecuente de infecciones respiratorias y conjuntivitis en brotes comunitarios.",
+      "comoSeDiagnostica": "PCR o detección de antígeno según el sitio de infección."
+    },
+    "enfermedades": [
+      "Faringoconjuntivitis",
+      "Neumonía",
+      "Conjuntivitis epidémica",
+      "Gastroenteritis"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura icosaédrica sin envoltura del adenovirus",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "v014",
+    "numero": 14,
+    "categoria": "virus",
+    "subgrupo": "Flaviviridae",
+    "nombreCientifico": "Virus del dengue",
+    "familia": "Flaviviridae",
+    "genero": "Flavivirus",
+    "especie": "Dengue virus (serotipos 1-4)",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": true,
+    "habitat": "Ser humano y mosquito Aedes aegypti (vector)",
+    "transmision": "Picadura de mosquito Aedes aegypti/albopictus",
+    "muestraClinica": [
+      "Sangre (serología, PCR, antígeno NS1)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Antígeno NS1",
+        "resultado": "Positivo en fase aguda temprana"
+      },
+      {
+        "nombre": "RT-PCR",
+        "resultado": "Confirma infección activa"
+      },
+      {
+        "nombre": "Serología IgM/IgG",
+        "resultado": "Útil después de los primeros días"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en rutina clínica"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Dengue clásico (fiebre, cefalea, mialgias) y formas graves (dengue hemorrágico, síndrome de choque).",
+      "organosAfectados": "Sistema vascular, plaquetas, hígado en formas graves.",
+      "poblacionRiesgo": "Población en zonas tropicales/subtropicales con presencia del vector; reinfección con serotipo distinto aumenta riesgo de forma grave.",
+      "porQueImporta": "Es la arbovirosis más frecuente a nivel mundial, con brotes recurrentes en Latinoamérica.",
+      "comoSeDiagnostica": "Antígeno NS1 en fase temprana, RT-PCR, serología según el momento de la enfermedad."
+    },
+    "enfermedades": [
+      "Dengue clásico",
+      "Dengue grave (hemorrágico)",
+      "Síndrome de choque por dengue"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 4,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura del virión del dengue",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "v015",
+    "numero": 15,
+    "categoria": "virus",
+    "subgrupo": "Pneumoviridae",
+    "nombreCientifico": "Virus respiratorio sincitial (VRS)",
+    "familia": "Pneumoviridae",
+    "genero": "Orthopneumovirus",
+    "especie": "Human orthopneumovirus",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": true,
+    "habitat": "Vías respiratorias humanas",
+    "transmision": "Gotitas respiratorias, contacto con superficies contaminadas",
+    "muestraClinica": [
+      "Hisopado o aspirado nasofaríngeo"
+    ],
+    "pruebas": [
+      {
+        "nombre": "RT-PCR",
+        "resultado": "Método de referencia"
+      },
+      {
+        "nombre": "Prueba rápida de antígeno",
+        "resultado": "Uso frecuente en pediatría"
+      }
+    ],
+    "mediosCultivo": [
+      "Cultivo celular (no rutinario)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Bronquiolitis y neumonía, especialmente grave en lactantes; resfriado común en adultos.",
+      "organosAfectados": "Vías respiratorias bajas, especialmente bronquiolos.",
+      "poblacionRiesgo": "Lactantes menores de 1 año, prematuros, adultos mayores.",
+      "porQueImporta": "Es la causa más frecuente de bronquiolitis y hospitalización respiratoria en lactantes.",
+      "comoSeDiagnostica": "RT-PCR o prueba rápida de antígeno en hisopado nasofaríngeo."
+    },
+    "enfermedades": [
+      "Bronquiolitis",
+      "Neumonía",
+      "Resfriado común"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 5,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura del virión envuelto de VRS",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "v016",
+    "numero": 16,
+    "categoria": "virus",
+    "subgrupo": "Paramyxoviridae",
+    "nombreCientifico": "Virus de parainfluenza humana",
+    "familia": "Paramyxoviridae",
+    "genero": "Respirovirus / Rubulavirus",
+    "especie": "Parainfluenza 1-4",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": true,
+    "habitat": "Vías respiratorias humanas",
+    "transmision": "Gotitas respiratorias, contacto directo",
+    "muestraClinica": [
+      "Hisopado nasofaríngeo"
+    ],
+    "pruebas": [
+      {
+        "nombre": "RT-PCR",
+        "resultado": "Método de referencia"
+      }
+    ],
+    "mediosCultivo": [
+      "Cultivo celular (no rutinario)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Crup (laringotraqueobronquitis), bronquiolitis y neumonía en niños pequeños.",
+      "organosAfectados": "Laringe, tráquea, bronquios.",
+      "poblacionRiesgo": "Niños pequeños, especialmente entre 6 meses y 3 años.",
+      "porQueImporta": "Es la causa más frecuente de crup en la infancia.",
+      "comoSeDiagnostica": "RT-PCR de hisopado nasofaríngeo; el diagnóstico de crup suele ser clínico."
+    },
+    "enfermedades": [
+      "Crup",
+      "Bronquiolitis",
+      "Neumonía"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura del virión envuelto de parainfluenza",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "v017",
+    "numero": 17,
+    "categoria": "virus",
+    "subgrupo": "Picornaviridae",
+    "nombreCientifico": "Rinovirus humano",
+    "familia": "Picornaviridae",
+    "genero": "Enterovirus",
+    "especie": "Rhinovirus A/B/C",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": false,
+    "habitat": "Vías respiratorias altas humanas",
+    "transmision": "Gotitas respiratorias, contacto con superficies contaminadas",
+    "muestraClinica": [
+      "Hisopado nasofaríngeo"
+    ],
+    "pruebas": [
+      {
+        "nombre": "RT-PCR (paneles respiratorios múltiples)",
+        "resultado": "Detecta el virus con alta sensibilidad"
+      }
+    ],
+    "mediosCultivo": [
+      "Cultivo celular (poco usado en rutina)"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Resfriado común; puede desencadenar exacerbaciones de asma y EPOC.",
+      "organosAfectados": "Mucosa nasal y faríngea.",
+      "poblacionRiesgo": "Toda la población, especialmente niños; los asmáticos tienen mayor riesgo de exacerbación.",
+      "porQueImporta": "Es la causa más frecuente del resfriado común a nivel mundial.",
+      "comoSeDiagnostica": "El diagnóstico suele ser clínico; PCR disponible en paneles respiratorios multiplex."
+    },
+    "enfermedades": [
+      "Resfriado común",
+      "Exacerbación de asma",
+      "Exacerbación de EPOC"
+    ],
+    "nivelImportancia": 2,
+    "nivelFrecuencia": 5,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura icosaédrica sin envoltura del rinovirus",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "v018",
+    "numero": 18,
+    "categoria": "virus",
+    "subgrupo": "Picornaviridae",
+    "nombreCientifico": "Virus de la hepatitis A",
+    "familia": "Picornaviridae",
+    "genero": "Hepatovirus",
+    "especie": "Hepatitis A virus",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": false,
+    "habitat": "Hepatocitos humanos",
+    "transmision": "Fecal-oral, agua y alimentos contaminados",
+    "muestraClinica": [
+      "Sangre (serología)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "IgM anti-VHA",
+        "resultado": "Indica infección aguda"
+      },
+      {
+        "nombre": "IgG anti-VHA",
+        "resultado": "Indica infección pasada o inmunidad vacunal"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en medios de rutina"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Hepatitis aguda autolimitada, generalmente sin cronicidad.",
+      "organosAfectados": "Hígado.",
+      "poblacionRiesgo": "Viajeros a zonas endémicas, personas con saneamiento deficiente, contactos de casos agudos.",
+      "porQueImporta": "A diferencia de la hepatitis B y C, no cronifica, pero puede causar hepatitis fulminante en raras ocasiones.",
+      "comoSeDiagnostica": "Serología IgM anti-VHA para infección aguda."
+    },
+    "enfermedades": [
+      "Hepatitis A aguda"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura icosaédrica sin envoltura del VHA",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "v019",
+    "numero": 19,
+    "categoria": "virus",
+    "subgrupo": "Hepeviridae",
+    "nombreCientifico": "Virus de la hepatitis E",
+    "familia": "Hepeviridae",
+    "genero": "Orthohepevirus",
+    "especie": "Hepatitis E virus",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": false,
+    "habitat": "Hepatocitos humanos; reservorio porcino en algunos genotipos",
+    "transmision": "Fecal-oral, agua contaminada, consumo de carne de cerdo poco cocida (genotipos zoonóticos)",
+    "muestraClinica": [
+      "Sangre (serología, PCR)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "IgM anti-VHE",
+        "resultado": "Indica infección aguda"
+      },
+      {
+        "nombre": "RT-PCR",
+        "resultado": "Confirma infección activa"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en medios de rutina"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Hepatitis aguda, generalmente autolimitada; puede ser grave en embarazadas.",
+      "organosAfectados": "Hígado.",
+      "poblacionRiesgo": "Personas en zonas endémicas con agua contaminada; embarazadas tienen mayor riesgo de forma grave.",
+      "porQueImporta": "En embarazadas puede causar hepatitis fulminante con alta mortalidad materna.",
+      "comoSeDiagnostica": "Serología IgM anti-VHE; PCR para confirmación en casos dudosos."
+    },
+    "enfermedades": [
+      "Hepatitis E aguda",
+      "Hepatitis fulminante en embarazo"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura icosaédrica sin envoltura del VHE",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS"
+    ]
+  },
+  {
+    "id": "v020",
+    "numero": 20,
+    "categoria": "virus",
+    "subgrupo": "Rhabdoviridae",
+    "nombreCientifico": "Virus de la rabia",
+    "familia": "Rhabdoviridae",
+    "genero": "Lyssavirus",
+    "especie": "Rabies lyssavirus",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": true,
+    "habitat": "Sistema nervioso de mamíferos infectados (perros, murciélagos, otros)",
+    "transmision": "Mordedura o arañazo de animal infectado, contacto de saliva con mucosas o heridas",
+    "muestraClinica": [
+      "Biopsia de piel de nuca (antemortem)",
+      "Tejido cerebral (postmortem)",
+      "Saliva (PCR)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Inmunofluorescencia directa",
+        "resultado": "Método de referencia en tejido"
+      },
+      {
+        "nombre": "RT-PCR",
+        "resultado": "Útil en saliva y biopsia de piel"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en medios de rutina clínica"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Encefalitis aguda progresiva, casi siempre mortal una vez que aparecen síntomas.",
+      "organosAfectados": "Sistema nervioso central.",
+      "poblacionRiesgo": "Personas mordidas por animales sospechosos, especialmente en zonas con rabia canina no controlada.",
+      "porQueImporta": "Es casi universalmente mortal una vez sintomática, pero completamente prevenible con profilaxis postexposición oportuna.",
+      "comoSeDiagnostica": "El diagnóstico suele confirmarse postmortem; la decisión de profilaxis se basa en criterios clínico-epidemiológicos."
+    },
+    "enfermedades": [
+      "Rabia (encefalitis rábica)"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 1,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura en forma de bala del virión de rabia",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "v021",
+    "numero": 21,
+    "categoria": "virus",
+    "subgrupo": "Parvoviridae",
+    "nombreCientifico": "Parvovirus B19",
+    "familia": "Parvoviridae",
+    "genero": "Erythroparvovirus",
+    "especie": "Primate erythroparvovirus 1",
+    "genoma": "ADN",
+    "cadena": "simple",
+    "envuelto": false,
+    "habitat": "Precursores eritroides de la médula ósea humana",
+    "transmision": "Gotitas respiratorias, vertical (transplacentaria), transfusión sanguínea",
+    "muestraClinica": [
+      "Sangre (serología, PCR)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "IgM/IgG específicas",
+        "resultado": "Determina infección aguda o pasada"
+      },
+      {
+        "nombre": "PCR",
+        "resultado": "Útil en pacientes inmunodeprimidos o diagnóstico prenatal"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en medios de rutina"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Eritema infeccioso (quinta enfermedad) en niños; crisis aplásica transitoria en anemias hemolíticas crónicas; hidropesía fetal si infecta durante el embarazo.",
+      "organosAfectados": "Precursores eritroides, piel (exantema), feto en infección congénita.",
+      "poblacionRiesgo": "Niños en edad escolar, embarazadas, pacientes con anemias hemolíticas crónicas (ej. drepanocitosis).",
+      "porQueImporta": "Puede causar anemia grave en pacientes con hemólisis crónica e hidropesía fetal no inmune si infecta durante el embarazo.",
+      "comoSeDiagnostica": "Serología IgM/IgG; PCR en casos de inmunosupresión o sospecha de infección fetal."
+    },
+    "enfermedades": [
+      "Eritema infeccioso (quinta enfermedad)",
+      "Crisis aplásica transitoria",
+      "Hidropesía fetal no inmune"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura icosaédrica sin envoltura del parvovirus B19",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "v022",
+    "numero": 22,
+    "categoria": "virus",
+    "subgrupo": "Flaviviridae",
+    "nombreCientifico": "Virus del Zika",
+    "familia": "Flaviviridae",
+    "genero": "Flavivirus",
+    "especie": "Zika virus",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": true,
+    "habitat": "Ser humano y mosquito Aedes (vector)",
+    "transmision": "Picadura de mosquito Aedes, transmisión sexual, vertical (transplacentaria)",
+    "muestraClinica": [
+      "Sangre y orina (RT-PCR en fase aguda)",
+      "Serología"
+    ],
+    "pruebas": [
+      {
+        "nombre": "RT-PCR",
+        "resultado": "Confirma infección activa en fase temprana"
+      },
+      {
+        "nombre": "Serología IgM/IgG",
+        "resultado": "Puede tener reacción cruzada con otros flavivirus (dengue)"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en rutina clínica"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Cuadro febril leve en la mayoría de los casos; microcefalia y otras malformaciones congénitas si infecta durante el embarazo; asociado a síndrome de Guillain-Barré.",
+      "organosAfectados": "Sistema nervioso fetal en infección congénita; sistema nervioso periférico (Guillain-Barré).",
+      "poblacionRiesgo": "Embarazadas en zonas con transmisión activa (riesgo fetal), población general en áreas endémicas.",
+      "porQueImporta": "Es la única arbovirosis conocida que causa malformaciones congénitas graves (síndrome congénito por Zika).",
+      "comoSeDiagnostica": "RT-PCR en fase aguda; la serología puede presentar reacción cruzada con otros flavivirus como el dengue."
+    },
+    "enfermedades": [
+      "Fiebre por Zika",
+      "Síndrome congénito por Zika (microcefalia)",
+      "Síndrome de Guillain-Barré (asociación)"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura del virión de Zika",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "v023",
+    "numero": 23,
+    "categoria": "virus",
+    "subgrupo": "Togaviridae",
+    "nombreCientifico": "Virus del Chikungunya",
+    "familia": "Togaviridae",
+    "genero": "Alphavirus",
+    "especie": "Chikungunya virus",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": true,
+    "habitat": "Ser humano y mosquito Aedes (vector)",
+    "transmision": "Picadura de mosquito Aedes aegypti/albopictus",
+    "muestraClinica": [
+      "Sangre (RT-PCR en fase aguda, serología)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "RT-PCR",
+        "resultado": "Confirma infección en fase temprana (primeros 5-7 días)"
+      },
+      {
+        "nombre": "Serología IgM/IgG",
+        "resultado": "Útil después de la primera semana"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en rutina clínica"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Fiebre alta de inicio súbito con poliartralgia intensa que puede volverse crónica.",
+      "organosAfectados": "Articulaciones, piel.",
+      "poblacionRiesgo": "Población en zonas tropicales/subtropicales con presencia del vector.",
+      "porQueImporta": "El dolor articular puede persistir meses o años tras la infección aguda, afectando significativamente la calidad de vida.",
+      "comoSeDiagnostica": "RT-PCR en fase aguda; serología en fase tardía. El diagnóstico diferencial con dengue es clínicamente relevante."
+    },
+    "enfermedades": [
+      "Fiebre chikungunya",
+      "Artralgia/artritis crónica post-chikungunya"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura del virión de chikungunya",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "v024",
+    "numero": 24,
+    "categoria": "virus",
+    "subgrupo": "Flaviviridae",
+    "nombreCientifico": "Virus de la fiebre amarilla",
+    "familia": "Flaviviridae",
+    "genero": "Flavivirus",
+    "especie": "Yellow fever virus",
+    "genoma": "ARN",
+    "cadena": "simple",
+    "envuelto": true,
+    "habitat": "Primates (humanos y no humanos) y mosquitos Aedes/Haemagogus (vectores)",
+    "transmision": "Picadura de mosquito infectado (ciclo selvático y urbano)",
+    "muestraClinica": [
+      "Sangre (RT-PCR en fase temprana, serología)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "RT-PCR",
+        "resultado": "Confirma infección en fase virémica temprana"
+      },
+      {
+        "nombre": "Serología IgM/IgG",
+        "resultado": "Útil después de los primeros días"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en rutina clínica"
+    ],
+    "importanciaMedica": {
+      "queCausa": "Desde cuadro febril leve hasta fiebre hemorrágica grave con ictericia (de ahí su nombre) e insuficiencia hepática y renal.",
+      "organosAfectados": "Hígado, riñones, sistema vascular.",
+      "poblacionRiesgo": "Personas no vacunadas en zonas endémicas de África y Sudamérica.",
+      "porQueImporta": "La forma grave tiene alta mortalidad; existe una vacuna eficaz y de larga duración.",
+      "comoSeDiagnostica": "RT-PCR en fase temprana; serología en fase posterior. Debe diferenciarse de otras causas de fiebre hemorrágica."
+    },
+    "enfermedades": [
+      "Fiebre amarilla (forma leve y forma grave/hemorrágica)"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 1,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Estructura del virión de fiebre amarilla",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  }
+]
