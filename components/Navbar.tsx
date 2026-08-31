@@ -133,6 +133,13 @@ export default function Navbar() {
 
         <div className="flex items-center gap-2">
           <Link
+            href="/ai"
+            className="focus-ring chip hidden sm:flex hover:border-bio hover:text-bio"
+            aria-label="BacteriDex AI"
+          >
+            🧠 AI
+          </Link>
+          <Link
             href="/buscar"
             className="focus-ring chip hover:border-cian hover:text-cian"
             aria-label="Buscar"
@@ -233,6 +240,14 @@ export default function Navbar() {
               className={`flex items-center gap-3 rounded-lg p-3 text-sm font-medium ${pathname === "/" ? "bg-bio/10 text-bio" : "text-mist-200"}`}
             >
               <Home className="h-5 w-5" /> Inicio
+            </Link>
+
+            <Link
+              href="/ai"
+              onClick={() => setMenuMovilAbierto(false)}
+              className={`flex items-center gap-3 rounded-lg p-3 text-sm font-medium ${pathname === "/ai" ? "bg-bio/10 text-bio" : "text-mist-200"}`}
+            >
+              <span className="text-xl leading-none">🧠</span> BacteriDex AI
             </Link>
 
             {categorias.map(cat => (
