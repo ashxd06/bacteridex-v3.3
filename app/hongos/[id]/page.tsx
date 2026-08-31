@@ -1,13 +1,11 @@
-import { notFound } from "next/navigation";
-import { hongos } from "@/lib/data";
+﻿import { notFound } from "next/navigation";
+import { getOrganismoDinamico } from "@/lib/supabase/cms";
 import OrganismDetail from "@/components/OrganismDetail";
 
-export function generateStaticParams() {
-  return hongos.map((h) => ({ id: h.id }));
-}
+export const dynamic = 'force-dynamic';
 
-export default function Page({ params }: { params: { id: string } }) {
-  const organismo = hongos.find((h) => h.id === params.id);
+export default async function Page({ params }: { params: { id: string } }) {
+  const organismo = await getOrganismoDinamico("hongos", params.id);
   if (!organismo) return notFound();
   return <OrganismDetail organismo={organismo} />;
 }

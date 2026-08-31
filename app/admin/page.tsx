@@ -9,7 +9,7 @@ const SECCIONES: { icon: LucideIcon; titulo: string; descripcion: string; href?:
   {
     icon: Bug,
     titulo: "Microorganismos",
-    descripcion: "Crear, editar y archivar bacterias, virus, hongos y parásitos. (Próximamente)"
+    descripcion: "Gestionar microorganismos en tiempo real mediante CMS.", href: "/admin/microorganismos"
   },
   {
     icon: FileText,

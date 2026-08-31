@@ -1,15 +1,13 @@
-import { notFound } from "next/navigation";
+﻿import { notFound } from "next/navigation";
 import Link from "next/link";
-import { medios } from "@/lib/data";
+import { getMedioDinamico } from "@/lib/supabase/cms";
 import { imagenesMedios, getImagen } from "@/lib/images";
 import ImagePlaceholder from "@/components/ImagePlaceholder";
 
-export function generateStaticParams() {
-  return medios.map((m) => ({ id: m.id }));
-}
+export const dynamic = 'force-dynamic';
 
-export default function Page({ params }: { params: { id: string } }) {
-  const medio = medios.find((m) => m.id === params.id);
+export default async function Page({ params }: { params: { id: string } }) {
+  const medio = await getMedioDinamico(params.id);
   if (!medio) return notFound();
 
   const imagen = getImagen(imagenesMedios, medio.id);
@@ -17,7 +15,7 @@ export default function Page({ params }: { params: { id: string } }) {
   return (
     <div className="flex flex-col gap-6">
       <Link href="/medios" className="section-eyebrow hover:text-bio-glow">
-        ← Medios de cultivo
+        « Medios de cultivo
       </Link>
       <h1 className="font-display text-2xl font-bold">{medio.nombre}</h1>
 
