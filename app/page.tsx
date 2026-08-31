@@ -35,8 +35,10 @@ export default function Home() {
         <div className="pointer-events-none absolute -right-16 -top-16 h-64 w-64 rounded-full bg-bio/10 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-20 left-10 h-64 w-64 rounded-full bg-gene/10 blur-3xl" />
         <p className="section-eyebrow">Laboratorio Clínico · Fase 1</p>
-        <h1 className="mt-2 max-w-2xl font-display text-3xl font-bold leading-tight sm:text-4xl">
-          Bacteri<span className="text-bio">Dex</span>
+        <h1 className="mt-4 mb-4 flex items-center">
+          <img src="/brand/bacteridex-logo.png" alt="BacteriDex" className="h-14 sm:h-16 w-auto object-contain dark:hidden" />
+          <img src="/brand/bacteridex-logo-dark.png" alt="BacteriDex" className="h-14 sm:h-16 w-auto object-contain hidden dark:block" />
+          <span className="sr-only">BacteriDex</span>
         </h1>
         <p className="mt-3 max-w-xl text-mist-300">
           Tu laboratorio clínico, convertido en una experiencia interactiva. Estudia, compara e

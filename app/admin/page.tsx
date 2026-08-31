@@ -33,6 +33,12 @@ const SECCIONES: { icon: LucideIcon; titulo: string; descripcion: string; href?:
     descripcion: "Gestionar contenido público de BacteriDex Study. (Próximamente)"
   },
   {
+    icon: ClipboardList,
+    titulo: "Laboratorio Clínico",
+    descripcion: "Configura la firma, sello y profesional responsable para los informes PDF.",
+    href: "/admin/laboratorio"
+  },
+  {
     icon: Users,
     titulo: "Usuarios",
     descripcion: "Ver la lista de cuentas registradas y su rol.",
