@@ -9,13 +9,19 @@ const SECCIONES: { icon: LucideIcon; titulo: string; descripcion: string; href?:
   {
     icon: Bug,
     titulo: "Microorganismos",
-    descripcion: "Gestionar microorganismos en tiempo real mediante CMS.", href: "/admin/microorganismos"
+    descripcion: "Crear, editar y archivar bacterias, virus, hongos y parásitos. (Próximamente)"
   },
   {
     icon: FileText,
     titulo: "Análisis clínicos",
     descripcion: "Consulta la biblioteca de análisis. La edición desde el panel llega en una fase futura.",
     href: "/analisis"
+  },
+  {
+    icon: FileText,
+    titulo: "Insertos",
+    descripcion: "Subir, archivar y eliminar insertos de fabricante (PDF).",
+    href: "/admin/insertos"
   },
   {
     icon: ClipboardList,
@@ -31,12 +37,6 @@ const SECCIONES: { icon: LucideIcon; titulo: string; descripcion: string; href?:
     icon: Brain,
     titulo: "Study",
     descripcion: "Gestionar contenido público de BacteriDex Study. (Próximamente)"
-  },
-  {
-    icon: ClipboardList,
-    titulo: "Laboratorio Clínico",
-    descripcion: "Configura la firma, sello y profesional responsable para los informes PDF.",
-    href: "/admin/laboratorio"
   },
   {
     icon: Users,

@@ -1,13 +1,13 @@
-﻿import { notFound } from "next/navigation";
-import { getOrganismoDinamico } from "@/lib/supabase/cms";
+import { notFound } from "next/navigation";
+import { bacterias } from "@/lib/data";
 import OrganismDetail from "@/components/OrganismDetail";
 
-export const dynamic = 'force-dynamic';
+export function generateStaticParams() {
+  return bacterias.map((b) => ({ id: b.id }));
+}
 
-export default async function Page({ params }: { params: { id: string } }) {
-  const organismo = await getOrganismoDinamico("bacterias", params.id);
+export default function Page({ params }: { params: { id: string } }) {
+  const organismo = bacterias.find((b) => b.id === params.id);
   if (!organismo) return notFound();
   return <OrganismDetail organismo={organismo} />;
 }
-
-

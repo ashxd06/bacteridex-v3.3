@@ -342,3 +342,59 @@ create trigger trg_prevent_role_self_escalation
 --
 -- Esto funciona porque el SQL Editor corre con privilegios de administrador
 -- de la base de datos, no como un usuario autenticado normal de la app.
+
+-- ============================================================
+-- BacteriDex — Biblioteca de Insertos (documentos de fabricante)
+-- ============================================================
+-- No reemplaza ni elimina nada de lo anterior. Ejecuta este bloque también
+-- en el SQL Editor de Supabase.
+--
+-- A diferencia de los documentos de Study (privados, uno por usuario), los
+-- insertos son material de referencia PÚBLICO: cualquier visitante de
+-- BacteriDex puede consultarlos sin iniciar sesión, igual que el resto de
+-- la enciclopedia. Solo un administrador puede subir, archivar o eliminar
+-- un inserto, y esa operación se hace exclusivamente desde el backend
+-- (app/api/admin/insertos) usando la service_role key — nunca directo desde
+-- el navegador.
+
+-- 13) Tabla de insertos ---------------------------------------------------
+create table if not exists public.insertos (
+  id uuid primary key default gen_random_uuid(),
+  nombre text not null,
+  fabricante text not null,
+  version text,
+  fecha date,
+  analisis_id text,
+  storage_path text not null,
+  file_size bigint not null default 0,
+  estado text not null default 'vigente' check (estado in ('vigente', 'archivado')),
+  created_by uuid references auth.users(id),
+  created_at timestamptz not null default now()
+);
+
+alter table public.insertos enable row level security;
+
+-- Lectura pública: cualquier visitante (con o sin sesión) puede ver la
+-- biblioteca de insertos, igual que el resto de la enciclopedia.
+create policy "Los insertos son visibles para todos"
+  on public.insertos for select
+  using (true);
+
+-- Deliberadamente NO se crean políticas de insert/update/delete para roles
+-- 'anon'/'authenticated': con RLS activado y sin esas políticas, ningún
+-- cliente del navegador puede escribir en esta tabla, sin importar su rol.
+-- Solo la service_role key (usada exclusivamente en app/api/admin/insertos)
+-- puede insertar, actualizar o eliminar filas, y esa ruta ya verifica por su
+-- cuenta que quien la llama tenga role = 'admin' en su perfil.
+
+-- 14) Bucket de Storage para los PDFs de insertos -------------------------
+-- Crea el bucket manualmente en Supabase → Storage → New bucket → nombre
+-- "insertos-pdfs" → PÚBLICO (a diferencia de "study-pdfs", que es privado).
+-- Luego ejecuta esta política para que cualquiera pueda leer los archivos:
+
+create policy "Los PDFs de insertos son de lectura pública"
+  on storage.objects for select
+  using (bucket_id = 'insertos-pdfs');
+
+-- No se agregan políticas de insert/update/delete para storage.objects en
+-- este bucket: solo la service_role key (backend) puede escribir ahí.

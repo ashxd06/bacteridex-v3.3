@@ -530,3 +530,69 @@ rangos estándar de bioquímica clínica ampliamente documentados en la literatu
   arquitectura ya lo soporta, solo falta agregar contenido.
 - Conectar cada análisis con su Inserto (PDF) y con una Calculadora real cuando esas piezas
   existan — el campo `procedimientosRelacionados` ya está listo para ese tipo de vínculos.
+
+---
+
+## 15. 📄 Insertos — nuevo
+
+Biblioteca de documentos de fabricante (PDFs), pública (no requiere sesión para consultarse),
+gestionada exclusivamente por administradores desde el panel.
+
+### 15.1 Qué se agregó
+
+**Supabase (bloque nuevo en `supabase/schema.sql`):**
+- Tabla `insertos`: nombre, fabricante, versión, fecha, análisis asociado (`analisis_id`, texto
+  libre que referencia el `id` de `data/analisis.json`), ruta de almacenamiento, tamaño, estado
+  (`vigente`/`archivado`) y quién lo subió.
+- RLS: lectura pública total (`using (true)`) — cualquier visitante puede ver la biblioteca sin
+  iniciar sesión. **Deliberadamente no existen políticas de escritura** para usuarios normales: sin
+  ellas, con RLS activado, nadie puede insertar/actualizar/eliminar desde el navegador aunque lo
+  intente manualmente. Solo la `service_role key` (usada exclusivamente dentro de
+  `app/api/admin/insertos`) puede escribir, y esa ruta ya verifica por su cuenta que quien llama
+  tenga `role = 'admin'`.
+- Bucket de Storage nuevo **`insertos-pdfs`**, a diferencia de `study-pdfs`: este debe crearse como
+  **público** (Supabase → Storage → New bucket → público), porque los insertos son material de
+  consulta abierta, no documentos privados de un usuario.
+
+**Archivos nuevos:**
+- `app/api/admin/insertos/route.ts` (crear) y `app/api/admin/insertos/[id]/route.ts`
+  (archivar/reactivar/eliminar) — ambas protegidas con la misma verificación de rol que
+  `/api/admin/usuarios`.
+- `lib/insertos.ts` — funciones compartidas para listar insertos y obtener la URL pública del PDF.
+- `app/insertos/page.tsx` — biblioteca pública, con buscador y filtro para mostrar/ocultar
+  archivados.
+- `app/admin/insertos/page.tsx` — formulario "+ Nuevo inserto" (nombre, fabricante, versión, fecha,
+  análisis asociado, PDF) y gestión de los existentes (ver, archivar/reactivar, eliminar con
+  confirmación).
+
+**Modificado (mínimo, aditivo):** `app/analisis/[id]/page.tsx` ahora muestra los insertos vigentes
+relacionados con ese análisis (si existen); `components/Navbar.tsx`, `app/page.tsx` y
+`app/admin/page.tsx` suman el enlace correspondiente.
+
+### 15.2 Configuración adicional necesaria en Supabase
+
+1. Ejecuta el bloque nuevo de `supabase/schema.sql` (secciones 13-14).
+2. Crea el bucket **`insertos-pdfs`** como **público** (a diferencia de `study-pdfs`, que es
+   privado) en Supabase → Storage.
+
+No se necesitan variables de entorno nuevas: reutiliza `SUPABASE_SERVICE_ROLE_KEY`, ya configurada
+para BacteriDex Study.
+
+### 15.3 Cómo probar
+
+1. Conviértete en admin (ver sección 13.2) y entra a `/admin/insertos`.
+2. Sube un PDF de prueba (máx. 10 MB en esta versión), asociándolo opcionalmente a un análisis.
+3. Ve a `/insertos` (sin sesión iniciada, en una ventana privada) → debe verse y poder abrirse el
+   PDF sin pedir login.
+4. Entra a la ficha del análisis que asociaste (`/analisis/an001`, por ejemplo) → debe aparecer en
+   "Insertos relacionados".
+5. Desde `/admin/insertos`, archívalo → debe desaparecer de `/insertos` (a menos que actives
+   "Mostrar versiones archivadas") pero seguir existiendo (nunca se borra solo por archivar).
+6. Con una cuenta normal (no admin), confirma que `/admin/insertos` muestra "Esta sección es solo
+   para administradores" y que `/api/admin/insertos` responde 403 si se llama directamente.
+
+### 15.4 Pendiente para próximas fases
+
+- Historial de versiones anteriores del mismo producto (hoy cada subida es un registro
+  independiente; agrupar por producto y mostrar "versión anterior" es una mejora futura).
+- Vista embebida del PDF dentro de BacteriDex (hoy se abre en una pestaña nueva).

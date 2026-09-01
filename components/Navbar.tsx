@@ -1,144 +1,105 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-  Home, Bug, Dna, Sprout, Shell, FlaskConical, TestTube, TestTubes,
-  ClipboardList, Scale, Fingerprint, Brain, Target, Layers, Trophy,
-  Search, Sun, Moon, User, Star, StickyNote, ShieldCheck, LogOut,
-  ChevronDown, Menu, X, FileText
+  Home,
+  Bug,
+  Dna,
+  Sprout,
+  Shell,
+  FlaskConical,
+  TestTube,
+  TestTubes,
+  ClipboardList,
+  Scale,
+  Fingerprint,
+  Brain,
+  Target,
+  Layers,
+  Trophy,
+  Search,
+  Sun,
+  Moon,
+  User,
+  Star,
+  StickyNote,
+  FileText,
+  ShieldCheck,
+  LogOut,
+  type LucideIcon
 } from "lucide-react";
 import { useTheme } from "./ThemeProvider";
 import { useAuth } from "./AuthProvider";
 
-const categorias = [
-  {
-    nombre: "Microbiología",
-    enlaces: [
-      { href: "/bacterias", label: "Bacterias", icon: Bug },
-      { href: "/virus", label: "Virus", icon: Dna },
-      { href: "/hongos", label: "Hongos", icon: Sprout },
-      { href: "/parasitos", label: "Parásitos", icon: Shell },
-    ]
-  },
-  {
-    nombre: "Laboratorio",
-    enlaces: [
-      { href: "/analisis", label: "Análisis clínicos", icon: TestTubes },
-      { href: "/pruebas", label: "Pruebas de laboratorio", icon: FlaskConical },
-      { href: "/medios", label: "Medios de cultivo", icon: TestTube },
-      { href: "/procedimientos", label: "Procedimientos", icon: ClipboardList },
-      { href: "/resultados", label: "Resultados de laboratorio", icon: FileText },
-    ]
-  },
-  {
-    nombre: "Herramientas",
-    enlaces: [
-      { href: "/comparador", label: "Comparador", icon: Scale },
-      { href: "/identifica", label: "Identifica el microorganismo", icon: Fingerprint },
-    ]
-  },
-  {
-    nombre: "Estudio",
-    enlaces: [
-      { href: "/study", label: "BacteriDex Study", icon: Brain },
-      { href: "/quiz", label: "Quiz", icon: Target },
-      { href: "/flashcards", label: "Flashcards", icon: Layers },
-      { href: "/progreso", label: "Progreso", icon: Trophy },
-    ]
-  }
+// Iconos vectoriales para la navegación principal (los emojis se conservan
+// como recurso educativo dentro del contenido, pero no como sistema de
+// navegación — ver sección de identidad visual del proyecto).
+const enlaces: { href: string; label: string; icon: LucideIcon }[] = [
+  { href: "/", label: "Inicio", icon: Home },
+  { href: "/bacterias", label: "Bacterias", icon: Bug },
+  { href: "/virus", label: "Virus", icon: Dna },
+  { href: "/hongos", label: "Hongos", icon: Sprout },
+  { href: "/parasitos", label: "Parásitos", icon: Shell },
+  { href: "/analisis", label: "Análisis", icon: TestTubes },
+  { href: "/pruebas", label: "Pruebas", icon: FlaskConical },
+  { href: "/medios", label: "Medios", icon: TestTube },
+  { href: "/procedimientos", label: "Procedimientos", icon: ClipboardList },
+  { href: "/insertos", label: "Insertos", icon: FileText },
+  { href: "/comparador", label: "Comparar", icon: Scale },
+  { href: "/identifica", label: "Identifica", icon: Fingerprint },
+  { href: "/study", label: "Study", icon: Brain },
+  { href: "/quiz", label: "Quiz", icon: Target },
+  { href: "/flashcards", label: "Flashcards", icon: Layers },
+  { href: "/progreso", label: "Progreso", icon: Trophy }
 ];
 
 export default function Navbar() {
   const pathname = usePathname();
   const { tema, alternar } = useTheme();
   const { user, habilitado, abrirModal, cerrarSesion, esAdmin } = useAuth();
-  
-  const [menuUsuarioAbierto, setMenuUsuarioAbierto] = useState(false);
-  const [menuMovilAbierto, setMenuMovilAbierto] = useState(false);
-  
-  const [dropdownActivo, setDropdownActivo] = useState<string | null>(null);
-  const navRef = useRef<HTMLDivElement>(null);
-
-  // Cerrar dropdown si se hace click fuera
-  useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (navRef.current && !navRef.current.contains(event.target as Node)) {
-        setDropdownActivo(null);
-      }
-    }
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+  const [menuAbierto, setMenuAbierto] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-base-700/80 bg-base-900/95 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-base-700/80 bg-base-900/85 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <div className="flex items-center gap-4 lg:gap-8">
-          <Link href="/" className="flex items-center gap-2 ml-1 sm:ml-2" onClick={() => setMenuMovilAbierto(false)}>
-            <img src="/brand/bacteridex-logo.png" alt="BacteriDex" className="h-12 sm:h-14 w-auto object-contain dark:hidden" />
-            <img src="/brand/bacteridex-logo-dark.png" alt="BacteriDex" className="h-12 sm:h-14 w-auto object-contain hidden dark:block" />
-          </Link>
+        <Link href="/" className="flex items-center gap-2">
+          <span className="grid h-8 w-8 place-items-center rounded-lg bg-bio/15 text-bio">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.6" />
+              <circle cx="9" cy="10" r="1.4" fill="currentColor" />
+              <circle cx="14" cy="13" r="1.8" fill="currentColor" />
+              <circle cx="13" cy="8" r="1" fill="currentColor" />
+            </svg>
+          </span>
+          <span className="font-display text-lg font-semibold tracking-tight">
+            Bacteri<span className="text-bio">Dex</span>
+          </span>
+        </Link>
 
-          {/* Navegación Desktop */}
-          <nav className="hidden lg:flex items-center gap-2" ref={navRef}>
-            <Link
-              href="/"
-              className={`focus-ring px-3 py-2 text-sm font-medium transition-colors hover:text-bio ${pathname === "/" ? "text-bio" : "text-mist-300"}`}
-            >
-              Inicio
-            </Link>
-            
-            {categorias.map((cat) => {
-              const isActiveCategory = cat.enlaces.some(link => pathname.startsWith(link.href));
-              const isOpen = dropdownActivo === cat.nombre;
-              
-              return (
-                <div key={cat.nombre} className="relative">
-                  <button
-                    onClick={() => setDropdownActivo(isOpen ? null : cat.nombre)}
-                    className={`focus-ring flex items-center gap-1 px-3 py-2 text-sm font-medium transition-colors hover:text-bio ${isActiveCategory ? "text-bio" : "text-mist-300"}`}
-                  >
-                    {cat.nombre}
-                    <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
-                  </button>
-                  
-                  {isOpen && (
-                    <div className="absolute left-0 top-full mt-2 w-64 overflow-hidden rounded-xl border border-base-600 bg-base-800 shadow-2xl">
-                      <div className="flex flex-col py-2">
-                        {cat.enlaces.map((link) => {
-                          const Icono = link.icon;
-                          const isLinkActive = pathname === link.href;
-                          return (
-                            <Link
-                              key={link.href}
-                              href={link.href}
-                              onClick={() => setDropdownActivo(null)}
-                              className={`flex items-center gap-3 px-4 py-2.5 text-sm transition-colors hover:bg-base-700 ${isLinkActive ? "bg-base-700/50 text-bio" : "text-mist-200"}`}
-                            >
-                              <Icono className={`h-4 w-4 ${isLinkActive ? "text-bio" : "text-mist-400"}`} />
-                              {link.label}
-                            </Link>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              );
-            })}
-          </nav>
-        </div>
+        <nav className="hidden items-center gap-1 lg:flex">
+          {enlaces.map((e) => {
+            const activo = pathname === e.href;
+            const Icono = e.icon;
+            return (
+              <Link
+                key={e.href}
+                href={e.href}
+                className={`focus-ring flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm transition-colors ${
+                  activo
+                    ? "bg-bio/15 text-bio"
+                    : "text-mist-300 hover:bg-base-800 hover:text-mist-100"
+                }`}
+              >
+                <Icono className="h-4 w-4" aria-hidden="true" />
+                {e.label}
+              </Link>
+            );
+          })}
+        </nav>
 
         <div className="flex items-center gap-2">
-          <Link
-            href="/ai"
-            className="focus-ring chip hidden sm:flex hover:border-bio hover:text-bio"
-            aria-label="BacteriDex AI"
-          >
-            🧠 AI
-          </Link>
           <Link
             href="/buscar"
             className="focus-ring chip hover:border-cian hover:text-cian"
@@ -160,45 +121,42 @@ export default function Navbar() {
               {user ? (
                 <div className="relative">
                   <button
-                    onClick={() => {
-                      setMenuUsuarioAbierto((v) => !v);
-                      setDropdownActivo(null);
-                    }}
-                    className="focus-ring chip hover:border-bio hover:text-bio hidden sm:flex"
+                    onClick={() => setMenuAbierto((v) => !v)}
+                    className="focus-ring chip hover:border-bio hover:text-bio"
                   >
                     <User className="h-4 w-4" aria-hidden="true" />
                     <span className="hidden sm:inline">{(user.user_metadata?.username as string) || "Mi cuenta"}</span>
                   </button>
-                  {menuUsuarioAbierto && (
+                  {menuAbierto && (
                     <div
-                      className="absolute right-0 top-full z-50 mt-2 w-56 overflow-hidden rounded-xl border border-base-600 bg-base-800 shadow-2xl hidden sm:block"
-                      onMouseLeave={() => setMenuUsuarioAbierto(false)}
+                      className="absolute right-0 top-full z-50 mt-2 w-48 overflow-hidden rounded-xl border border-base-600 bg-base-800 shadow-xl"
+                      onMouseLeave={() => setMenuAbierto(false)}
                     >
-                      <Link href="/perfil" onClick={() => setMenuUsuarioAbierto(false)} className="flex items-center gap-3 px-4 py-3 text-sm hover:bg-base-700">
-                        <User className="h-4 w-4 text-mist-400" /> Mi perfil
+                      <Link href="/perfil" onClick={() => setMenuAbierto(false)} className="flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-base-700">
+                        <User className="h-4 w-4" aria-hidden="true" /> Mi perfil
                       </Link>
-                      <Link href="/favoritos" onClick={() => setMenuUsuarioAbierto(false)} className="flex items-center gap-3 px-4 py-3 text-sm hover:bg-base-700">
-                        <Star className="h-4 w-4 text-mist-400" /> Mis favoritos
+                      <Link href="/favoritos" onClick={() => setMenuAbierto(false)} className="flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-base-700">
+                        <Star className="h-4 w-4" aria-hidden="true" /> Mis favoritos
                       </Link>
-                      <Link href="/notas" onClick={() => setMenuUsuarioAbierto(false)} className="flex items-center gap-3 px-4 py-3 text-sm hover:bg-base-700">
-                        <StickyNote className="h-4 w-4 text-mist-400" /> Mis notas
+                      <Link href="/notas" onClick={() => setMenuAbierto(false)} className="flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-base-700">
+                        <StickyNote className="h-4 w-4" aria-hidden="true" /> Mis notas
                       </Link>
-                      <Link href="/study" onClick={() => setMenuUsuarioAbierto(false)} className="flex items-center gap-3 px-4 py-3 text-sm hover:bg-base-700">
-                        <Brain className="h-4 w-4 text-mist-400" /> BacteriDex Study
+                      <Link href="/study" onClick={() => setMenuAbierto(false)} className="flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-base-700">
+                        <Brain className="h-4 w-4" aria-hidden="true" /> BacteriDex Study
                       </Link>
                       {esAdmin && (
-                        <Link href="/admin" onClick={() => setMenuUsuarioAbierto(false)} className="flex items-center gap-3 border-t border-base-700 px-4 py-3 text-sm text-bio hover:bg-base-700">
-                          <ShieldCheck className="h-4 w-4" /> Panel Admin
+                        <Link href="/admin" onClick={() => setMenuAbierto(false)} className="flex items-center gap-2 border-t border-base-700 px-4 py-2.5 text-sm text-bio hover:bg-base-700">
+                          <ShieldCheck className="h-4 w-4" aria-hidden="true" /> Panel Admin
                         </Link>
                       )}
                       <button
                         onClick={() => {
-                          setMenuUsuarioAbierto(false);
+                          setMenuAbierto(false);
                           cerrarSesion();
                         }}
-                        className="flex w-full items-center gap-3 border-t border-base-700 px-4 py-3 text-left text-sm text-alert hover:bg-base-700"
+                        className="flex w-full items-center gap-2 border-t border-base-700 px-4 py-2.5 text-left text-sm text-alert hover:bg-base-700"
                       >
-                        <LogOut className="h-4 w-4" /> Cerrar sesión
+                        <LogOut className="h-4 w-4" aria-hidden="true" /> Cerrar sesión
                       </button>
                     </div>
                   )}
@@ -218,98 +176,8 @@ export default function Navbar() {
               )}
             </>
           )}
-
-          {/* Botón de Menú Móvil */}
-          <button 
-            className="focus-ring chip lg:hidden hover:text-bio hover:border-bio"
-            onClick={() => setMenuMovilAbierto(!menuMovilAbierto)}
-          >
-            {menuMovilAbierto ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-          </button>
         </div>
       </div>
-
-      {/* Navegación Móvil (Panel lateral / acordeón) */}
-      {menuMovilAbierto && (
-        <div className="lg:hidden fixed inset-0 top-[60px] z-50 bg-base-950 overflow-y-auto pb-24">
-          <div className="flex flex-col p-4 gap-2">
-            
-            <Link
-              href="/"
-              onClick={() => setMenuMovilAbierto(false)}
-              className={`flex items-center gap-3 rounded-lg p-3 text-sm font-medium ${pathname === "/" ? "bg-bio/10 text-bio" : "text-mist-200"}`}
-            >
-              <Home className="h-5 w-5" /> Inicio
-            </Link>
-
-            <Link
-              href="/ai"
-              onClick={() => setMenuMovilAbierto(false)}
-              className={`flex items-center gap-3 rounded-lg p-3 text-sm font-medium ${pathname === "/ai" ? "bg-bio/10 text-bio" : "text-mist-200"}`}
-            >
-              <span className="text-xl leading-none">🧠</span> BacteriDex AI
-            </Link>
-
-            {categorias.map(cat => (
-              <div key={cat.nombre} className="flex flex-col border-b border-base-800 pb-2 mb-2">
-                <div className="px-3 py-2 text-xs font-bold uppercase tracking-wider text-mist-500">
-                  {cat.nombre}
-                </div>
-                {cat.enlaces.map(link => {
-                  const Icono = link.icon;
-                  const isActive = pathname === link.href;
-                  return (
-                    <Link
-                      key={link.href}
-                      href={link.href}
-                      onClick={() => setMenuMovilAbierto(false)}
-                      className={`flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm ${isActive ? "bg-bio/10 text-bio font-medium" : "text-mist-200 hover:bg-base-800"}`}
-                    >
-                      <Icono className={`h-5 w-5 ${isActive ? "text-bio" : "text-mist-400"}`} /> {link.label}
-                    </Link>
-                  )
-                })}
-              </div>
-            ))}
-
-            {/* Opciones de cuenta móvil */}
-            <div className="flex flex-col pt-4 mt-2 border-t border-base-700">
-              <div className="px-3 py-2 text-xs font-bold uppercase tracking-wider text-mist-500">Mi Cuenta</div>
-              {user ? (
-                <>
-                  <Link href="/perfil" onClick={() => setMenuMovilAbierto(false)} className="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-mist-200 hover:bg-base-800">
-                    <User className="h-5 w-5 text-mist-400" /> Mi perfil
-                  </Link>
-                  <Link href="/favoritos" onClick={() => setMenuMovilAbierto(false)} className="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-mist-200 hover:bg-base-800">
-                    <Star className="h-5 w-5 text-mist-400" /> Mis favoritos
-                  </Link>
-                  <Link href="/notas" onClick={() => setMenuMovilAbierto(false)} className="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-mist-200 hover:bg-base-800">
-                    <StickyNote className="h-5 w-5 text-mist-400" /> Mis notas
-                  </Link>
-                  {esAdmin && (
-                    <Link href="/admin" onClick={() => setMenuMovilAbierto(false)} className="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-bio hover:bg-base-800">
-                      <ShieldCheck className="h-5 w-5" /> Panel Admin
-                    </Link>
-                  )}
-                  <button onClick={() => { setMenuMovilAbierto(false); cerrarSesion(); }} className="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm text-alert hover:bg-base-800 text-left">
-                    <LogOut className="h-5 w-5" /> Cerrar sesión
-                  </button>
-                </>
-              ) : (
-                <div className="flex flex-col gap-2 p-2">
-                  <button onClick={() => { setMenuMovilAbierto(false); abrirModal("login"); }} className="w-full rounded-lg border border-base-600 py-2.5 text-sm font-medium hover:bg-base-800">
-                    Iniciar sesión
-                  </button>
-                  <button onClick={() => { setMenuMovilAbierto(false); abrirModal("registro"); }} className="w-full rounded-lg bg-bio py-2.5 text-sm font-medium text-base-950 hover:bg-bio-glow">
-                    Crear cuenta
-                  </button>
-                </div>
-              )}
-            </div>
-
-          </div>
-        </div>
-      )}
     </header>
   );
 }

@@ -82,10 +82,8 @@ export default function OrganismDetail({ organismo }: { organismo: Organismo }) 
   const esFavorito = habilitado
     ? (user ? esFavoritoNube(organismo.id) : false)
     : listo && estado.favoritos.includes(organismo.id);
-  const cmsMicro = organismo.imagenes?.find((i: any) => i.tipo === 'microscopia' || i.tipo === 'principal')?.url;
-  const imagenMicroscopica = cmsMicro || getImagen(imagenesMicroscopica, organismo.id);
-  const cmsColonia = organismo.imagenes?.find((i: any) => i.tipo === 'colonia' || i.tipo === 'agar')?.url;
-  const imagenAgar = cmsColonia || getImagen(imagenesAgar, organismo.id);
+  const imagenMicroscopica = getImagen(imagenesMicroscopica, organismo.id);
+  const imagenAgar = getImagen(imagenesAgar, organismo.id);
 
   return (
     <div className="flex flex-col gap-8">

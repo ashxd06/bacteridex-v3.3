@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { AuthProvider } from "@/components/AuthProvider";
 import AuthModal from "@/components/AuthModal";
 import Navbar from "@/components/Navbar";
+import MobileNav from "@/components/MobileNav";
 import Footer from "@/components/Footer";
 
 const display = Space_Grotesk({
@@ -24,15 +25,10 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BacteriDex — Laboratorio Clínico y Microbiología",
+  title: "BacteriDex — Enciclopedia interactiva de Laboratorio Clínico",
   description:
     "Estudia, compara e identifica bacterias, virus, hongos y parásitos con fichas clínicas, quizzes, flashcards y casos reales.",
-  manifest: "/manifest.json",
-  icons: {
-    icon: "/brand/bacteridex-icon.png",
-    shortcut: "/brand/bacteridex-icon.png",
-    apple: "/brand/bacteridex-icon.png",
-  }
+  manifest: "/manifest.json"
 };
 
 export const viewport: Viewport = {
@@ -48,6 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Navbar />
             <main className="mx-auto max-w-6xl px-4 pb-24 pt-6 md:pb-12">{children}</main>
             <Footer />
+            <MobileNav />
             <AuthModal />
           </AuthProvider>
         </ThemeProvider>

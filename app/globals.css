@@ -100,19 +100,3 @@ body {
   outline: 2px solid theme("colors.bio.DEFAULT");
   outline-offset: 2px;
 }
-
-.lab-input {
-  @apply w-full rounded-lg border border-base-600 bg-base-900/50 px-3 py-2 text-sm text-mist-100 focus:border-bio focus:outline-none focus:ring-1 focus:ring-bio disabled:opacity-50 disabled:cursor-not-allowed transition-colors;
-}
-
-.lab-input::placeholder {
-  @apply text-mist-400;
-}
-
-.light .lab-input {
-  @apply border-[#C4D0DE] bg-white text-base-900 focus:border-bio focus:ring-bio;
-}
-
-.light .lab-input::placeholder {
-  color: #7C90A9;
-}

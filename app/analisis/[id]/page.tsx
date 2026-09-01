@@ -1,13 +1,22 @@
+"use client";
+
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import { analisisClinicos, CATEGORIAS_ANALISIS, procedimientos } from "@/lib/data";
-
-export function generateStaticParams() {
-  return analisisClinicos.map((a) => ({ id: a.id }));
-}
+import { listarInsertos, urlPublicaInserto, type InsertoFila } from "@/lib/insertos";
 
 export default function Page({ params }: { params: { id: string } }) {
   const analisis = analisisClinicos.find((a) => a.id === params.id);
+  const [insertos, setInsertos] = useState<InsertoFila[]>([]);
+
+  useEffect(() => {
+    if (!analisis) return;
+    listarInsertos().then((data) =>
+      setInsertos(data.filter((i) => i.analisis_id === analisis.id && i.estado === "vigente"))
+    );
+  }, [analisis]);
+
   if (!analisis) return notFound();
 
   const categoria = CATEGORIAS_ANALISIS.find((c) => c.id === analisis.categoria);
@@ -100,6 +109,28 @@ export default function Page({ params }: { params: { id: string } }) {
       </div>
 
       <ListaChips titulo="⚠️ Consideraciones" items={analisis.consideraciones} />
+
+      {insertos.length > 0 && (
+        <div>
+          <p className="section-eyebrow mb-3">📄 Insertos relacionados</p>
+          <div className="flex flex-wrap gap-2">
+            {insertos.map((i) => {
+              const url = urlPublicaInserto(i.storage_path);
+              return url ? (
+                <a
+                  key={i.id}
+                  href={url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="chip hover:border-bio hover:text-bio"
+                >
+                  {i.nombre} ({i.fabricante})
+                </a>
+              ) : null;
+            })}
+          </div>
+        </div>
+      )}
 
       {procedimientosRelacionados.length > 0 && (
         <div>

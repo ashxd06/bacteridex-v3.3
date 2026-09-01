@@ -1,10 +1,8 @@
-﻿import { getOrganismosDinamicos } from "@/lib/supabase/cms";
+import { parasitos } from "@/lib/data";
 import CategoryBrowser from "@/components/CategoryBrowser";
 
-export const dynamic = 'force-dynamic';
-export const metadata = { title: "Parásitos – BacteriDex" };
+export const metadata = { title: "Parásitos — BacteriDex" };
 
-export default async function Page() {
-  const organismos = await getOrganismosDinamicos("parasitos");
-  return <CategoryBrowser organismos={organismos} titulo="Parásitos" emoji="🪱" />;
+export default function Page() {
+  return <CategoryBrowser organismos={parasitos} titulo="Parasitología" emoji="🪱" />;
 }
