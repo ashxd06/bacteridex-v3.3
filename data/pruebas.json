@@ -1,0 +1,400 @@
+[
+  {
+    "id": "catalasa",
+    "nombre": "Catalasa",
+    "queEs": "Prueba que detecta la enzima catalasa, la cual descompone el peróxido de hidrógeno en agua y oxígeno.",
+    "queDetecta": "Presencia de la enzima catalasa en la bacteria.",
+    "comoSeInterpreta": "Se coloca una colonia en contacto con H2O2 al 3% y se observa si hay burbujeo.",
+    "positivo": "Formación de burbujas (liberación de O2). Ej: Staphylococcus.",
+    "negativo": "Ausencia de burbujeo. Ej: Streptococcus.",
+    "diferencia": [
+      "Staphylococcus (positivo) de Streptococcus (negativo)"
+    ]
+  },
+  {
+    "id": "coagulasa",
+    "nombre": "Coagulasa",
+    "queEs": "Prueba que detecta la enzima coagulasa, capaz de coagular el plasma.",
+    "queDetecta": "Capacidad de la bacteria de coagular el plasma sanguíneo.",
+    "comoSeInterpreta": "Se mezcla la colonia con plasma de conejo y se observa formación de coágulo.",
+    "positivo": "Formación de coágulo visible. Ej: Staphylococcus aureus.",
+    "negativo": "Sin coagulación. Ej: S. epidermidis, S. saprophyticus.",
+    "diferencia": [
+      "S. aureus (positivo) de estafilococos coagulasa negativos"
+    ]
+  },
+  {
+    "id": "oxidasa",
+    "nombre": "Oxidasa",
+    "queEs": "Detecta la enzima citocromo c oxidasa, parte de la cadena respiratoria.",
+    "queDetecta": "Presencia de citocromo oxidasa.",
+    "comoSeInterpreta": "Se aplica un reactivo sobre la colonia; el cambio de color se observa en segundos.",
+    "positivo": "Color púrpura/azul oscuro en 10-30 segundos. Ej: Pseudomonas, Neisseria.",
+    "negativo": "Sin cambio de color. Ej: Enterobacterales.",
+    "diferencia": [
+      "Enterobacterales (negativo) de Pseudomonas/Neisseria/Vibrio (positivo)"
+    ]
+  },
+  {
+    "id": "dnasa",
+    "nombre": "DNasa",
+    "queEs": "Detecta la enzima desoxirribonucleasa que degrada el ADN.",
+    "queDetecta": "Capacidad de degradar el ADN del medio de cultivo.",
+    "comoSeInterpreta": "Se siembra en agar con ADN y se revela con ácido clorhídrico o azul de toluidina.",
+    "positivo": "Halo claro alrededor de la colonia. Ej: Staphylococcus aureus.",
+    "negativo": "Sin halo. Ej: S. epidermidis.",
+    "diferencia": [
+      "Confirma S. aureus junto con coagulasa"
+    ]
+  },
+  {
+    "id": "ureasa",
+    "nombre": "Ureasa",
+    "queEs": "Detecta la enzima ureasa, que hidroliza la urea liberando amoníaco.",
+    "queDetecta": "Capacidad de hidrolizar urea.",
+    "comoSeInterpreta": "Se siembra en agar urea de Christensen; el amoníaco eleva el pH.",
+    "positivo": "Color rosa/fucsia intenso. Ej: Proteus (rápida), Helicobacter pylori, Cryptococcus.",
+    "negativo": "Sin cambio de color. Ej: Escherichia coli, Salmonella.",
+    "diferencia": [
+      "Proteus (ureasa positiva rápida) de otras enterobacterias",
+      "H. pylori de otras bacterias gástricas"
+    ]
+  },
+  {
+    "id": "indol",
+    "nombre": "Indol",
+    "queEs": "Detecta la enzima triptofanasa, que degrada el triptófano liberando indol.",
+    "queDetecta": "Capacidad de degradar triptófano a indol.",
+    "comoSeInterpreta": "Se añade reactivo de Kovac o Ehrlich al cultivo en caldo triptófano.",
+    "positivo": "Anillo rojo/rosado en la superficie. Ej: Escherichia coli.",
+    "negativo": "Sin anillo rojo (amarillo). Ej: Klebsiella pneumoniae, Salmonella.",
+    "diferencia": [
+      "E. coli (positivo) de Klebsiella (negativo)"
+    ]
+  },
+  {
+    "id": "citrato",
+    "nombre": "Citrato (Simmons)",
+    "queEs": "Evalúa la capacidad de usar citrato como única fuente de carbono.",
+    "queDetecta": "Utilización de citrato.",
+    "comoSeInterpreta": "Se siembra en agar citrato de Simmons; el crecimiento alcaliniza el medio.",
+    "positivo": "Color azul intenso. Ej: Klebsiella pneumoniae, Enterobacter.",
+    "negativo": "Medio sin cambio (verde). Ej: Escherichia coli, Shigella.",
+    "diferencia": [
+      "Klebsiella (positivo) de E. coli (negativo)"
+    ]
+  },
+  {
+    "id": "tsi",
+    "nombre": "TSI (Triple Azúcar Hierro)",
+    "queEs": "Evalúa fermentación de glucosa, lactosa y sacarosa, y producción de gas y H2S.",
+    "queDetecta": "Perfil de fermentación de carbohidratos y producción de ácido sulfhídrico.",
+    "comoSeInterpreta": "Se observa el color del pico (superficie) y el fondo del tubo, además de burbujas y ennegrecimiento.",
+    "positivo": "Ácido/Ácido (amarillo/amarillo) indica fermentación de lactosa; H2S se ve como ennegrecimiento.",
+    "negativo": "Alcalino/Ácido (rojo/amarillo) indica solo fermentación de glucosa. Ej: Salmonella, Shigella.",
+    "diferencia": [
+      "Fermentadores de lactosa (E. coli, Klebsiella) de no fermentadores (Salmonella, Shigella)"
+    ]
+  },
+  {
+    "id": "pyr",
+    "nombre": "PYR",
+    "queEs": "Detecta la enzima pirrolidonil aril amidasa.",
+    "queDetecta": "Hidrólisis del sustrato PYR.",
+    "comoSeInterpreta": "Se aplica reactivo tras incubación breve; cambio de color rojo indica positividad.",
+    "positivo": "Color rojo. Ej: Streptococcus pyogenes, Enterococcus.",
+    "negativo": "Sin cambio de color. Ej: otros estreptococos beta-hemolíticos.",
+    "diferencia": [
+      "S. pyogenes de otros estreptococos beta-hemolíticos",
+      "Enterococcus de otros cocos catalasa negativos"
+    ]
+  },
+  {
+    "id": "bilis-esculina",
+    "nombre": "Bilis esculina",
+    "queEs": "Evalúa la capacidad de hidrolizar esculina en presencia de sales biliares.",
+    "queDetecta": "Hidrólisis de esculina en presencia de bilis al 40%.",
+    "comoSeInterpreta": "Se observa ennegrecimiento del medio.",
+    "positivo": "Ennegrecimiento del agar. Ej: Enterococcus, grupo D de Streptococcus.",
+    "negativo": "Sin cambio de color.",
+    "diferencia": [
+      "Enterococcus/Streptococcus grupo D de otros estreptococos"
+    ]
+  },
+  {
+    "id": "novobiocina",
+    "nombre": "Novobiocina",
+    "queEs": "Prueba de sensibilidad a un antibiótico usado para diferenciar estafilococos coagulasa negativos.",
+    "queDetecta": "Sensibilidad o resistencia a novobiocina mediante disco de difusión.",
+    "comoSeInterpreta": "Se mide el halo de inhibición alrededor del disco.",
+    "positivo": "Resistente (sin halo o halo pequeño). Ej: Staphylococcus saprophyticus.",
+    "negativo": "Sensible (halo amplio). Ej: Staphylococcus epidermidis.",
+    "diferencia": [
+      "S. saprophyticus (resistente) de S. epidermidis (sensible)"
+    ]
+  },
+  {
+    "id": "optoquina",
+    "nombre": "Optoquina",
+    "queEs": "Prueba de sensibilidad a un compuesto que inhibe selectivamente a Streptococcus pneumoniae.",
+    "queDetecta": "Sensibilidad a la optoquina mediante disco de difusión.",
+    "comoSeInterpreta": "Se mide el halo de inhibición alrededor del disco.",
+    "positivo": "Sensible (halo ≥14mm). Ej: Streptococcus pneumoniae.",
+    "negativo": "Resistente (sin halo). Ej: estreptococos viridans.",
+    "diferencia": [
+      "S. pneumoniae de estreptococos alfa-hemolíticos del grupo viridans"
+    ]
+  },
+  {
+    "id": "bacitracina",
+    "nombre": "Bacitracina",
+    "queEs": "Prueba de sensibilidad usada para identificar presuntivamente Streptococcus pyogenes.",
+    "queDetecta": "Sensibilidad a la bacitracina mediante disco de difusión.",
+    "comoSeInterpreta": "Se mide el halo de inhibición alrededor del disco.",
+    "positivo": "Sensible (halo presente). Ej: Streptococcus pyogenes (grupo A).",
+    "negativo": "Resistente (sin halo). Ej: Streptococcus agalactiae (grupo B).",
+    "diferencia": [
+      "Estreptococo grupo A (sensible) de grupo B (resistente)"
+    ]
+  },
+  {
+    "id": "hemolisis",
+    "nombre": "Hemólisis en agar sangre",
+    "queEs": "Evalúa la capacidad de lisar los eritrocitos del agar sangre.",
+    "queDetecta": "Tipo de hemólisis producida alrededor de la colonia.",
+    "comoSeInterpreta": "Se observa el halo alrededor de la colonia tras incubación.",
+    "positivo": "Beta (halo claro total): S. aureus, S. pyogenes. Alfa (halo verdoso): S. pneumoniae.",
+    "negativo": "Gamma (sin hemólisis): Enterococcus, algunos estafilococos coagulasa negativos.",
+    "diferencia": [
+      "Diferencia especies de Streptococcus y Staphylococcus según su patrón hemolítico"
+    ]
+  },
+  {
+    "id": "ziehl-neelsen",
+    "nombre": "Ziehl-Neelsen",
+    "queEs": "Tinción ácido-alcohol resistente usada para micobacterias.",
+    "queDetecta": "Bacterias con pared celular rica en ácidos micólicos.",
+    "comoSeInterpreta": "Se observan bacilos rojos/fucsia sobre fondo azul al microscopio.",
+    "positivo": "Bacilos rojos ácido-alcohol resistentes. Ej: Mycobacterium tuberculosis.",
+    "negativo": "Ausencia de bacilos rojos.",
+    "diferencia": [
+      "Micobacterias de otras bacterias que no retienen la fucsina tras el lavado ácido"
+    ]
+  },
+  {
+    "id": "gram",
+    "nombre": "Tinción de Gram",
+    "queEs": "Tinción diferencial que clasifica bacterias según la estructura de su pared celular.",
+    "queDetecta": "Retención o no del cristal violeta tras el lavado con alcohol-acetona.",
+    "comoSeInterpreta": "Se observa el color y la morfología al microscopio óptico.",
+    "positivo": "Gram positivo: color violeta/azul (pared gruesa de peptidoglicano).",
+    "negativo": "Gram negativo: color rosado/rojo (pared delgada, membrana externa).",
+    "diferencia": [
+      "Clasifica prácticamente todas las bacterias de interés clínico en Gram positivas o negativas"
+    ]
+  },
+  {
+    "id": "koh",
+    "nombre": "KOH (hidróxido de potasio)",
+    "queEs": "Examen directo que disuelve el material queratinizado para visualizar elementos fúngicos.",
+    "queDetecta": "Presencia de hifas, levaduras o esporas en piel, uñas o cabello.",
+    "comoSeInterpreta": "Se observan las estructuras fúngicas al microscopio tras aclarar la muestra.",
+    "positivo": "Visualización de hifas tabicadas o levaduras en gemación.",
+    "negativo": "Ausencia de elementos fúngicos.",
+    "diferencia": [
+      "Es un método de tamizaje inicial en sospecha de micosis superficiales"
+    ]
+  },
+  {
+    "id": "tinta-china",
+    "nombre": "Tinta china",
+    "queEs": "Tinción negativa usada para visualizar la cápsula de Cryptococcus neoformans.",
+    "queDetecta": "Presencia de levaduras encapsuladas en LCR.",
+    "comoSeInterpreta": "Se observa un halo claro (cápsula) alrededor de la levadura sobre fondo oscuro.",
+    "positivo": "Levaduras con halo capsular visible. Ej: Cryptococcus neoformans.",
+    "negativo": "Ausencia de levaduras encapsuladas.",
+    "diferencia": [
+      "Es específico para el diagnóstico rápido de meningitis criptocócica"
+    ]
+  },
+  {
+    "id": "sim",
+    "nombre": "SIM (Sulfuro-Indol-Motilidad)",
+    "queEs": "Medio combinado que evalúa tres características en un solo tubo: producción de H2S, formación de indol y motilidad.",
+    "queDetecta": "Producción de ácido sulfhídrico, hidrólisis de triptófano a indol y capacidad de desplazamiento bacteriano.",
+    "comoSeInterpreta": "Se siembra por picadura central; se observa ennegrecimiento (H2S), turbidez difusa alrededor de la picadura (motilidad) y se agrega reactivo de Kovac para el indol.",
+    "positivo": "H2S: ennegrecimiento del medio. Motilidad: turbidez que se extiende desde la línea de siembra. Indol: anillo rojo tras agregar reactivo.",
+    "negativo": "Sin ennegrecimiento, crecimiento solo en la línea de siembra (inmóvil), sin anillo rojo.",
+    "diferencia": [
+      "Diferencia géneros dentro de Enterobacterales según su combinación de H2S/indol/motilidad"
+    ]
+  },
+  {
+    "id": "mio",
+    "nombre": "MIO (Motilidad-Indol-Ornitina)",
+    "queEs": "Medio combinado que evalúa motilidad, producción de indol y descarboxilación de ornitina.",
+    "queDetecta": "Motilidad bacteriana, formación de indol a partir de triptófano y actividad de la enzima ornitina descarboxilasa.",
+    "comoSeInterpreta": "Se siembra por picadura central; se observa turbidez difusa (motilidad), color púrpura en la base (ornitina positiva) y se agrega reactivo de Kovac para el indol.",
+    "positivo": "Motilidad: turbidez que se extiende. Ornitina: color púrpura (mantiene el pH alcalino). Indol: anillo rojo.",
+    "negativo": "Crecimiento solo en la línea de siembra, color amarillo (ornitina negativa), sin anillo rojo.",
+    "diferencia": [
+      "Útil para diferenciar géneros de Enterobacterales, especialmente Proteus/Providencia (motilidad+, ornitina variable) de Klebsiella (inmóvil)"
+    ]
+  },
+  {
+    "id": "lia",
+    "nombre": "LIA (Lisina Hierro Agar)",
+    "queEs": "Medio en pico de flauta que evalúa descarboxilación y desaminación de lisina, además de producción de H2S.",
+    "queDetecta": "Actividad de lisina descarboxilasa, lisina desaminasa y producción de ácido sulfhídrico.",
+    "comoSeInterpreta": "Se observa el color del pico y del fondo del tubo tras la incubación, además de ennegrecimiento por H2S.",
+    "positivo": "Descarboxilación: fondo púrpura. Desaminación: pico rojo/borgoña. H2S: ennegrecimiento a lo largo de la línea de picadura.",
+    "negativo": "Fondo amarillo (sin descarboxilación), sin cambio de color en el pico, sin ennegrecimiento.",
+    "diferencia": [
+      "Ayuda a diferenciar Salmonella (LIA+, H2S+) de Shigella (LIA-) y de Proteus (desaminasa+, pico rojo)"
+    ]
+  },
+  {
+    "id": "mr",
+    "nombre": "Rojo de metilo (MR)",
+    "queEs": "Prueba que detecta la vía de fermentación ácida mixta de la glucosa, con producción sostenida de ácidos.",
+    "queDetecta": "Producción y mantenimiento de un pH suficientemente ácido tras fermentar glucosa.",
+    "comoSeInterpreta": "Se incuba en caldo rojo de metilo-Voges Proskauer (MR-VP) por 48 horas y se agregan gotas del indicador rojo de metilo.",
+    "positivo": "Color rojo (pH ácido estable). Ej: Escherichia coli.",
+    "negativo": "Color amarillo/naranja. Ej: Klebsiella pneumoniae, Enterobacter.",
+    "diferencia": [
+      "Junto con VP, diferencia E. coli (MR+/VP-) de Enterobacter/Klebsiella (MR-/VP+)"
+    ]
+  },
+  {
+    "id": "vp",
+    "nombre": "Voges-Proskauer (VP)",
+    "queEs": "Prueba que detecta la vía de fermentación butilenglicólica de la glucosa, con producción de acetoína.",
+    "queDetecta": "Producción de acetoína como producto final de la fermentación de glucosa.",
+    "comoSeInterpreta": "Se incuba en el mismo caldo MR-VP y se agregan alfa-naftol e hidróxido de potasio; se espera 15-30 minutos.",
+    "positivo": "Color rosa-rojo intenso en la superficie. Ej: Klebsiella pneumoniae, Enterobacter.",
+    "negativo": "Sin cambio de color. Ej: Escherichia coli, Shigella.",
+    "diferencia": [
+      "Junto con MR, diferencia Enterobacter/Klebsiella (VP+) de E. coli/Shigella (VP-)"
+    ]
+  },
+  {
+    "id": "malonato",
+    "nombre": "Malonato",
+    "queEs": "Evalúa la capacidad de utilizar malonato de sodio como única fuente de carbono.",
+    "queDetecta": "Utilización de malonato, que produce alcalinización del medio.",
+    "comoSeInterpreta": "Se siembra en caldo malonato; el crecimiento con alcalinización se detecta por el indicador azul de bromotimol.",
+    "positivo": "Color azul intenso (alcalinización). Ej: algunas cepas de Enterobacter, Klebsiella.",
+    "negativo": "Sin cambio de color (permanece verde). Ej: Escherichia coli.",
+    "diferencia": [
+      "Utilizada dentro de paneles bioquímicos ampliados para diferenciar géneros de Enterobacterales"
+    ]
+  },
+  {
+    "id": "onpg",
+    "nombre": "ONPG (orto-nitrofenil-β-D-galactopiranósido)",
+    "queEs": "Prueba que detecta la enzima beta-galactosidasa, necesaria para el metabolismo temprano de la lactosa.",
+    "queDetecta": "Presencia de beta-galactosidasa, útil para identificar fermentadores tardíos de lactosa.",
+    "comoSeInterpreta": "Se incuba un disco o caldo con ONPG; la hidrólisis libera un compuesto amarillo.",
+    "positivo": "Color amarillo (hidrólisis de ONPG). Ej: Citrobacter, Klebsiella, fermentadores tardíos de lactosa.",
+    "negativo": "Sin cambio de color. Ej: Salmonella, Proteus.",
+    "diferencia": [
+      "Distingue fermentadores tardíos de lactosa (ONPG+) de verdaderos no fermentadores (ONPG-)"
+    ]
+  },
+  {
+    "id": "fenilalanina",
+    "nombre": "Fenilalanina desaminasa (PDA)",
+    "queEs": "Detecta la enzima que desamina la fenilalanina a ácido fenilpirúvico.",
+    "queDetecta": "Actividad de fenilalanina desaminasa.",
+    "comoSeInterpreta": "Se siembra en agar fenilalanina; tras el crecimiento se agregan gotas de cloruro férrico.",
+    "positivo": "Color verde oscuro tras agregar cloruro férrico. Ej: Proteus, Providencia, Morganella.",
+    "negativo": "Sin cambio de color.",
+    "diferencia": [
+      "Característica distintiva del grupo Proteeae (Proteus, Providencia, Morganella) frente a otras enterobacterias"
+    ]
+  },
+  {
+    "id": "lisina",
+    "nombre": "Lisina descarboxilasa (LDC)",
+    "queEs": "Detecta la enzima que descarboxila el aminoácido lisina, generando una amina que alcaliniza el medio.",
+    "queDetecta": "Actividad de lisina descarboxilasa.",
+    "comoSeInterpreta": "Se siembra en caldo de Moeller con lisina cubierto con aceite mineral (anaerobiosis); se observa el color tras incubar.",
+    "positivo": "Color púrpura (alcalino). Ej: Klebsiella, Salmonella.",
+    "negativo": "Color amarillo (ácido, sin descarboxilación). Ej: Proteus, Providencia.",
+    "diferencia": [
+      "Salmonella (LDC+) de Shigella (LDC-, en la mayoría de especies)"
+    ]
+  },
+  {
+    "id": "ornitina",
+    "nombre": "Ornitina descarboxilasa (ODC)",
+    "queEs": "Detecta la enzima que descarboxila el aminoácido ornitina.",
+    "queDetecta": "Actividad de ornitina descarboxilasa.",
+    "comoSeInterpreta": "Similar a la prueba de lisina, en caldo de Moeller con ornitina cubierto con aceite mineral.",
+    "positivo": "Color púrpura (alcalino). Ej: Proteus mirabilis, Enterobacter.",
+    "negativo": "Color amarillo (ácido). Ej: Klebsiella pneumoniae.",
+    "diferencia": [
+      "Klebsiella (ODC-) de Enterobacter (ODC+), ambos citrato positivos"
+    ]
+  },
+  {
+    "id": "arginina",
+    "nombre": "Arginina dihidrolasa (ADH)",
+    "queEs": "Detecta la enzima que hidroliza la arginina, generando ornitina y alcalinizando el medio.",
+    "queDetecta": "Actividad de arginina dihidrolasa.",
+    "comoSeInterpreta": "Similar a las pruebas de lisina/ornitina, en caldo de Moeller con arginina.",
+    "positivo": "Color púrpura (alcalino). Ej: Enterobacter, Pseudomonas.",
+    "negativo": "Color amarillo o sin cambio.",
+    "diferencia": [
+      "Forma parte del perfil de descarboxilasas usado para identificación de Enterobacterales y no fermentadores"
+    ]
+  },
+  {
+    "id": "gelatinasa",
+    "nombre": "Gelatinasa",
+    "queEs": "Detecta la enzima que hidroliza la gelatina (colágeno), licuando el medio.",
+    "queDetecta": "Capacidad de licuar gelatina.",
+    "comoSeInterpreta": "Se siembra por picadura en agar gelatina y se refrigera; si permanece líquida tras enfriar, es positiva.",
+    "positivo": "El medio permanece líquido al enfriarse (4°C). Ej: Serratia marcescens, Pseudomonas aeruginosa.",
+    "negativo": "El medio se solidifica al enfriarse. Ej: la mayoría de Enterobacterales.",
+    "diferencia": [
+      "Útil para diferenciar Serratia (gelatinasa+) de otras enterobacterias"
+    ]
+  },
+  {
+    "id": "nitratos",
+    "nombre": "Reducción de nitratos",
+    "queEs": "Evalúa la capacidad de reducir nitrato a nitrito o más allá, hasta nitrógeno gaseoso.",
+    "queDetecta": "Presencia de nitrato reductasa.",
+    "comoSeInterpreta": "Se incuba en caldo nitrato y se agregan los reactivos de Griess (ácido sulfanílico y alfa-naftilamina); si no hay color, se confirma con zinc.",
+    "positivo": "Color rojo tras agregar los reactivos (nitrato reducido a nitrito). Ej: la mayoría de Enterobacterales.",
+    "negativo": "Sin color tras los reactivos, pero también sin color tras agregar zinc (reducción completa a N2) o ausencia de reducción según el caso.",
+    "diferencia": [
+      "Ayuda a diferenciar bacilos no fermentadores y confirma actividad respiratoria anaerobia facultativa"
+    ]
+  },
+  {
+    "id": "camp",
+    "nombre": "CAMP",
+    "queEs": "Prueba que detecta el factor CAMP, una proteína que actúa sinérgicamente con la beta-hemolisina de Staphylococcus aureus.",
+    "queDetecta": "Producción del factor CAMP.",
+    "comoSeInterpreta": "Se siembra en perpendicular a una estría de S. aureus en agar sangre; se observa una zona de hemólisis en forma de 'punta de flecha' donde se cruzan.",
+    "positivo": "Zona de hemólisis potenciada en forma de punta de flecha en la unión con S. aureus. Ej: Streptococcus agalactiae.",
+    "negativo": "Sin potenciación de la hemólisis en la zona de cruce.",
+    "diferencia": [
+      "Ayuda a confirmar Streptococcus agalactiae (grupo B) frente a otros estreptococos beta-hemolíticos"
+    ]
+  },
+  {
+    "id": "solubilidad-bilis",
+    "nombre": "Solubilidad en bilis",
+    "queEs": "Evalúa la lisis bacteriana en presencia de sales biliares, mediada por la activación de autolisinas propias.",
+    "queDetecta": "Susceptibilidad a la lisis por sales biliares (desoxicolato de sodio).",
+    "comoSeInterpreta": "Se agrega desoxicolato de sodio a una suspensión bacteriana o directamente sobre la colonia y se observa aclaramiento.",
+    "positivo": "Lisis de la colonia/suspensión (aclaramiento). Ej: Streptococcus pneumoniae.",
+    "negativo": "Sin lisis, la suspensión permanece turbia. Ej: estreptococos del grupo viridans.",
+    "diferencia": [
+      "Confirma S. pneumoniae (soluble) frente a estreptococos viridans alfa-hemolíticos (insolubles)"
+    ]
+  }
+]

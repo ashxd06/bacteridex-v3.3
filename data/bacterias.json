@@ -1,0 +1,3236 @@
+[
+  {
+    "id": "b001",
+    "numero": 1,
+    "categoria": "bacterias",
+    "subgrupo": "Cocos Gram positivos",
+    "nombreCientifico": "Staphylococcus aureus",
+    "familia": "Staphylococcaceae",
+    "genero": "Staphylococcus",
+    "especie": "aureus",
+    "gram": "positivo",
+    "morfologia": "Coco",
+    "agrupacion": "Racimos (like uvas)",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Microcápsula ocasional",
+    "habitat": "Piel y mucosas (fosas nasales) del ser humano",
+    "transmision": "Contacto directo, fómites, autoinoculación",
+    "muestraClinica": [
+      "Herida",
+      "Sangre",
+      "Esputo",
+      "Piel",
+      "Secreción"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Coagulasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "DNasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Manitol",
+        "resultado": "Fermenta (agar manitol salado)"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre",
+      "Agar manitol salado",
+      "Agar chocolate"
+    ],
+    "colonia": "Colonias grandes, doradas/amarillentas, beta-hemolíticas en agar sangre",
+    "importanciaMedica": {
+      "queCausa": "Infecciones de piel y tejidos blandos, bacteriemia, endocarditis, neumonía, intoxicación alimentaria.",
+      "organosAfectados": "Piel, pulmones, válvulas cardíacas, huesos y articulaciones.",
+      "poblacionRiesgo": "Pacientes hospitalizados, portadores nasales, usuarios de catéteres o prótesis.",
+      "porQueImporta": "Es una de las causas más frecuentes de infección bacteriana y puede desarrollar resistencia (MRSA).",
+      "comoSeDiagnostica": "Cultivo con coagulasa positiva y confirmación por pruebas bioquímicas o MALDI-TOF."
+    },
+    "enfermedades": [
+      "Foliculitis",
+      "Bacteriemia",
+      "Endocarditis",
+      "Neumonía",
+      "Intoxicación alimentaria",
+      "Síndrome de piel escaldada"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 5,
+    "prioridad": "muy-frecuente",
+    "casosClinicos": [
+      {
+        "titulo": "Infección de piel postquirúrgica",
+        "sintomas": [
+          "Eritema",
+          "dolor local",
+          "secreción purulenta"
+        ],
+        "muestra": "Exudado de herida",
+        "hallazgos": "Cocos Gram positivos en racimos, catalasa +, coagulasa +",
+        "pregunta": "¿Cuál es el microorganismo más probable?",
+        "respuesta": "Staphylococcus aureus",
+        "explicacion": "La agrupación en racimos junto con coagulasa positiva es característica de S. aureus, principal causa de infecciones de herida quirúrgica."
+      }
+    ],
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Cocos Gram positivos agrupados en racimos",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      },
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias doradas beta-hemolíticas en agar sangre",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "Manual de Microbiología Clínica (Murray)",
+      "Koneman's Color Atlas"
+    ]
+  },
+  {
+    "id": "b002",
+    "numero": 2,
+    "categoria": "bacterias",
+    "subgrupo": "Cocos Gram positivos",
+    "nombreCientifico": "Staphylococcus epidermidis",
+    "familia": "Staphylococcaceae",
+    "genero": "Staphylococcus",
+    "especie": "epidermidis",
+    "gram": "positivo",
+    "morfologia": "Coco",
+    "agrupacion": "Racimos",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Presente (biofilm/slime)",
+    "habitat": "Piel humana (estafilococo coagulasa negativo más común)",
+    "transmision": "Contacto directo, contaminación de catéteres y prótesis",
+    "muestraClinica": [
+      "Sangre",
+      "Catéter",
+      "Líquido articular"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Coagulasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Novobiocina",
+        "resultado": "Sensible"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre",
+      "Agar manitol salado"
+    ],
+    "colonia": "Colonias blancas, no hemolíticas",
+    "importanciaMedica": {
+      "queCausa": "Infecciones asociadas a dispositivos médicos (catéteres, prótesis, válvulas artificiales).",
+      "organosAfectados": "Torrente sanguíneo, superficies protésicas.",
+      "poblacionRiesgo": "Pacientes con catéteres, prótesis o dispositivos implantados.",
+      "porQueImporta": "Su capacidad de formar biofilm lo hace difícil de erradicar sin retirar el dispositivo.",
+      "comoSeDiagnostica": "Cultivo con coagulasa negativa; se valora la relevancia clínica por contaminación frecuente."
+    },
+    "enfermedades": [
+      "Bacteriemia asociada a catéter",
+      "Endocarditis protésica",
+      "Infección de prótesis articular"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 5,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias blancas no hemolíticas en agar sangre",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "Manual de Microbiología Clínica (Murray)",
+      "Koneman's Color Atlas"
+    ]
+  },
+  {
+    "id": "b003",
+    "numero": 3,
+    "categoria": "bacterias",
+    "subgrupo": "Cocos Gram positivos",
+    "nombreCientifico": "Staphylococcus saprophyticus",
+    "familia": "Staphylococcaceae",
+    "genero": "Staphylococcus",
+    "especie": "saprophyticus",
+    "gram": "positivo",
+    "morfologia": "Coco",
+    "agrupacion": "Racimos",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Ausente",
+    "habitat": "Tracto genitourinario, piel perineal",
+    "transmision": "Flora endógena; asociado a actividad sexual en mujeres jóvenes",
+    "muestraClinica": [
+      "Orina"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Coagulasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Novobiocina",
+        "resultado": "Resistente"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre",
+      "CLED"
+    ],
+    "colonia": "Colonias blancas a ligeramente amarillas, no hemolíticas",
+    "importanciaMedica": {
+      "queCausa": "Infección urinaria no complicada, principalmente cistitis.",
+      "organosAfectados": "Vejiga, uretra.",
+      "poblacionRiesgo": "Mujeres jóvenes sexualmente activas.",
+      "porQueImporta": "Segunda causa más común de ITU no complicada en mujeres jóvenes, después de E. coli.",
+      "comoSeDiagnostica": "Urocultivo; se diferencia de S. epidermidis por resistencia a novobiocina."
+    },
+    "enfermedades": [
+      "Cistitis",
+      "Infección urinaria"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias en agar CLED",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b004",
+    "numero": 4,
+    "categoria": "bacterias",
+    "subgrupo": "Cocos Gram positivos",
+    "nombreCientifico": "Streptococcus pyogenes",
+    "nombreComun": "Estreptococo del grupo A",
+    "familia": "Streptococcaceae",
+    "genero": "Streptococcus",
+    "especie": "pyogenes",
+    "gram": "positivo",
+    "morfologia": "Coco",
+    "agrupacion": "Cadenas",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Cápsula de ácido hialurónico",
+    "habitat": "Faringe, piel humana",
+    "transmision": "Gotitas respiratorias, contacto directo",
+    "muestraClinica": [
+      "Exudado faríngeo",
+      "Piel",
+      "Sangre"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Bacitracina",
+        "resultado": "Sensible"
+      },
+      {
+        "nombre": "PYR",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Hemólisis",
+        "resultado": "Beta"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre"
+    ],
+    "colonia": "Colonias pequeñas, beta-hemolíticas",
+    "importanciaMedica": {
+      "queCausa": "Faringoamigdalitis, impétigo, fascitis necrotizante, fiebre reumática, glomerulonefritis postestreptocócica.",
+      "organosAfectados": "Faringe, piel, tejido subcutáneo, corazón, riñón (por secuelas inmunológicas).",
+      "poblacionRiesgo": "Niños en edad escolar (faringitis), cualquier edad para infecciones de piel.",
+      "porQueImporta": "Las secuelas no supurativas (fiebre reumática) pueden causar daño cardíaco permanente.",
+      "comoSeDiagnostica": "Cultivo faríngeo o prueba rápida de antígeno; sensibilidad a bacitracina."
+    },
+    "enfermedades": [
+      "Faringoamigdalitis",
+      "Escarlatina",
+      "Impétigo",
+      "Fascitis necrotizante",
+      "Fiebre reumática"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 5,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias beta-hemolíticas en agar sangre",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b005",
+    "numero": 5,
+    "categoria": "bacterias",
+    "subgrupo": "Cocos Gram positivos",
+    "nombreCientifico": "Streptococcus agalactiae",
+    "nombreComun": "Estreptococo del grupo B",
+    "familia": "Streptococcaceae",
+    "genero": "Streptococcus",
+    "especie": "agalactiae",
+    "gram": "positivo",
+    "morfologia": "Coco",
+    "agrupacion": "Cadenas",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Polisacárida",
+    "habitat": "Tracto vaginal y gastrointestinal",
+    "transmision": "Vertical (madre a recién nacido durante el parto)",
+    "muestraClinica": [
+      "Secreción vaginal",
+      "Sangre",
+      "LCR (neonatal)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "CAMP",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Bacitracina",
+        "resultado": "Resistente"
+      },
+      {
+        "nombre": "Hemólisis",
+        "resultado": "Beta"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre",
+      "Medio de Todd-Hewitt (caldo selectivo)"
+    ],
+    "colonia": "Colonias grisáceas, beta-hemólisis estrecha",
+    "importanciaMedica": {
+      "queCausa": "Sepsis neonatal, meningitis neonatal, infecciones urinarias en embarazadas.",
+      "organosAfectados": "Sangre y meninges del recién nacido.",
+      "poblacionRiesgo": "Recién nacidos de madres colonizadas, embarazadas.",
+      "porQueImporta": "Es la causa más frecuente de sepsis neonatal de inicio temprano; se hace tamizaje prenatal de rutina.",
+      "comoSeDiagnostica": "Cultivo vaginal-rectal en el tercer trimestre; prueba de CAMP positiva."
+    },
+    "enfermedades": [
+      "Sepsis neonatal",
+      "Meningitis neonatal",
+      "Endometritis puerperal"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 4,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "prueba",
+        "descripcion": "Prueba de CAMP positiva junto a Staphylococcus aureus",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b006",
+    "numero": 6,
+    "categoria": "bacterias",
+    "subgrupo": "Cocos Gram positivos",
+    "nombreCientifico": "Streptococcus pneumoniae",
+    "nombreComun": "Neumococo",
+    "familia": "Streptococcaceae",
+    "genero": "Streptococcus",
+    "especie": "pneumoniae",
+    "gram": "positivo",
+    "morfologia": "Coco lanceolado",
+    "agrupacion": "Diplococos",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Polisacárida (factor de virulencia clave)",
+    "habitat": "Nasofaringe humana",
+    "transmision": "Gotitas respiratorias",
+    "muestraClinica": [
+      "Esputo",
+      "Sangre",
+      "LCR"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Optoquina",
+        "resultado": "Sensible"
+      },
+      {
+        "nombre": "Solubilidad en bilis",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Hemólisis",
+        "resultado": "Alfa"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre",
+      "Agar chocolate"
+    ],
+    "colonia": "Colonias mucoides con centro hundido (en 'ombligo')",
+    "importanciaMedica": {
+      "queCausa": "Neumonía, otitis media, sinusitis, meningitis bacteriana.",
+      "organosAfectados": "Pulmones, oído medio, meninges.",
+      "poblacionRiesgo": "Niños pequeños, adultos mayores, inmunodeprimidos.",
+      "porQueImporta": "Principal causa de neumonía adquirida en la comunidad y meningitis bacteriana en adultos.",
+      "comoSeDiagnostica": "Cultivo con sensibilidad a optoquina y solubilidad en bilis; antígeno urinario."
+    },
+    "enfermedades": [
+      "Neumonía",
+      "Otitis media",
+      "Meningitis",
+      "Sinusitis",
+      "Bacteriemia"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 5,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Diplococos Gram positivos lanceolados",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b007",
+    "numero": 7,
+    "categoria": "bacterias",
+    "subgrupo": "Cocos Gram positivos",
+    "nombreCientifico": "Enterococcus faecalis",
+    "familia": "Enterococcaceae",
+    "genero": "Enterococcus",
+    "especie": "faecalis",
+    "gram": "positivo",
+    "morfologia": "Coco",
+    "agrupacion": "Pares y cadenas cortas",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Ausente",
+    "habitat": "Tracto gastrointestinal humano",
+    "transmision": "Endógena; nosocomial por contacto",
+    "muestraClinica": [
+      "Orina",
+      "Sangre",
+      "Herida",
+      "Líquido peritoneal"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Bilis esculina",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "PYR",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Crecimiento en NaCl 6.5%",
+        "resultado": "Positivo"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre",
+      "Agar bilis esculina"
+    ],
+    "colonia": "Colonias grisáceas, no hemolíticas o gamma",
+    "importanciaMedica": {
+      "queCausa": "Infección urinaria, bacteriemia, endocarditis, infecciones intraabdominales.",
+      "organosAfectados": "Vías urinarias, torrente sanguíneo, válvulas cardíacas.",
+      "poblacionRiesgo": "Pacientes hospitalizados, con catéteres urinarios o cirugía abdominal.",
+      "porQueImporta": "Puede desarrollar resistencia a vancomicina (VRE), complicando el tratamiento.",
+      "comoSeDiagnostica": "Cultivo con crecimiento en bilis esculina y NaCl 6.5%."
+    },
+    "enfermedades": [
+      "Infección urinaria",
+      "Endocarditis",
+      "Bacteriemia",
+      "Infección de herida"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias en agar bilis esculina (ennegrecimiento)",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b008",
+    "numero": 8,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram negativos",
+    "nombreCientifico": "Escherichia coli",
+    "familia": "Enterobacteriaceae",
+    "genero": "Escherichia",
+    "especie": "coli",
+    "gram": "negativo",
+    "morfologia": "Bacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil (flagelos peritricos)",
+    "capsula": "Variable según cepa",
+    "habitat": "Tracto gastrointestinal humano y animal",
+    "transmision": "Fecal-oral (cepas patógenas), endógena (ITU)",
+    "muestraClinica": [
+      "Orina",
+      "Heces",
+      "Sangre",
+      "Herida"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Indol",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Citrato",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "TSI",
+        "resultado": "Ácido/Ácido con gas"
+      },
+      {
+        "nombre": "Lactosa",
+        "resultado": "Fermenta"
+      }
+    ],
+    "mediosCultivo": [
+      "MacConkey",
+      "EMB",
+      "CLED"
+    ],
+    "colonia": "Colonias rosadas en MacConkey (lactosa +), brillo metálico verdoso en EMB",
+    "importanciaMedica": {
+      "queCausa": "Infección urinaria, diarrea (cepas patógenas), sepsis, meningitis neonatal.",
+      "organosAfectados": "Vías urinarias, intestino, torrente sanguíneo.",
+      "poblacionRiesgo": "Mujeres (ITU), niños y viajeros (cepas diarreogénicas).",
+      "porQueImporta": "Es la causa más común de infección urinaria a nivel mundial.",
+      "comoSeDiagnostica": "Urocultivo o coprocultivo; identificación bioquímica (indol +, lactosa +)."
+    },
+    "enfermedades": [
+      "Cistitis",
+      "Pielonefritis",
+      "Diarrea del viajero",
+      "Síndrome hemolítico urémico (cepa O157:H7)",
+      "Sepsis"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 5,
+    "prioridad": "muy-frecuente",
+    "casosClinicos": [
+      {
+        "titulo": "Infección urinaria en mujer joven",
+        "sintomas": [
+          "Fiebre",
+          "disuria",
+          "dolor suprapúbico"
+        ],
+        "muestra": "Orina",
+        "hallazgos": "Bacilos Gram negativos, oxidasa negativa, indol positivo, lactosa fermentador",
+        "pregunta": "¿Cuál es el microorganismo más probable?",
+        "respuesta": "Escherichia coli",
+        "explicacion": "E. coli es la causa más frecuente de ITU no complicada; el perfil bioquímico (indol+, lactosa+) es característico."
+      }
+    ],
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias rosadas fermentadoras de lactosa en agar MacConkey",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS",
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b009",
+    "numero": 9,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram negativos",
+    "nombreCientifico": "Klebsiella pneumoniae",
+    "familia": "Enterobacteriaceae",
+    "genero": "Klebsiella",
+    "especie": "pneumoniae",
+    "gram": "negativo",
+    "morfologia": "Bacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Cápsula prominente (colonias mucoides)",
+    "habitat": "Tracto gastrointestinal, ambiente hospitalario",
+    "transmision": "Nosocomial, endógena",
+    "muestraClinica": [
+      "Orina",
+      "Esputo",
+      "Sangre"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Indol",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Citrato",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Ureasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Lactosa",
+        "resultado": "Fermenta"
+      }
+    ],
+    "mediosCultivo": [
+      "MacConkey",
+      "EMB"
+    ],
+    "colonia": "Colonias grandes, mucoides, rosadas en MacConkey",
+    "importanciaMedica": {
+      "queCausa": "Neumonía nosocomial, infección urinaria, bacteriemia, abscesos hepáticos.",
+      "organosAfectados": "Pulmones, vías urinarias, hígado.",
+      "poblacionRiesgo": "Pacientes hospitalizados, diabéticos, alcohólicos.",
+      "porQueImporta": "Frecuente productora de betalactamasas de espectro extendido (BLEE) y carbapenemasas (CRE).",
+      "comoSeDiagnostica": "Cultivo con colonias mucoides; perfil bioquímico citrato+/ureasa+."
+    },
+    "enfermedades": [
+      "Neumonía",
+      "Infección urinaria",
+      "Absceso hepático piógeno",
+      "Bacteriemia"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 4,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias mucoides en agar MacConkey",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b010",
+    "numero": 10,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram negativos",
+    "nombreCientifico": "Proteus mirabilis",
+    "familia": "Enterobacteriaceae",
+    "genero": "Proteus",
+    "especie": "mirabilis",
+    "gram": "negativo",
+    "morfologia": "Bacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil (swarming)",
+    "capsula": "Ausente",
+    "habitat": "Tracto gastrointestinal, ambiente",
+    "transmision": "Endógena, fómites, catéteres",
+    "muestraClinica": [
+      "Orina",
+      "Herida"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Ureasa",
+        "resultado": "Positiva (rápida)"
+      },
+      {
+        "nombre": "Indol",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "TSI",
+        "resultado": "Ácido/Alcalino con H2S"
+      },
+      {
+        "nombre": "Lactosa",
+        "resultado": "No fermenta"
+      }
+    ],
+    "mediosCultivo": [
+      "MacConkey",
+      "Agar sangre"
+    ],
+    "colonia": "Crecimiento en velo (swarming) en agar sangre, colonias incoloras en MacConkey",
+    "importanciaMedica": {
+      "queCausa": "Infección urinaria, especialmente asociada a cálculos renales (litiasis por estruvita).",
+      "organosAfectados": "Vías urinarias, riñón.",
+      "poblacionRiesgo": "Pacientes con catéter urinario permanente, anomalías del tracto urinario.",
+      "porQueImporta": "Su ureasa alcaliniza la orina y favorece la formación de cálculos de estruvita.",
+      "comoSeDiagnostica": "Urocultivo; ureasa positiva rápida y motilidad tipo swarming son claves."
+    },
+    "enfermedades": [
+      "Infección urinaria",
+      "Pielonefritis",
+      "Litiasis por estruvita"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Crecimiento en velo (swarming) en agar sangre",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b011",
+    "numero": 11,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram negativos",
+    "nombreCientifico": "Salmonella enterica",
+    "familia": "Enterobacteriaceae",
+    "genero": "Salmonella",
+    "especie": "enterica",
+    "gram": "negativo",
+    "morfologia": "Bacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil",
+    "capsula": "Ausente (antígeno Vi en S. Typhi)",
+    "habitat": "Tracto intestinal de animales y humanos",
+    "transmision": "Fecal-oral, alimentos contaminados (huevo, aves)",
+    "muestraClinica": [
+      "Heces",
+      "Sangre (fiebre tifoidea)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "TSI",
+        "resultado": "Alcalino/Ácido con H2S"
+      },
+      {
+        "nombre": "Citrato",
+        "resultado": "Variable"
+      },
+      {
+        "nombre": "Lactosa",
+        "resultado": "No fermenta"
+      }
+    ],
+    "mediosCultivo": [
+      "XLD",
+      "Hektoen",
+      "SS",
+      "MacConkey"
+    ],
+    "colonia": "Colonias incoloras con centro negro (H2S) en XLD",
+    "importanciaMedica": {
+      "queCausa": "Gastroenteritis, fiebre tifoidea (S. Typhi), bacteriemia.",
+      "organosAfectados": "Intestino, torrente sanguíneo (formas invasivas).",
+      "poblacionRiesgo": "Niños, viajeros a zonas endémicas, inmunodeprimidos.",
+      "porQueImporta": "La fiebre tifoidea puede ser grave y sigue siendo endémica en varias regiones.",
+      "comoSeDiagnostica": "Coprocultivo o hemocultivo; producción de H2S en TSI/XLD."
+    },
+    "enfermedades": [
+      "Gastroenteritis",
+      "Fiebre tifoidea",
+      "Bacteriemia"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 4,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias con centro negro por H2S en agar XLD",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b012",
+    "numero": 12,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram negativos",
+    "nombreCientifico": "Shigella flexneri",
+    "familia": "Enterobacteriaceae",
+    "genero": "Shigella",
+    "especie": "flexneri",
+    "gram": "negativo",
+    "morfologia": "Bacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Ausente",
+    "habitat": "Exclusivamente en humanos (intestino)",
+    "transmision": "Fecal-oral, dosis infectante muy baja",
+    "muestraClinica": [
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "TSI",
+        "resultado": "Alcalino/Ácido sin gas"
+      },
+      {
+        "nombre": "Lactosa",
+        "resultado": "No fermenta"
+      },
+      {
+        "nombre": "Movilidad",
+        "resultado": "Negativa"
+      }
+    ],
+    "mediosCultivo": [
+      "XLD",
+      "Hektoen",
+      "SS"
+    ],
+    "colonia": "Colonias incoloras, sin H2S en XLD",
+    "importanciaMedica": {
+      "queCausa": "Disentería bacilar (diarrea con sangre y moco).",
+      "organosAfectados": "Colon.",
+      "poblacionRiesgo": "Niños en zonas con saneamiento deficiente.",
+      "porQueImporta": "Requiere muy pocas bacterias para causar infección, favoreciendo brotes.",
+      "comoSeDiagnostica": "Coprocultivo en medios selectivos para enteropatógenos."
+    },
+    "enfermedades": [
+      "Disentería bacilar",
+      "Colitis"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias incoloras sin H2S en agar XLD",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b013",
+    "numero": 13,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram negativos",
+    "nombreCientifico": "Pseudomonas aeruginosa",
+    "familia": "Pseudomonadaceae",
+    "genero": "Pseudomonas",
+    "especie": "aeruginosa",
+    "gram": "negativo",
+    "morfologia": "Bacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Aerobio estricto",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil (flagelo polar)",
+    "capsula": "Cápsula mucoide (biofilm) en fibrosis quística",
+    "habitat": "Ambiente (agua, suelo), superficies hospitalarias",
+    "transmision": "Ambiental, nosocomial, oportunista",
+    "muestraClinica": [
+      "Esputo",
+      "Herida",
+      "Orina",
+      "Oído"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Movilidad",
+        "resultado": "Positiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre",
+      "Agar cetrimida",
+      "MacConkey"
+    ],
+    "colonia": "Colonias con pigmento verde-azulado (piocianina) y olor a uvas",
+    "importanciaMedica": {
+      "queCausa": "Neumonía nosocomial, infecciones en pacientes con fibrosis quística, otitis externa, infección de quemaduras.",
+      "organosAfectados": "Pulmones, piel, oído, vías urinarias.",
+      "poblacionRiesgo": "Pacientes inmunodeprimidos, con fibrosis quística, quemados, en UCI.",
+      "porQueImporta": "Patógeno oportunista con resistencia intrínseca a múltiples antibióticos.",
+      "comoSeDiagnostica": "Cultivo con pigmento característico y oxidasa positiva; crecimiento en cetrimida."
+    },
+    "enfermedades": [
+      "Neumonía nosocomial",
+      "Otitis externa maligna",
+      "Infección de quemaduras",
+      "Foliculitis del jacuzzi"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 4,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias con pigmento verde-azulado (piocianina)",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b014",
+    "numero": 14,
+    "categoria": "bacterias",
+    "subgrupo": "Cocobacilos Gram negativos",
+    "nombreCientifico": "Acinetobacter baumannii",
+    "familia": "Moraxellaceae",
+    "genero": "Acinetobacter",
+    "especie": "baumannii",
+    "gram": "negativo",
+    "morfologia": "Cocobacilo",
+    "agrupacion": "Aislados o pares",
+    "oxigeno": "Aerobio estricto",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Variable",
+    "habitat": "Ambiente hospitalario, piel",
+    "transmision": "Nosocomial, superficies y equipo contaminado",
+    "muestraClinica": [
+      "Esputo",
+      "Sangre",
+      "Herida"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre",
+      "MacConkey"
+    ],
+    "colonia": "Colonias mucoides, opacas, no fermentadoras",
+    "importanciaMedica": {
+      "queCausa": "Neumonía asociada a ventilador, bacteriemia, infecciones en UCI.",
+      "organosAfectados": "Pulmones, torrente sanguíneo, heridas.",
+      "poblacionRiesgo": "Pacientes en cuidados intensivos, con ventilación mecánica.",
+      "porQueImporta": "Alta capacidad de desarrollar multirresistencia (MDR), problema creciente en hospitales.",
+      "comoSeDiagnostica": "Cultivo con oxidasa negativa, no fermentador; confirmación por MALDI-TOF o pruebas moleculares."
+    },
+    "enfermedades": [
+      "Neumonía asociada a ventilador",
+      "Bacteriemia nosocomial",
+      "Infección de herida"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias mucoides no fermentadoras",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b015",
+    "numero": 15,
+    "categoria": "bacterias",
+    "subgrupo": "Cocos Gram negativos",
+    "nombreCientifico": "Neisseria gonorrhoeae",
+    "familia": "Neisseriaceae",
+    "genero": "Neisseria",
+    "especie": "gonorrhoeae",
+    "gram": "negativo",
+    "morfologia": "Coco (diplococo en forma de riñón)",
+    "agrupacion": "Diplococos",
+    "oxigeno": "Aerobio",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Ausente",
+    "habitat": "Exclusivamente humano, mucosas genitales",
+    "transmision": "Contacto sexual, vertical (conjuntivitis neonatal)",
+    "muestraClinica": [
+      "Secreción uretral",
+      "Secreción vaginal",
+      "Secreción ocular"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Fermentación de glucosa",
+        "resultado": "Positiva (no maltosa)"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Thayer-Martin",
+      "Agar chocolate"
+    ],
+    "colonia": "Colonias pequeñas, grises, translúcidas",
+    "importanciaMedica": {
+      "queCausa": "Gonorrea (uretritis, cervicitis), conjuntivitis neonatal, enfermedad pélvica inflamatoria.",
+      "organosAfectados": "Uretra, cérvix, ojos, articulaciones (forma diseminada).",
+      "poblacionRiesgo": "Adultos sexualmente activos, recién nacidos de madres infectadas.",
+      "porQueImporta": "Infección de transmisión sexual muy frecuente, con cepas cada vez más resistentes.",
+      "comoSeDiagnostica": "Tinción de Gram (diplococos intracelulares), cultivo en Thayer-Martin, PCR."
+    },
+    "enfermedades": [
+      "Gonorrea",
+      "Conjuntivitis neonatal",
+      "Enfermedad pélvica inflamatoria",
+      "Gonococcemia diseminada"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 4,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Diplococos Gram negativos intracelulares",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b016",
+    "numero": 16,
+    "categoria": "bacterias",
+    "subgrupo": "Cocos Gram negativos",
+    "nombreCientifico": "Neisseria meningitidis",
+    "familia": "Neisseriaceae",
+    "genero": "Neisseria",
+    "especie": "meningitidis",
+    "gram": "negativo",
+    "morfologia": "Coco (diplococo en forma de riñón)",
+    "agrupacion": "Diplococos",
+    "oxigeno": "Aerobio",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Polisacárida (base de la vacuna)",
+    "habitat": "Nasofaringe humana",
+    "transmision": "Gotitas respiratorias",
+    "muestraClinica": [
+      "LCR",
+      "Sangre"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Fermentación de glucosa y maltosa",
+        "resultado": "Positiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar chocolate",
+      "Agar Thayer-Martin"
+    ],
+    "colonia": "Colonias grises, mucoides",
+    "importanciaMedica": {
+      "queCausa": "Meningitis bacteriana aguda, meningococcemia (sepsis fulminante).",
+      "organosAfectados": "Meninges, torrente sanguíneo, piel (petequias).",
+      "poblacionRiesgo": "Niños, adolescentes, personas en dormitorios comunes.",
+      "porQueImporta": "Puede causar sepsis fulminante mortal en horas; es una urgencia médica.",
+      "comoSeDiagnostica": "Cultivo de LCR, tinción de Gram, PCR; diferenciación de N. gonorrhoeae por fermentación de maltosa."
+    },
+    "enfermedades": [
+      "Meningitis meningocócica",
+      "Meningococcemia",
+      "Sepsis"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 3,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Diplococos Gram negativos en LCR",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b017",
+    "numero": 17,
+    "categoria": "bacterias",
+    "subgrupo": "Cocobacilos Gram negativos",
+    "nombreCientifico": "Haemophilus influenzae",
+    "familia": "Pasteurellaceae",
+    "genero": "Haemophilus",
+    "especie": "influenzae",
+    "gram": "negativo",
+    "morfologia": "Cocobacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Tipo b (Hib) más virulenta",
+    "habitat": "Nasofaringe humana",
+    "transmision": "Gotitas respiratorias",
+    "muestraClinica": [
+      "Esputo",
+      "LCR",
+      "Sangre",
+      "Oído medio"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Requerimiento factor X y V",
+        "resultado": "Ambos requeridos"
+      },
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Variable"
+      },
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar chocolate"
+    ],
+    "colonia": "Colonias pequeñas, grisáceas en agar chocolate; no crece en agar sangre sin estafilococo (satelitismo)",
+    "importanciaMedica": {
+      "queCausa": "Meningitis (históricamente en niños no vacunados), neumonía, otitis media, epiglotitis.",
+      "organosAfectados": "Meninges, pulmones, oído medio, epiglotis.",
+      "poblacionRiesgo": "Niños no vacunados, adultos con EPOC.",
+      "porQueImporta": "La vacuna Hib redujo drásticamente la meningitis infantil por este germen.",
+      "comoSeDiagnostica": "Cultivo en agar chocolate; requiere factores X y V para crecer."
+    },
+    "enfermedades": [
+      "Meningitis",
+      "Neumonía",
+      "Otitis media",
+      "Epiglotitis",
+      "Sinusitis"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Fenómeno de satelitismo alrededor de Staphylococcus aureus",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b018",
+    "numero": 18,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram positivos",
+    "nombreCientifico": "Corynebacterium diphtheriae",
+    "familia": "Corynebacteriaceae",
+    "genero": "Corynebacterium",
+    "especie": "diphtheriae",
+    "gram": "positivo",
+    "morfologia": "Bacilo pleomórfico (forma de maza)",
+    "agrupacion": "Empalizada / letras chinas",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Ausente",
+    "habitat": "Nasofaringe humana",
+    "transmision": "Gotitas respiratorias, contacto directo",
+    "muestraClinica": [
+      "Exudado faríngeo",
+      "Membrana de pseudomembrana"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Prueba de toxigenicidad (Elek)",
+        "resultado": "Determina cepas toxigénicas"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Loeffler",
+      "Agar telurito de potasio"
+    ],
+    "colonia": "Colonias grises a negras en agar telurito",
+    "importanciaMedica": {
+      "queCausa": "Difteria: faringitis con pseudomembrana grisácea, miocarditis y neuropatía por la exotoxina.",
+      "organosAfectados": "Faringe, corazón, nervios periféricos.",
+      "poblacionRiesgo": "Personas no vacunadas (vacuna DPT).",
+      "porQueImporta": "La toxina diftérica puede ser letal; prevenible por vacunación.",
+      "comoSeDiagnostica": "Tinción con azul de metileno (gránulos metacromáticos), cultivo en Loeffler, prueba de Elek."
+    },
+    "enfermedades": [
+      "Difteria",
+      "Miocarditis diftérica"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Bacilos en empalizada tipo 'letras chinas'",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b019",
+    "numero": 19,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram positivos",
+    "nombreCientifico": "Bacillus cereus",
+    "familia": "Bacillaceae",
+    "genero": "Bacillus",
+    "especie": "cereus",
+    "gram": "positivo",
+    "morfologia": "Bacilo grande",
+    "agrupacion": "Cadenas",
+    "oxigeno": "Aerobio facultativo",
+    "esporulacion": "Esporulado (esporas centrales)",
+    "motilidad": "Móvil",
+    "capsula": "Ausente",
+    "habitat": "Suelo, ambiente, alimentos (arroz)",
+    "transmision": "Ingestión de alimentos contaminados (arroz recalentado)",
+    "muestraClinica": [
+      "Alimento sospechoso",
+      "Heces (raro)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Hemólisis",
+        "resultado": "Beta"
+      },
+      {
+        "nombre": "Motilidad",
+        "resultado": "Positiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre",
+      "Agar manitol yema de huevo (MYP)"
+    ],
+    "colonia": "Colonias grandes, extendidas, beta-hemolíticas",
+    "importanciaMedica": {
+      "queCausa": "Intoxicación alimentaria (síndrome emético o diarreico).",
+      "organosAfectados": "Tracto gastrointestinal.",
+      "poblacionRiesgo": "Personas que consumen arroz o alimentos recalentados de forma inadecuada.",
+      "porQueImporta": "Causa frecuente y a menudo subdiagnosticada de intoxicación alimentaria de curso breve.",
+      "comoSeDiagnostica": "Cultivo del alimento sospechoso; cuadro clínico característico."
+    },
+    "enfermedades": [
+      "Intoxicación alimentaria (emética o diarreica)"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Bacilos Gram positivos esporulados",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "b020",
+    "numero": 20,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram positivos",
+    "nombreCientifico": "Clostridioides difficile",
+    "familia": "Peptostreptococcaceae",
+    "genero": "Clostridioides",
+    "especie": "difficile",
+    "gram": "positivo",
+    "morfologia": "Bacilo",
+    "agrupacion": "Aislados o cadenas cortas",
+    "oxigeno": "Anaerobio estricto",
+    "esporulacion": "Esporulado",
+    "motilidad": "Móvil",
+    "capsula": "Ausente",
+    "habitat": "Tracto intestinal, ambiente hospitalario (esporas)",
+    "transmision": "Fecal-oral, esporas resistentes en superficies",
+    "muestraClinica": [
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Detección de toxinas A/B",
+        "resultado": "Positiva en cepas toxigénicas"
+      },
+      {
+        "nombre": "GDH (glutamato deshidrogenasa)",
+        "resultado": "Positiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar CCFA (cicloserina-cefoxitina-fructosa)"
+    ],
+    "colonia": "Colonias grandes, planas, con olor característico",
+    "importanciaMedica": {
+      "queCausa": "Colitis pseudomembranosa asociada a uso de antibióticos.",
+      "organosAfectados": "Colon.",
+      "poblacionRiesgo": "Pacientes hospitalizados con tratamiento antibiótico reciente.",
+      "porQueImporta": "Causa principal de diarrea nosocomial; sus esporas son difíciles de eliminar.",
+      "comoSeDiagnostica": "Detección de toxinas A/B o GDH en heces, PCR."
+    },
+    "enfermedades": [
+      "Colitis pseudomembranosa",
+      "Diarrea asociada a antibióticos"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 4,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Bacilos Gram positivos esporulados anaerobios",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "b021",
+    "numero": 21,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram positivos",
+    "nombreCientifico": "Listeria monocytogenes",
+    "familia": "Listeriaceae",
+    "genero": "Listeria",
+    "especie": "monocytogenes",
+    "gram": "positivo",
+    "morfologia": "Bacilo corto",
+    "agrupacion": "Aislados o cadenas cortas",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil a temperatura ambiente (movimiento 'tumbling')",
+    "capsula": "Ausente",
+    "habitat": "Suelo, agua, alimentos (lácteos no pasteurizados, embutidos)",
+    "transmision": "Alimentaria, vertical (transplacentaria)",
+    "muestraClinica": [
+      "Sangre",
+      "LCR",
+      "Líquido amniótico"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Hemólisis",
+        "resultado": "Beta estrecha"
+      },
+      {
+        "nombre": "Motilidad a 25°C",
+        "resultado": "Positiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre",
+      "Medio selectivo de Listeria (Oxford)"
+    ],
+    "colonia": "Colonias pequeñas, grisáceas, beta-hemolíticas",
+    "importanciaMedica": {
+      "queCausa": "Meningitis, sepsis neonatal, aborto espontáneo, gastroenteritis febril.",
+      "organosAfectados": "Meninges, placenta, torrente sanguíneo.",
+      "poblacionRiesgo": "Embarazadas, neonatos, adultos mayores, inmunodeprimidos.",
+      "porQueImporta": "Puede atravesar la placenta y causar pérdida fetal; crece incluso en refrigeración.",
+      "comoSeDiagnostica": "Hemocultivo o cultivo de LCR; movilidad característica a temperatura ambiente."
+    },
+    "enfermedades": [
+      "Listeriosis",
+      "Meningitis neonatal",
+      "Aborto séptico",
+      "Gastroenteritis"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Bacilos Gram positivos cortos",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "b022",
+    "numero": 22,
+    "categoria": "bacterias",
+    "subgrupo": "Ácido-alcohol resistentes",
+    "nombreCientifico": "Mycobacterium tuberculosis",
+    "familia": "Mycobacteriaceae",
+    "genero": "Mycobacterium",
+    "especie": "tuberculosis",
+    "gram": "no-aplica",
+    "morfologia": "Bacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Aerobio estricto",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Pared rica en ácidos micólicos (ácido-alcohol resistente)",
+    "habitat": "Exclusivamente humano (pulmones)",
+    "transmision": "Gotitas respiratorias (aerosoles)",
+    "muestraClinica": [
+      "Esputo",
+      "Lavado bronquial",
+      "LCR (formas extrapulmonares)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Ziehl-Neelsen",
+        "resultado": "Ácido-alcohol resistente (positivo)"
+      },
+      {
+        "nombre": "Niacina",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Prueba de PPD/IGRA",
+        "resultado": "Detecta infección latente"
+      }
+    ],
+    "mediosCultivo": [
+      "Lowenstein-Jensen",
+      "Middlebrook"
+    ],
+    "colonia": "Colonias rugosas, de crecimiento lento (semanas), color crema ('rugosas, coliflor')",
+    "importanciaMedica": {
+      "queCausa": "Tuberculosis pulmonar y formas extrapulmonares (meníngea, ósea, renal).",
+      "organosAfectados": "Pulmones principalmente; puede diseminarse a cualquier órgano.",
+      "poblacionRiesgo": "Personas con VIH, desnutrición, hacinamiento, inmunosupresión.",
+      "porQueImporta": "Una de las principales causas de muerte por enfermedad infecciosa a nivel mundial según la OMS.",
+      "comoSeDiagnostica": "Baciloscopia (Ziehl-Neelsen), cultivo en Lowenstein-Jensen, PCR (GeneXpert)."
+    },
+    "enfermedades": [
+      "Tuberculosis pulmonar",
+      "Tuberculosis miliar",
+      "Meningitis tuberculosa"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 4,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "tincion",
+        "descripcion": "Bacilos ácido-alcohol resistentes (Ziehl-Neelsen)",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "b023",
+    "numero": 23,
+    "categoria": "bacterias",
+    "subgrupo": "Curvos / espirales",
+    "nombreCientifico": "Helicobacter pylori",
+    "familia": "Helicobacteraceae",
+    "genero": "Helicobacter",
+    "especie": "pylori",
+    "gram": "negativo",
+    "morfologia": "Bacilo curvo/espiral",
+    "agrupacion": "Aislados",
+    "oxigeno": "Microaerófilo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil (flagelos múltiples)",
+    "capsula": "Ausente",
+    "habitat": "Mucosa gástrica humana",
+    "transmision": "Fecal-oral u oral-oral",
+    "muestraClinica": [
+      "Biopsia gástrica",
+      "Heces (antígeno)",
+      "Aire espirado (prueba de ureasa)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Ureasa",
+        "resultado": "Positiva (rápida)"
+      },
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre enriquecido, microaerofilia"
+    ],
+    "colonia": "Colonias pequeñas, translúcidas, de crecimiento lento",
+    "importanciaMedica": {
+      "queCausa": "Gastritis crónica, úlcera péptica; asociado a cáncer gástrico y linfoma MALT.",
+      "organosAfectados": "Estómago.",
+      "poblacionRiesgo": "Población general, más frecuente en países en desarrollo.",
+      "porQueImporta": "Es la infección bacteriana crónica más común y factor de riesgo reconocido de cáncer gástrico.",
+      "comoSeDiagnostica": "Prueba de aliento con urea marcada, antígeno en heces, biopsia con prueba de ureasa rápida."
+    },
+    "enfermedades": [
+      "Gastritis crónica",
+      "Úlcera péptica",
+      "Cáncer gástrico",
+      "Linfoma MALT"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 4,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Bacilos curvos en mucosa gástrica",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "b024",
+    "numero": 24,
+    "categoria": "bacterias",
+    "subgrupo": "Curvos / espirales",
+    "nombreCientifico": "Campylobacter jejuni",
+    "familia": "Campylobacteraceae",
+    "genero": "Campylobacter",
+    "especie": "jejuni",
+    "gram": "negativo",
+    "morfologia": "Bacilo curvo (forma de S o ala de gaviota)",
+    "agrupacion": "Aislados",
+    "oxigeno": "Microaerófilo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil",
+    "capsula": "Ausente",
+    "habitat": "Tracto intestinal de aves y animales",
+    "transmision": "Alimentaria (pollo mal cocido), agua contaminada",
+    "muestraClinica": [
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Crecimiento a 42°C",
+        "resultado": "Positivo"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Campy selectivo, microaerofilia"
+    ],
+    "colonia": "Colonias pequeñas, grises, húmedas",
+    "importanciaMedica": {
+      "queCausa": "Gastroenteritis con diarrea, a veces sanguinolenta; asociado al síndrome de Guillain-Barré.",
+      "organosAfectados": "Intestino delgado y colon; sistema nervioso periférico (secuela).",
+      "poblacionRiesgo": "Consumidores de pollo mal cocido, niños pequeños.",
+      "porQueImporta": "Una de las causas bacterianas más frecuentes de gastroenteritis a nivel mundial.",
+      "comoSeDiagnostica": "Coprocultivo en medio selectivo con incubación microaerófila a 42°C."
+    },
+    "enfermedades": [
+      "Gastroenteritis",
+      "Síndrome de Guillain-Barré (secuela)"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Bacilos en forma de ala de gaviota",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b025",
+    "numero": 25,
+    "categoria": "bacterias",
+    "subgrupo": "Curvos / espirales",
+    "nombreCientifico": "Vibrio cholerae",
+    "familia": "Vibrionaceae",
+    "genero": "Vibrio",
+    "especie": "cholerae",
+    "gram": "negativo",
+    "morfologia": "Bacilo curvo (coma)",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil (flagelo polar único)",
+    "capsula": "Ausente",
+    "habitat": "Agua contaminada, ambientes costeros",
+    "transmision": "Fecal-oral, agua y alimentos contaminados",
+    "muestraClinica": [
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Crecimiento en TCBS",
+        "resultado": "Colonias amarillas"
+      }
+    ],
+    "mediosCultivo": [
+      "TCBS (tiosulfato citrato bilis sacarosa)"
+    ],
+    "colonia": "Colonias amarillas grandes en TCBS",
+    "importanciaMedica": {
+      "queCausa": "Cólera: diarrea acuosa profusa ('en agua de arroz') que puede causar deshidratación grave.",
+      "organosAfectados": "Intestino delgado.",
+      "poblacionRiesgo": "Poblaciones con acceso limitado a agua potable y saneamiento.",
+      "porQueImporta": "Puede causar deshidratación mortal en horas si no se trata con rehidratación oportuna.",
+      "comoSeDiagnostica": "Coprocultivo en TCBS; microscopía de campo oscuro mostrando motilidad característica."
+    },
+    "enfermedades": [
+      "Cólera"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias amarillas en agar TCBS",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "OMS",
+      "CDC"
+    ]
+  },
+  {
+    "id": "b026",
+    "numero": 26,
+    "categoria": "bacterias",
+    "subgrupo": "Otros / atípicas",
+    "nombreCientifico": "Treponema pallidum",
+    "familia": "Spirochaetaceae",
+    "genero": "Treponema",
+    "especie": "pallidum",
+    "gram": "no-aplica",
+    "morfologia": "Espiroqueta (no se tiñe bien con Gram)",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio estricto (no cultivable en medios artificiales)",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil (rotación helicoidal)",
+    "capsula": "Ausente",
+    "habitat": "Exclusivamente humano",
+    "transmision": "Contacto sexual, vertical (sífilis congénita)",
+    "muestraClinica": [
+      "Exudado de chancro",
+      "Sangre (serología)",
+      "LCR (neurosífilis)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Microscopía de campo oscuro",
+        "resultado": "Visualiza espiroquetas móviles"
+      },
+      {
+        "nombre": "VDRL/RPR",
+        "resultado": "Prueba no treponémica de tamizaje"
+      },
+      {
+        "nombre": "FTA-ABS",
+        "resultado": "Prueba treponémica confirmatoria"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en medios de laboratorio de rutina"
+    ],
+    "colonia": "No aplica (no cultivable)",
+    "importanciaMedica": {
+      "queCausa": "Sífilis: chancro (primaria), erupción cutánea (secundaria), afectación cardiovascular y neurológica (terciaria).",
+      "organosAfectados": "Piel, sistema cardiovascular, sistema nervioso central.",
+      "poblacionRiesgo": "Adultos sexualmente activos, recién nacidos de madres infectadas.",
+      "porQueImporta": "Enfermedad de transmisión sexual con etapas progresivas; curable con penicilina si se detecta a tiempo.",
+      "comoSeDiagnostica": "Serología (VDRL/RPR de tamizaje, FTA-ABS confirmatoria); campo oscuro en lesiones activas."
+    },
+    "enfermedades": [
+      "Sífilis primaria",
+      "Sífilis secundaria",
+      "Neurosífilis",
+      "Sífilis congénita"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Espiroquetas en campo oscuro",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b027",
+    "numero": 27,
+    "categoria": "bacterias",
+    "subgrupo": "Otros / atípicas",
+    "nombreCientifico": "Chlamydia trachomatis",
+    "familia": "Chlamydiaceae",
+    "genero": "Chlamydia",
+    "especie": "trachomatis",
+    "gram": "no-aplica",
+    "morfologia": "Cocoide, intracelular obligado",
+    "agrupacion": "Aislados",
+    "oxigeno": "Depende de la célula huésped",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Ausente",
+    "habitat": "Exclusivamente intracelular en células humanas",
+    "transmision": "Contacto sexual, vertical (conjuntivitis/neumonía neonatal)",
+    "muestraClinica": [
+      "Secreción uretral",
+      "Secreción vaginal",
+      "Secreción ocular"
+    ],
+    "pruebas": [
+      {
+        "nombre": "PCR / NAAT",
+        "resultado": "Método diagnóstico de elección"
+      },
+      {
+        "nombre": "Inmunofluorescencia directa",
+        "resultado": "Detecta antígeno"
+      }
+    ],
+    "mediosCultivo": [
+      "No crece en medios artificiales (requiere cultivo celular)"
+    ],
+    "colonia": "No aplica (intracelular obligado)",
+    "importanciaMedica": {
+      "queCausa": "Uretritis no gonocócica, cervicitis, enfermedad pélvica inflamatoria, tracoma (conjuntivitis crónica).",
+      "organosAfectados": "Uretra, cérvix, trompas de Falopio, conjuntiva.",
+      "poblacionRiesgo": "Adultos sexualmente activos, recién nacidos, poblaciones con acceso limitado a higiene (tracoma).",
+      "porQueImporta": "Es la infección de transmisión sexual bacteriana más frecuente a nivel mundial y causa prevenible de infertilidad.",
+      "comoSeDiagnostica": "Pruebas de amplificación de ácidos nucleicos (PCR/NAAT) en muestra genital."
+    },
+    "enfermedades": [
+      "Uretritis no gonocócica",
+      "Enfermedad pélvica inflamatoria",
+      "Tracoma",
+      "Linfogranuloma venéreo"
+    ],
+    "nivelImportancia": 5,
+    "nivelFrecuencia": 4,
+    "prioridad": "muy-frecuente",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Inclusiones intracitoplasmáticas por inmunofluorescencia",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b028",
+    "numero": 28,
+    "categoria": "bacterias",
+    "subgrupo": "Otros / atípicas",
+    "nombreCientifico": "Mycoplasma pneumoniae",
+    "familia": "Mycoplasmataceae",
+    "genero": "Mycoplasma",
+    "especie": "pneumoniae",
+    "gram": "no-aplica",
+    "morfologia": "Pleomórfico, carece de pared celular",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Deslizante",
+    "capsula": "Ausente",
+    "habitat": "Vías respiratorias humanas",
+    "transmision": "Gotitas respiratorias",
+    "muestraClinica": [
+      "Esputo",
+      "Exudado faríngeo"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Serología (IgM/IgG)",
+        "resultado": "Confirma infección"
+      },
+      {
+        "nombre": "PCR",
+        "resultado": "Alta sensibilidad"
+      }
+    ],
+    "mediosCultivo": [
+      "Medio de Eaton (crecimiento muy lento, poco usado en rutina)"
+    ],
+    "colonia": "Colonias en 'huevo frito' bajo microscopio, crecimiento lento",
+    "importanciaMedica": {
+      "queCausa": "Neumonía atípica ('neumonía andante'), traqueobronquitis.",
+      "organosAfectados": "Pulmones, vías respiratorias.",
+      "poblacionRiesgo": "Niños en edad escolar y adultos jóvenes, especialmente en espacios cerrados.",
+      "porQueImporta": "Es resistente a betalactámicos por carecer de pared celular; requiere macrólidos o tetraciclinas.",
+      "comoSeDiagnostica": "Serología o PCR, ya que el cultivo es lento y poco práctico."
+    },
+    "enfermedades": [
+      "Neumonía atípica",
+      "Traqueobronquitis"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 4,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Representación esquemática sin pared celular",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "b029",
+    "numero": 29,
+    "categoria": "bacterias",
+    "subgrupo": "Cocos Gram positivos",
+    "nombreCientifico": "Staphylococcus lugdunensis",
+    "familia": "Staphylococcaceae",
+    "genero": "Staphylococcus",
+    "especie": "lugdunensis",
+    "gram": "positivo",
+    "morfologia": "Coco",
+    "agrupacion": "Racimos",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Ausente",
+    "habitat": "Piel humana, especialmente región inguinal",
+    "transmision": "Contacto directo, endógena",
+    "muestraClinica": [
+      "Sangre",
+      "Herida",
+      "Líquido articular"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Coagulasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "PYR",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Ornitina",
+        "resultado": "Positiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre",
+      "Agar manitol salado"
+    ],
+    "colonia": "Colonias pequeñas, a veces con hemólisis, similares a S. aureus en agresividad clínica",
+    "importanciaMedica": {
+      "queCausa": "Endocarditis agresiva, infecciones de piel y tejidos blandos, infecciones de prótesis.",
+      "organosAfectados": "Válvulas cardíacas, piel, articulaciones protésicas.",
+      "poblacionRiesgo": "Pacientes con válvulas cardíacas nativas o protésicas, portadores de dispositivos.",
+      "porQueImporta": "A diferencia de otros estafilococos coagulasa negativos, se comporta clínicamente de forma tan agresiva como S. aureus.",
+      "comoSeDiagnostica": "Cultivo con coagulasa negativa pero PYR y ornitina positivas, que lo distinguen de otros SCN."
+    },
+    "enfermedades": [
+      "Endocarditis",
+      "Infección de prótesis articular",
+      "Bacteriemia"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias en agar sangre similares a S. aureus",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b030",
+    "numero": 30,
+    "categoria": "bacterias",
+    "subgrupo": "Cocos Gram positivos",
+    "nombreCientifico": "Enterococcus faecium",
+    "familia": "Enterococcaceae",
+    "genero": "Enterococcus",
+    "especie": "faecium",
+    "gram": "positivo",
+    "morfologia": "Coco",
+    "agrupacion": "Pares y cadenas cortas",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Ausente",
+    "habitat": "Tracto gastrointestinal humano",
+    "transmision": "Endógena; nosocomial por contacto",
+    "muestraClinica": [
+      "Orina",
+      "Sangre",
+      "Herida"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Bilis esculina",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "PYR",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Crecimiento en NaCl 6.5%",
+        "resultado": "Positivo"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre",
+      "Agar bilis esculina"
+    ],
+    "colonia": "Colonias grisáceas, no hemolíticas",
+    "importanciaMedica": {
+      "queCausa": "Infecciones nosocomiales, incluyendo bacteriemia e infecciones urinarias, con mayor tendencia a la resistencia que E. faecalis.",
+      "organosAfectados": "Vías urinarias, torrente sanguíneo.",
+      "poblacionRiesgo": "Pacientes hospitalizados, especialmente con uso previo de antibióticos de amplio espectro.",
+      "porQueImporta": "Es la especie de Enterococcus con mayor tasa de resistencia a vancomicina (VRE) a nivel mundial.",
+      "comoSeDiagnostica": "Cultivo con perfil bioquímico similar a E. faecalis; se diferencian por pruebas de fermentación de azúcares y métodos moleculares."
+    },
+    "enfermedades": [
+      "Bacteriemia nosocomial",
+      "Infección urinaria",
+      "Endocarditis"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias en agar bilis esculina",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b031",
+    "numero": 31,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram positivos",
+    "nombreCientifico": "Bacillus anthracis",
+    "familia": "Bacillaceae",
+    "genero": "Bacillus",
+    "especie": "anthracis",
+    "gram": "positivo",
+    "morfologia": "Bacilo grande",
+    "agrupacion": "Cadenas largas ('en bambú')",
+    "oxigeno": "Aerobio facultativo",
+    "esporulacion": "Esporulado (esporas muy resistentes)",
+    "motilidad": "Inmóvil (a diferencia de la mayoría de Bacillus)",
+    "capsula": "Cápsula de ácido poli-D-glutámico",
+    "habitat": "Suelo; animales herbívoros como reservorio",
+    "transmision": "Contacto con animales infectados o sus productos, inhalación de esporas, ingestión",
+    "muestraClinica": [
+      "Lesión cutánea",
+      "Sangre",
+      "Esputo (forma inhalatoria)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Motilidad",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Hemólisis",
+        "resultado": "Generalmente no hemolítico"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre"
+    ],
+    "colonia": "Colonias grandes, no hemolíticas, de bordes irregulares ('cabeza de medusa')",
+    "importanciaMedica": {
+      "queCausa": "Ántrax (carbunco): forma cutánea, forma inhalatoria y forma gastrointestinal.",
+      "organosAfectados": "Piel, pulmones, tracto gastrointestinal según la vía de entrada.",
+      "poblacionRiesgo": "Trabajadores en contacto con animales o pieles, y en contexto de bioterrorismo la forma inhalatoria.",
+      "porQueImporta": "Sus esporas son extremadamente resistentes y han sido usadas como agente de bioterrorismo; la forma inhalatoria es frecuentemente letal.",
+      "comoSeDiagnostica": "Cultivo con morfología característica, confirmación por pruebas moleculares en laboratorios de referencia."
+    },
+    "enfermedades": [
+      "Ántrax cutáneo",
+      "Ántrax inhalatorio",
+      "Ántrax gastrointestinal"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 1,
+    "prioridad": "especializado",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Bacilos en cadenas largas con esporas",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b032",
+    "numero": 32,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram positivos",
+    "nombreCientifico": "Clostridium perfringens",
+    "familia": "Clostridiaceae",
+    "genero": "Clostridium",
+    "especie": "perfringens",
+    "gram": "positivo",
+    "morfologia": "Bacilo grande",
+    "agrupacion": "Aislados o pares",
+    "oxigeno": "Anaerobio (aerotolerante en comparación con otros Clostridium)",
+    "esporulacion": "Esporulado (esporas rara vez visibles in vivo)",
+    "motilidad": "Inmóvil",
+    "capsula": "Presente",
+    "habitat": "Suelo, tracto gastrointestinal de humanos y animales",
+    "transmision": "Contaminación de heridas, ingestión de alimentos contaminados (carnes mal refrigeradas)",
+    "muestraClinica": [
+      "Tejido/herida",
+      "Alimento sospechoso",
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Hemólisis",
+        "resultado": "Doble zona (beta interna, alfa externa)"
+      },
+      {
+        "nombre": "Lecitinasa (agar yema de huevo)",
+        "resultado": "Positiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre",
+      "Agar yema de huevo"
+    ],
+    "colonia": "Colonias grandes con doble zona de hemólisis característica",
+    "importanciaMedica": {
+      "queCausa": "Gangrena gaseosa (mionecrosis), intoxicación alimentaria autolimitada, enteritis necrotizante.",
+      "organosAfectados": "Músculo y tejido subcutáneo (gangrena gaseosa), intestino.",
+      "poblacionRiesgo": "Pacientes con heridas traumáticas profundas o quirúrgicas contaminadas; consumidores de carnes mal conservadas.",
+      "porQueImporta": "La gangrena gaseosa es una emergencia quirúrgica de rápida progresión y alta mortalidad si no se trata a tiempo.",
+      "comoSeDiagnostica": "Cultivo anaerobio con doble zona de hemólisis; clínica compatible con crepitación y gas en tejidos."
+    },
+    "enfermedades": [
+      "Gangrena gaseosa",
+      "Intoxicación alimentaria",
+      "Enteritis necrotizante"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Doble zona de hemólisis en agar sangre",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "b033",
+    "numero": 33,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram positivos",
+    "nombreCientifico": "Clostridium tetani",
+    "familia": "Clostridiaceae",
+    "genero": "Clostridium",
+    "especie": "tetani",
+    "gram": "positivo",
+    "morfologia": "Bacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio estricto",
+    "esporulacion": "Esporulado (espora terminal, forma de 'palillo de tambor')",
+    "motilidad": "Móvil",
+    "capsula": "Ausente",
+    "habitat": "Suelo, heces de animales",
+    "transmision": "Inoculación de esporas a través de heridas contaminadas",
+    "muestraClinica": [
+      "Diagnóstico principalmente clínico; cultivo de la herida poco sensible"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Motilidad",
+        "resultado": "Positiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre en anaerobiosis"
+    ],
+    "colonia": "Colonias con bordes irregulares que se extienden ('swarming'), difíciles de aislar",
+    "importanciaMedica": {
+      "queCausa": "Tétanos: rigidez muscular progresiva y espasmos por la neurotoxina tetanoespasmina.",
+      "organosAfectados": "Sistema nervioso (une neuronas motoras inhibitorias).",
+      "poblacionRiesgo": "Personas no vacunadas o con esquema incompleto, heridas profundas o punzantes contaminadas con tierra.",
+      "porQueImporta": "Enfermedad prevenible por vacunación pero potencialmente mortal por espasmo de músculos respiratorios.",
+      "comoSeDiagnostica": "El diagnóstico es fundamentalmente clínico; el cultivo tiene baja sensibilidad."
+    },
+    "enfermedades": [
+      "Tétanos generalizado",
+      "Tétanos neonatal",
+      "Tétanos localizado"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 1,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Bacilo con espora terminal en forma de palillo de tambor",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b034",
+    "numero": 34,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram positivos",
+    "nombreCientifico": "Clostridium botulinum",
+    "familia": "Clostridiaceae",
+    "genero": "Clostridium",
+    "especie": "botulinum",
+    "gram": "positivo",
+    "morfologia": "Bacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio estricto",
+    "esporulacion": "Esporulado (espora subterminal)",
+    "motilidad": "Móvil",
+    "capsula": "Ausente",
+    "habitat": "Suelo, sedimentos acuáticos, conservas mal procesadas",
+    "transmision": "Ingestión de toxina preformada en alimentos, ingestión de esporas (botulismo infantil), contaminación de heridas",
+    "muestraClinica": [
+      "Suero (detección de toxina)",
+      "Alimento sospechoso",
+      "Heces (lactantes)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Catalasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Detección de toxina botulínica",
+        "resultado": "Bioensayo en ratón o inmunoensayo específico"
+      }
+    ],
+    "mediosCultivo": [
+      "Medios anaerobios especializados (no de rutina)"
+    ],
+    "colonia": "No se evalúa de rutina en el diagnóstico clínico habitual",
+    "importanciaMedica": {
+      "queCausa": "Botulismo: parálisis flácida descendente por bloqueo de la liberación de acetilcolina.",
+      "organosAfectados": "Unión neuromuscular, músculos respiratorios en casos graves.",
+      "poblacionRiesgo": "Consumidores de conservas caseras mal procesadas, lactantes (miel como fuente de esporas), usuarios de drogas inyectables (botulismo de herida).",
+      "porQueImporta": "Puede causar insuficiencia respiratoria por parálisis de músculos respiratorios; requiere manejo urgente con antitoxina.",
+      "comoSeDiagnostica": "Detección de la toxina en suero, heces o alimento sospechoso mediante bioensayo o inmunoensayo especializado."
+    },
+    "enfermedades": [
+      "Botulismo alimentario",
+      "Botulismo infantil",
+      "Botulismo de herida"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 1,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Bacilo Gram positivo con espora subterminal",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "b035",
+    "numero": 35,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram negativos",
+    "nombreCientifico": "Enterobacter cloacae",
+    "familia": "Enterobacteriaceae",
+    "genero": "Enterobacter",
+    "especie": "cloacae",
+    "gram": "negativo",
+    "morfologia": "Bacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil",
+    "capsula": "Variable",
+    "habitat": "Tracto gastrointestinal, ambiente, plantas",
+    "transmision": "Nosocomial, endógena",
+    "muestraClinica": [
+      "Orina",
+      "Esputo",
+      "Sangre",
+      "Herida"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Citrato",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Ornitina",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Lactosa",
+        "resultado": "Fermenta"
+      }
+    ],
+    "mediosCultivo": [
+      "MacConkey",
+      "EMB"
+    ],
+    "colonia": "Colonias mucoides rosadas en MacConkey",
+    "importanciaMedica": {
+      "queCausa": "Infecciones nosocomiales: neumonía, bacteriemia, infección urinaria, infección de herida.",
+      "organosAfectados": "Pulmones, vías urinarias, torrente sanguíneo.",
+      "poblacionRiesgo": "Pacientes hospitalizados, en UCI, con dispositivos invasivos.",
+      "porQueImporta": "Puede desarrollar resistencia por producción de AmpC inducible, complicando el tratamiento con cefalosporinas.",
+      "comoSeDiagnostica": "Cultivo con perfil bioquímico citrato+/ornitina+; diferenciado de Klebsiella (inmóvil, ornitina-)."
+    },
+    "enfermedades": [
+      "Neumonía nosocomial",
+      "Bacteriemia",
+      "Infección urinaria",
+      "Infección de herida"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias mucoides en agar MacConkey",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b036",
+    "numero": 36,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram negativos",
+    "nombreCientifico": "Serratia marcescens",
+    "familia": "Enterobacteriaceae",
+    "genero": "Serratia",
+    "especie": "marcescens",
+    "gram": "negativo",
+    "morfologia": "Bacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil",
+    "capsula": "Variable",
+    "habitat": "Ambiente hospitalario, agua, superficies húmedas",
+    "transmision": "Nosocomial, a través de soluciones o equipos contaminados",
+    "muestraClinica": [
+      "Orina",
+      "Sangre",
+      "Esputo",
+      "Herida"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "DNasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Gelatinasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Lactosa",
+        "resultado": "No fermenta o tardía"
+      }
+    ],
+    "mediosCultivo": [
+      "MacConkey",
+      "Agar sangre"
+    ],
+    "colonia": "Algunas cepas producen pigmento rojo (prodigiosina), especialmente a temperatura ambiente",
+    "importanciaMedica": {
+      "queCausa": "Infecciones nosocomiales: neumonía, infección urinaria, bacteriemia, endocarditis en usuarios de drogas inyectables.",
+      "organosAfectados": "Pulmones, vías urinarias, torrente sanguíneo, válvulas cardíacas.",
+      "poblacionRiesgo": "Pacientes hospitalizados, en UCI, usuarios de drogas intravenosas.",
+      "porQueImporta": "Frecuentemente multirresistente y asociada a brotes hospitalarios por contaminación de soluciones o equipos.",
+      "comoSeDiagnostica": "Cultivo con DNasa y gelatinasa positivas; producción de pigmento rojo en algunas cepas facilita su reconocimiento."
+    },
+    "enfermedades": [
+      "Neumonía nosocomial",
+      "Infección urinaria",
+      "Bacteriemia",
+      "Endocarditis"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias con pigmento rojo (prodigiosina)",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b037",
+    "numero": 37,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram negativos",
+    "nombreCientifico": "Morganella morganii",
+    "familia": "Enterobacteriaceae (Proteeae)",
+    "genero": "Morganella",
+    "especie": "morganii",
+    "gram": "negativo",
+    "morfologia": "Bacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil",
+    "capsula": "Ausente",
+    "habitat": "Tracto gastrointestinal, ambiente",
+    "transmision": "Endógena, nosocomial",
+    "muestraClinica": [
+      "Orina",
+      "Herida",
+      "Sangre"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Ureasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Fenilalanina desaminasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Lactosa",
+        "resultado": "No fermenta"
+      }
+    ],
+    "mediosCultivo": [
+      "MacConkey",
+      "Agar sangre"
+    ],
+    "colonia": "Colonias incoloras en MacConkey, sin swarming (a diferencia de Proteus)",
+    "importanciaMedica": {
+      "queCausa": "Infecciones urinarias, infecciones de herida, bacteriemia, ocasionalmente asociada a picaduras de animales.",
+      "organosAfectados": "Vías urinarias, piel y tejidos blandos.",
+      "poblacionRiesgo": "Pacientes hospitalizados, con catéteres urinarios permanentes.",
+      "porQueImporta": "Comparte el grupo Proteeae con Proteus y Providencia; presenta resistencia intrínseca a varios antibióticos.",
+      "comoSeDiagnostica": "Cultivo con ureasa y fenilalanina desaminasa positivas; ausencia de swarming la distingue de Proteus."
+    },
+    "enfermedades": [
+      "Infección urinaria",
+      "Infección de herida",
+      "Bacteriemia"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias incoloras en agar MacConkey",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b038",
+    "numero": 38,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram negativos",
+    "nombreCientifico": "Stenotrophomonas maltophilia",
+    "familia": "Xanthomonadaceae",
+    "genero": "Stenotrophomonas",
+    "especie": "maltophilia",
+    "gram": "negativo",
+    "morfologia": "Bacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Aerobio estricto",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil",
+    "capsula": "Ausente",
+    "habitat": "Ambiente húmedo hospitalario, agua, equipos respiratorios",
+    "transmision": "Nosocomial, ambiental, oportunista",
+    "muestraClinica": [
+      "Esputo",
+      "Sangre",
+      "Herida"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "DNasa",
+        "resultado": "Positiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar sangre",
+      "MacConkey"
+    ],
+    "colonia": "Colonias con pigmento amarillo-verdoso lavanda característico",
+    "importanciaMedica": {
+      "queCausa": "Neumonía nosocomial, especialmente en pacientes con fibrosis quística o ventilación mecánica prolongada; bacteriemia asociada a catéter.",
+      "organosAfectados": "Pulmones, torrente sanguíneo.",
+      "poblacionRiesgo": "Pacientes inmunodeprimidos, con fibrosis quística, ventilación mecánica prolongada, catéteres.",
+      "porQueImporta": "Presenta resistencia intrínseca a carbapenémicos, lo que complica significativamente el tratamiento.",
+      "comoSeDiagnostica": "Cultivo con oxidasa negativa (a diferencia de Pseudomonas) y pigmento característico."
+    },
+    "enfermedades": [
+      "Neumonía nosocomial",
+      "Bacteriemia asociada a catéter"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias con pigmento amarillo-verdoso lavanda",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b039",
+    "numero": 39,
+    "categoria": "bacterias",
+    "subgrupo": "Cocos Gram negativos",
+    "nombreCientifico": "Moraxella catarrhalis",
+    "familia": "Moraxellaceae",
+    "genero": "Moraxella",
+    "especie": "catarrhalis",
+    "gram": "negativo",
+    "morfologia": "Coco (diplococo)",
+    "agrupacion": "Diplococos",
+    "oxigeno": "Aerobio estricto",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Ausente",
+    "habitat": "Vías respiratorias altas humanas",
+    "transmision": "Gotitas respiratorias",
+    "muestraClinica": [
+      "Esputo",
+      "Secreción de oído medio",
+      "Secreción nasal"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Catalasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Reducción de nitratos",
+        "resultado": "Positiva"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar chocolate",
+      "Agar sangre"
+    ],
+    "colonia": "Colonias grises, se deslizan intactas sobre el agar ('hockey puck sign')",
+    "importanciaMedica": {
+      "queCausa": "Otitis media, sinusitis, exacerbaciones de EPOC, neumonía en pacientes con comorbilidad respiratoria.",
+      "organosAfectados": "Oído medio, senos paranasales, pulmones.",
+      "poblacionRiesgo": "Niños (otitis media), adultos con EPOC.",
+      "porQueImporta": "Es una de las tres causas más frecuentes de otitis media junto con S. pneumoniae y H. influenzae.",
+      "comoSeDiagnostica": "Cultivo con oxidasa positiva y el característico 'signo del disco de hockey' al empujar la colonia."
+    },
+    "enfermedades": [
+      "Otitis media",
+      "Sinusitis",
+      "Exacerbación de EPOC",
+      "Neumonía"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias grises que se deslizan intactas sobre el agar",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  },
+  {
+    "id": "b040",
+    "numero": 40,
+    "categoria": "bacterias",
+    "subgrupo": "Cocobacilos Gram negativos",
+    "nombreCientifico": "Bordetella pertussis",
+    "familia": "Alcaligenaceae",
+    "genero": "Bordetella",
+    "especie": "pertussis",
+    "gram": "negativo",
+    "morfologia": "Cocobacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Aerobio estricto",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Presente",
+    "habitat": "Exclusivamente humano, vías respiratorias",
+    "transmision": "Gotitas respiratorias",
+    "muestraClinica": [
+      "Hisopado nasofaríngeo"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Ureasa",
+        "resultado": "Negativa"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar Bordet-Gengou",
+      "Agar Regan-Lowe"
+    ],
+    "colonia": "Colonias pequeñas, brillantes, en forma de 'gota de mercurio' tras 3-7 días",
+    "importanciaMedica": {
+      "queCausa": "Tos ferina (coqueluche): tos paroxística característica, especialmente grave en lactantes.",
+      "organosAfectados": "Epitelio respiratorio ciliado.",
+      "poblacionRiesgo": "Lactantes no vacunados o con esquema incompleto, adultos con inmunidad menguante.",
+      "porQueImporta": "Puede ser mortal en lactantes pequeños por apnea y complicaciones respiratorias; prevenible con vacunación (DPT).",
+      "comoSeDiagnostica": "PCR de hisopado nasofaríngeo (método preferido); cultivo en medios especializados de crecimiento lento."
+    },
+    "enfermedades": [
+      "Tos ferina (coqueluche)"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias brillantes en forma de gota de mercurio",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b041",
+    "numero": 41,
+    "categoria": "bacterias",
+    "subgrupo": "Otros / atípicas",
+    "nombreCientifico": "Legionella pneumophila",
+    "familia": "Legionellaceae",
+    "genero": "Legionella",
+    "especie": "pneumophila",
+    "gram": "negativo",
+    "morfologia": "Bacilo delgado",
+    "agrupacion": "Aislados",
+    "oxigeno": "Aerobio estricto",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil",
+    "capsula": "Ausente",
+    "habitat": "Agua dulce ambiental, sistemas de agua artificiales (torres de enfriamiento, duchas)",
+    "transmision": "Inhalación de aerosoles de agua contaminada; no hay transmisión persona a persona",
+    "muestraClinica": [
+      "Esputo",
+      "Orina (antígeno)",
+      "Lavado bronquioalveolar"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Antígeno urinario",
+        "resultado": "Detecta serogrupo 1 (más frecuente)"
+      },
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Variable/débil"
+      }
+    ],
+    "mediosCultivo": [
+      "Agar BCYE (buffered charcoal yeast extract)"
+    ],
+    "colonia": "Colonias grises con aspecto de 'vidrio esmerilado', requieren cisteína para crecer",
+    "importanciaMedica": {
+      "queCausa": "Enfermedad del legionario (neumonía grave) y fiebre de Pontiac (forma leve autolimitada).",
+      "organosAfectados": "Pulmones.",
+      "poblacionRiesgo": "Adultos mayores, fumadores, inmunodeprimidos, expuestos a sistemas de agua contaminados (hoteles, hospitales).",
+      "porQueImporta": "Causa de neumonía grave asociada a brotes por sistemas de agua o climatización contaminados.",
+      "comoSeDiagnostica": "Antígeno urinario (detecta el serogrupo 1, el más frecuente); cultivo en agar BCYE para confirmación."
+    },
+    "enfermedades": [
+      "Enfermedad del legionario",
+      "Fiebre de Pontiac"
+    ],
+    "nivelImportancia": 4,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias con aspecto de vidrio esmerilado en agar BCYE",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b042",
+    "numero": 42,
+    "categoria": "bacterias",
+    "subgrupo": "Bacilos Gram negativos",
+    "nombreCientifico": "Yersinia enterocolitica",
+    "familia": "Enterobacteriaceae",
+    "genero": "Yersinia",
+    "especie": "enterocolitica",
+    "gram": "negativo",
+    "morfologia": "Cocobacilo",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil a 25°C, inmóvil a 37°C",
+    "capsula": "Ausente",
+    "habitat": "Tracto intestinal de cerdos y otros animales, agua contaminada",
+    "transmision": "Ingestión de alimentos contaminados (carne de cerdo mal cocida, leche no pasteurizada)",
+    "muestraClinica": [
+      "Heces"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Oxidasa",
+        "resultado": "Negativa"
+      },
+      {
+        "nombre": "Ureasa",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Motilidad a 25°C",
+        "resultado": "Positiva"
+      },
+      {
+        "nombre": "Motilidad a 37°C",
+        "resultado": "Negativa"
+      }
+    ],
+    "mediosCultivo": [
+      "CIN (cefsulodina-irgasán-novobiocina)",
+      "MacConkey"
+    ],
+    "colonia": "Colonias con aspecto de 'ojo de buey' en agar CIN",
+    "importanciaMedica": {
+      "queCausa": "Enterocolitis, que puede simular apendicitis aguda (pseudoapendicitis) por linfadenitis mesentérica.",
+      "organosAfectados": "Íleon terminal, ganglios mesentéricos.",
+      "poblacionRiesgo": "Niños pequeños, consumidores de carne de cerdo mal cocida.",
+      "porQueImporta": "Su presentación puede confundirse clínicamente con apendicitis aguda, llevando a cirugías innecesarias.",
+      "comoSeDiagnostica": "Coprocultivo en medio selectivo CIN; motilidad diferencial según temperatura de incubación."
+    },
+    "enfermedades": [
+      "Enterocolitis",
+      "Pseudoapendicitis (linfadenitis mesentérica)",
+      "Artritis reactiva (secuela)"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "colonia",
+        "descripcion": "Colonias con aspecto de ojo de buey en agar CIN",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "b043",
+    "numero": 43,
+    "categoria": "bacterias",
+    "subgrupo": "Otros / atípicas",
+    "nombreCientifico": "Borrelia burgdorferi",
+    "familia": "Spirochaetaceae",
+    "genero": "Borrelia",
+    "especie": "burgdorferi",
+    "gram": "no-aplica",
+    "morfologia": "Espiroqueta grande",
+    "agrupacion": "Aislados",
+    "oxigeno": "Microaerófilo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil",
+    "capsula": "Ausente",
+    "habitat": "Roedores y ciervos como reservorio; garrapatas Ixodes como vector",
+    "transmision": "Picadura de garrapata del género Ixodes",
+    "muestraClinica": [
+      "Sangre (serología)",
+      "Biopsia de piel (lesión temprana)",
+      "LCR (neuroborreliosis)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Serología de dos pasos (ELISA + Western blot)",
+        "resultado": "Método de referencia"
+      },
+      {
+        "nombre": "PCR",
+        "resultado": "Útil en líquido articular o LCR"
+      }
+    ],
+    "mediosCultivo": [
+      "Medio de Barbour-Stoenner-Kelly (BSK), poco usado en rutina"
+    ],
+    "colonia": "No aplica en rutina clínica (cultivo especializado y lento)",
+    "importanciaMedica": {
+      "queCausa": "Enfermedad de Lyme: eritema migrans, artritis, afectación cardíaca y neurológica en etapas avanzadas.",
+      "organosAfectados": "Piel, articulaciones, corazón, sistema nervioso.",
+      "poblacionRiesgo": "Personas en áreas endémicas con exposición a garrapatas (actividades al aire libre, zonas boscosas).",
+      "porQueImporta": "Es la enfermedad transmitida por vectores más frecuente en varias regiones templadas; el diagnóstico y tratamiento tempranos previenen complicaciones.",
+      "comoSeDiagnostica": "Serología de dos pasos (ELISA de tamizaje seguido de Western blot confirmatorio); el diagnóstico temprano es clínico (eritema migrans)."
+    },
+    "enfermedades": [
+      "Enfermedad de Lyme (eritema migrans, artritis, carditis, neuroborreliosis)"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Espiroqueta observada en campo oscuro",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "b044",
+    "numero": 44,
+    "categoria": "bacterias",
+    "subgrupo": "Otros / atípicas",
+    "nombreCientifico": "Leptospira interrogans",
+    "familia": "Leptospiraceae",
+    "genero": "Leptospira",
+    "especie": "interrogans",
+    "gram": "no-aplica",
+    "morfologia": "Espiroqueta delgada con extremos en forma de gancho",
+    "agrupacion": "Aislados",
+    "oxigeno": "Aerobio estricto",
+    "esporulacion": "No esporulado",
+    "motilidad": "Móvil",
+    "capsula": "Ausente",
+    "habitat": "Riñones de roedores y otros animales; agua y suelo contaminados con orina animal",
+    "transmision": "Contacto de piel o mucosas con agua o suelo contaminado con orina de animales infectados",
+    "muestraClinica": [
+      "Sangre (fase temprana)",
+      "Orina (fase tardía)",
+      "LCR"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Serología (MAT - prueba de aglutinación microscópica)",
+        "resultado": "Método de referencia"
+      },
+      {
+        "nombre": "PCR",
+        "resultado": "Útil en fase temprana"
+      }
+    ],
+    "mediosCultivo": [
+      "Medio de Fletcher o EMJH (crecimiento muy lento)"
+    ],
+    "colonia": "No aplica en rutina clínica (cultivo especializado, semanas de crecimiento)",
+    "importanciaMedica": {
+      "queCausa": "Leptospirosis: desde cuadro febril leve hasta enfermedad de Weil (ictericia, insuficiencia renal, hemorragias).",
+      "organosAfectados": "Hígado, riñones, pulmones (formas graves).",
+      "poblacionRiesgo": "Trabajadores agrícolas, personas expuestas a inundaciones o aguas estancadas, contacto con animales.",
+      "porQueImporta": "La forma grave (enfermedad de Weil) tiene mortalidad significativa si no se trata oportunamente.",
+      "comoSeDiagnostica": "Serología (MAT) como referencia; PCR útil en la fase temprana antes de la seroconversión."
+    },
+    "enfermedades": [
+      "Leptospirosis",
+      "Enfermedad de Weil"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 2,
+    "prioridad": "importancia-clinica",
+    "imagenes": [
+      {
+        "tipo": "microscopia",
+        "descripcion": "Espiroqueta con extremos en forma de gancho",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC",
+      "OMS"
+    ]
+  },
+  {
+    "id": "b045",
+    "numero": 45,
+    "categoria": "bacterias",
+    "subgrupo": "Otros / atípicas",
+    "nombreCientifico": "Rickettsia rickettsii",
+    "familia": "Rickettsiaceae",
+    "genero": "Rickettsia",
+    "especie": "rickettsii",
+    "gram": "no-aplica",
+    "morfologia": "Cocobacilo, intracelular obligado",
+    "agrupacion": "Aislados",
+    "oxigeno": "Depende de la célula huésped",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Ausente",
+    "habitat": "Garrapatas como vector y reservorio",
+    "transmision": "Picadura de garrapata infectada",
+    "muestraClinica": [
+      "Biopsia de piel (inmunohistoquímica)",
+      "Sangre (serología, PCR)"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Serología (inmunofluorescencia indirecta)",
+        "resultado": "Confirmatoria, aunque suele ser tardía"
+      },
+      {
+        "nombre": "PCR",
+        "resultado": "Útil en fase temprana, especialmente en biopsia de piel"
+      }
+    ],
+    "mediosCultivo": [
+      "No cultivable en medios de rutina (requiere cultivo celular en laboratorios especializados)"
+    ],
+    "colonia": "No aplica (intracelular obligado)",
+    "importanciaMedica": {
+      "queCausa": "Fiebre manchada de las Montañas Rocosas: fiebre, cefalea, exantema petequial característico.",
+      "organosAfectados": "Endotelio vascular en múltiples órganos.",
+      "poblacionRiesgo": "Personas expuestas a garrapatas en zonas endémicas, especialmente en primavera-verano.",
+      "porQueImporta": "Puede ser rápidamente mortal si el tratamiento antibiótico no se inicia de forma empírica y oportuna, sin esperar confirmación serológica.",
+      "comoSeDiagnostica": "El diagnóstico inicial es clínico-epidemiológico; la serología suele confirmar retrospectivamente."
+    },
+    "enfermedades": [
+      "Fiebre manchada de las Montañas Rocosas"
+    ],
+    "nivelImportancia": 3,
+    "nivelFrecuencia": 1,
+    "prioridad": "especializado",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Representación de rickettsias intracelulares",
+        "fuente": "CDC Public Health Image Library",
+        "licencia": "Dominio público"
+      }
+    ],
+    "fuentes": [
+      "CDC"
+    ]
+  },
+  {
+    "id": "b046",
+    "numero": 46,
+    "categoria": "bacterias",
+    "subgrupo": "Otros / atípicas",
+    "nombreCientifico": "Ureaplasma urealyticum",
+    "familia": "Mycoplasmataceae",
+    "genero": "Ureaplasma",
+    "especie": "urealyticum",
+    "gram": "no-aplica",
+    "morfologia": "Pleomórfico, carece de pared celular",
+    "agrupacion": "Aislados",
+    "oxigeno": "Anaerobio facultativo",
+    "esporulacion": "No esporulado",
+    "motilidad": "Inmóvil",
+    "capsula": "Ausente",
+    "habitat": "Tracto genitourinario humano",
+    "transmision": "Contacto sexual, vertical (madre a recién nacido)",
+    "muestraClinica": [
+      "Secreción uretral",
+      "Secreción vaginal"
+    ],
+    "pruebas": [
+      {
+        "nombre": "Ureasa",
+        "resultado": "Positiva (característica distintiva del género)"
+      },
+      {
+        "nombre": "PCR",
+        "resultado": "Método diagnóstico más sensible"
+      }
+    ],
+    "mediosCultivo": [
+      "Medios especializados con urea (poco usados en rutina)"
+    ],
+    "colonia": "Colonias muy pequeñas ('en huevo frito' diminutas), requieren microscopía especial",
+    "importanciaMedica": {
+      "queCausa": "Uretritis no gonocócica, asociado a corioamnionitis y enfermedad pulmonar crónica del prematuro cuando hay transmisión vertical.",
+      "organosAfectados": "Uretra, cérvix, pulmón del neonato (colonización vertical).",
+      "poblacionRiesgo": "Adultos sexualmente activos, recién nacidos prematuros de madres colonizadas.",
+      "porQueImporta": "Es una causa reconocida pero a menudo subdiagnosticada de uretritis no gonocócica no debida a Chlamydia.",
+      "comoSeDiagnostica": "PCR de secreción genital; su ausencia de pared celular lo hace resistente a betalactámicos."
+    },
+    "enfermedades": [
+      "Uretritis no gonocócica",
+      "Corioamnionitis",
+      "Enfermedad pulmonar crónica del prematuro (asociación)"
+    ],
+    "nivelImportancia": 2,
+    "nivelFrecuencia": 3,
+    "prioridad": "frecuente",
+    "imagenes": [
+      {
+        "tipo": "ilustracion",
+        "descripcion": "Representación esquemática sin pared celular",
+        "fuente": "Referencia académica",
+        "licencia": "Uso educativo"
+      }
+    ],
+    "fuentes": [
+      "Manual de Microbiología Clínica (Murray)"
+    ]
+  }
+]
